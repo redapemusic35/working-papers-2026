@@ -1,0 +1,13 @@
+---
+title: Morality as Privilege
+authors:
+  - name: Montaque Reynolds
+    affiliation: Stetson University
+    roles: writing
+    corresponding: true
+#bibliography: ./../../references.bib
+---
+
+## Abstract
+
+This concerns an interesting and popular assertion, that it takes a certain amount of material wealth to be a good person. I suspect that this is a project of capitalism: buy our stuff or you will be a bad person . . .

@@ -1,0 +1,7 @@
+# Introduction
+
+According to reductionism in personal identity, personal constitution, what defines the persistence of the human person over time, is reducible to psychological states being bound together. Causlism is the most popular account that explains the constitution of these psychological states. Accordingly to the causalist account, an object *A* at time *T$_1$* is identical to object *B* at time *T$_2$* as long as we can draw a continuous line from object *A* at time *T$_1$* to object *B* at time *T$_2$*.
+
+Narrativists have argued that such accounts undermine our concepts of agency and moral responsibility, failing to explain attributions of praise or blame in response to an agent's actions. This is because they offer no way to define the line as beginning at *T$_1$* and ending at *T$_2$*. Christine @kors89 proposes a practical conception of narrative identity. Accordingly, an agent is a person who uses narrative to define their own constitution. She calls this the *self*-constitution model of personal identity.
+
+

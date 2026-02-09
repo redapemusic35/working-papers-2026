@@ -1,0 +1,15 @@
+{
+  "hash": "bd0a5dd34013dcd2d98dc3dad22fe288",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Narrative Identity Korsgaard\n\nChristine @kors89 has argued that that Derek @parf87's *Reasons and Persons* defends an account of identity on which a person is primarily a *locus of experience* [@kors89, 103]. Kantians and Utilitarians have differeing conceptions of agency. For the Utilitarian, agency is a form of experience. As such, while the utilitarian asks 'what should be done for them?', the Kantian asks 'what ought they do?'. Korsgaard goes on to argue that focusing on what an agent does, rather than their experiences, will lead to a drastically different concept of identity. One which she calls 'practical'.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

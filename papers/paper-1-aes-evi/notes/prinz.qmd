@@ -1,0 +1,74 @@
+---
+#bibliography: ../references.bib
+---
+
+# Gut Reactions
+
+@prin04
+
+- [ ] Piecing Passions Apart
+- [ ] Feeling Without Thinking
+- [ ] Embodied Appraisals
+- [ ] Basic Emotions and Natural Kinds
+- [ ] Emotions and Nature
+- [ ] Valence
+- [ ] A Typology of Affective States
+- [ ] Emotional Consciousness
+- [ ] Is Getting Mad Like Seeing Red
+
+## Piecing Passions
+
+### Elements of Emotion
+
+* thoughts
+* body changes
+* action tendencies
+* modulations of mental processes (attention, conscious feelings)
+
+Which is the emotion?
+
+### Theories of Emotion
+
+* Feeling Theory: emotions are simply feelings
+* James-Lange: bodily changes precede our emotional experiences
+* Somatic Theory: ( emotions are feelings $\land$ emotional feelings are feelings of bodily changes ) $\rightarrow$ emotions are feelings of bodily state changes
+* Damasio, 3 distinctions from somatic:
+  1. expanded states: emotional experiences are experiences of changes in the body, but bodily states are expanded
+  2. As-If Loop: (interenal milieu, emotions can register changes of levels of chemicals in the brain, brain can enter kind of state it would be in if various bodily changes had taken place).
+  3. emotions are not exhausted by feelings
+
+#### From Parts to Theories
+
+#### Hybrid Theories
+
+#### Dimonsional Appraisal Theories
+
+### From Parts to Plentya
+
+#### The Problem of Plenty
+
+#### Coming Attractions
+
+
+
+What are emotions?
+
+Perceptions of patterned changes in the body.
+
+## What is their significance?
+
+* Contribute to reasoning, action, and the election of ends.
+* Triggered by judgments and amenable to cultural influence.
+* Central to our comprehension of morality.
+
+Consider internal systems of categorization, memory, attention, and reasoning (Processing Mode Theory):
+
+* Easier to recall events when in emotional states that are congruent with those events we are recalling (Bower 1981)
+* Positive emotions tend to promote the use of stereotypes (Bless, Schwarz, & Kemmelmeier, 1996)
+* Positive emotions help us to reason in ways that are open-minded, optimistic, and creative. Easier time problem solving novel applications of familiar materials (Isen, Daubman, & Nowicki, 1987)
+* Negative emotions promote more narrow attentional focus. Anxiety makes us attend to threatening objects (MacLeod & Mathews, 1991; Ohman, Flykt, & Esteves, 2001)
+* Sadness makes us more pessimistic and sensitive to our flaws (Alloy & Abrahamson, 1988)
+
+## But how do they play the above roles?
+
+## Feeling Without Thinking

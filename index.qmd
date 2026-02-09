@@ -1,0 +1,35 @@
+# Working Papers 2026 – Status Dashboard
+
+Current status as of `r format(Sys.Date(), '%B %Y')`
+
+## Active Papers
+
+::: {.callout-important appearance="minimal"}
+
+### Manticore
+
+- [ ] Outline complete
+- [ ] Primary texts read & noted
+- [ ] Main argument drafted
+- [ ] Objections section started
+- [ ] Responses to objections
+- [ ] Submit to journal X by end of Q2
+
+:::
+
+::: {.callout-tip appearance="minimal"}
+
+### Morality as Privilege
+
+- [ ] Outline complete
+- [ ] Primary texts read & noted
+- [ ] Main argument drafted
+- [ ] Objections section started
+- [ ] Responses to objections
+- [ ] Submit to journal X by end of Q2
+
+:::
+
+## Next Up
+
+- Manticore

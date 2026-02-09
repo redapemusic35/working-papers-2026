@@ -1,0 +1,189 @@
+## Two Classes of Evil in Medieval Bestiaries {background-color="#e1d5e7"}
+
+- **Deceivers**: Camouflage, imitation, seduction
+  - Chameleon: camouflage
+  - Manticore: accurate imitations
+  - Sirens: seductive skills
+- **Fear and Death Generators**
+- Purpose: Educate illiterate via art for **orthodoxy** and proper behavior (Piñero Moral 2021)
+
+::: {.notes}
+Medieval taxonomy mirrors modern epistemic harms: misinformation, false narratives, bullshit.
+:::
+
+## Deception in Bestiaries → Modern Epistemic Harms
+
+- Medieval worries: Not just epistemic, but close to today
+  - **Misinformation** (chameleon-like camouflage)
+  - **False/inauthentic narratives** (manticore imitation)
+  - **Bullshit** (siren seduction)
+
+> Beasts symbolize **evil** to promote right action.
+
+---
+
+## Hermeneutic Injustice (Fricker 2007)
+
+- **Definition**: Gap in collective interpretive resources
+  - Hinders making sense of one's own experiences
+- **Link to Deceptive Evil**
+  - Restricts hermeneutic participation in social life
+  - Historically against women, but not exclusively
+- **Manticore** as artistic representation of this evil
+
+> Evil is "direct and intuitive by the victim" (Russell 2016, 1).
+
+::: {.notes}
+Hermeneutic injustice deceives like the manticore.
+:::
+
+## Hermeneutic Codes in Bestiaries {background-image="url(path/to/beast-image.jpg)" background-opacity="0.2"}
+
+> Beastiaries composed of **hermeneutic codes** mapped to levels: anatomy → ethical-philosophical → moral → theological (Voisenet 2020, 321–25). Words and images intertwined (Kay 2017).
+
+## Types of Codes
+
+| Level              | Focus                  |
+|--------------------|------------------------|
+| Mere Anatomy       | Physical description   |
+| Ethical-Philosophical | Moral reasoning     |
+| Moral Perspectives | Behavior norms         |
+| Theological        | God vs. Devil          |
+
+## Art and Complex Reality
+
+> "Commitment with reality undeniable, yet so complex... limits blurred between what **is** and **is not**, what we **believe** and **know**..." (Cronin 1941).
+
+- **Conflict**: God vs. Devil
+  - Jesus' death/resurrection: Devil's action → God's victory
+- Art configures **human condition**: experience, knowledge, beliefs
+
+---
+
+::: {.callout-important}
+Medieval *ars* > mere norms; profound lecture on reality.
+:::
+
+## Origins of the Manticore
+
+- **Persian literature** (5th–4th BC, Ctesias)
+  - Red skin, lion-sized, **human-like face**, 3 rows of teeth, **scorpion tail**
+  - Eats men; imitates voices (Pliny)
+- **Evolution**:
+
+---
+
+| Source     | Key Traits                     |
+|------------|--------------------------------|
+| Aristotle | Rough as lion, grey eyes, sting darts spines |
+| Pliny     | Fixed gaze, continuous teeth, imitates speech |
+| Ctesias   | Azure eyes, blood color, flute/trumpet voice |
+
+> Became symbol of **evil, death, hell** → Christ's power over them.
+
+---
+
+## Familiar vs. Unfamiliar Imagery
+
+- **Familiar**: Animals (lion, scorpion)
+- **Unfamiliar**: Human face, triple teeth → **Immaterial evil**
+- **Why?** Easier to intuit abstract concepts: pain, death, good vs. evil
+- **Hermeneutic Tool**: Confront evil's attributes (seduces, deceives, harms)
+
+---
+
+**Bodleian Library Examples** (placeholders):
+- Fol. 009v: Early folio
+- Fol. 025r: Classic manticore (MS. Bodl. 764)
+- Fol. 022v: Variant (MS. Ashmole 1511)
+
+![Manticore Placeholder](https://digital.bodleian.ox.ac.uk/objects/ecf96804-a514-4adc-8779-2dbc4e4b2f1e/)
+
+## Emotions, Cognition, and Identity {background-color="#f7f7f7"}
+
+**Gut Reactions (Prinz)**: Emotions affect cognition
+
+| Emotion Type | Cognitive Effect |
+|--------------|------------------|
+| Positive    | Stereotypes, creative reasoning (Isen et al. 1987) |
+| Negative    | Narrow focus, threats (Ohman et al. 2001) |
+| Congruent   | Better recall (Bower 1981) |
+
+---
+
+- **Identity Links**:
+  - Narrative Identity
+  - Personal Identity (response to emotions)
+
+::: {.notes}
+Emotions shape self-understanding.
+:::
+
+## Black Authenticity & Controlling Images (Laybourn 2018)
+
+- **Criticism**: Identity commodified as "realness"
+  - Authentic? Male, female, ethnic...
+- **Hermeneutic Injustice**:
+  - Popular media images accepted as representative
+  - Blurs harm vs. authenticity
+- **Core Question**: Narratives → Personal Identity?
+  > "We are defined by stories we accept about ourselves" (controversial).
+
+---
+
+## Wicked: Modern Analogy for Othering
+
+- **Elphaba** (Cynthia Erivo): Green skin → scapegoat
+  - Leans into "wicked" persona
+- **Trope**: Water bucket (racist bathing myth)
+- **Outcome**: "Dies" (hides), flees as eternal outsider with Fiyero
+- **Link**: Hermeneutic gap → false self-beliefs
+
+> Medieval manticore **lends credibility** to epistemic injustice claims.
+
+## Medieval vs. Modern Art Functions
+
+| Aspect          | Medieval                  | Modern (Gilmore 2020)     |
+|-----------------|---------------------------|---------------------------|
+| **Purpose**    | Orthodoxy, behavior motivation | Pleasure, entertainment |
+| **Outcome**    | Desirable actions/dispositions | Absorption, revenue     |
+| **Example**    | Manticore → intuit evil  | Advertising campaigns    |
+
+---
+
+- **Medieval**: "Right reason" (Aquinas, Summa Theologica I-II, Q.57)
+- Good cognitive use → virtuous actions/objects
+
+::: {.notes}
+Gaskell's *Mary Barton* → social safety net (Harrison 2011).
+:::
+
+## Moral Reality in Medieval Art (Piñero Moral 2021)
+
+> Art represents **complex reality**, esp. moral (De Bruyne 1959).
+
+- **Manticore**: Evil via projection (obscure/contested reality)
+- **Not** mere facts/history → **wished beliefs** for orthodoxy
+- **Key**: Motivate behavior for good outcomes
+
+**Conclusion**: Bestiaries combat **deceptive evil** like hermeneutic injustice.
+
+---
+
+## References
+
+::: {.r-fit-text}
+
+- Fricker, Miranda. 2007. *Epistemic Injustice*. Oxford University Press.
+- Gilmore, Jonathan. 2020. *Apt Imaginings*. Oxford University Press.
+- Harrison, Mary-Catherine. 2011. “Narrative Relationships...” *Poetics Today* 32(2).
+- Laybourn, Wendy M. 2018. “Cost of Being ‘Real’...” *Ethnic and Racial Studies* 41(11).
+- Piñero Moral, Ricardo. 2021. “Aesthetics of Evil...” *Religions* 12(957).
+- Russell, Jeffrey Burton. 2016. *The Prince of Darkness*. Cornell University Press.
+- Others: Voisenet 2020, Kay 2017, Cronin 1941, etc.
+
+:::
+
+::: {.notes}
+Full citations in text. Customize images/links as needed.
+:::

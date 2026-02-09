@@ -1,0 +1,50 @@
+---
+title: "Project Research Bible: Aesthetics of Evil"
+format: hikmah-pdf   # or just pdf for drafts
+---
+
+# Project Overview
+
+@prin04
+
+- Thesis statement: ...
+- Main question: ...
+- Target length / deadline: ...
+
+# Outline / Structure
+
+1. Introduction
+2. Exposition of Primary View
+
+# Key Sources & Notes
+
+## Primary Texts
+
+::: {.callout-important}
+Elizabeth Fricker's (2007) Epistemic Injustice
+:::
+
+- Key claim: Good will as unconditionally good (4:393–394)
+- Quote: "Nothing ... can possibly be conceived ... which could be called good without qualification except a **good will**." (4:393)
+- My reaction: This seems vulnerable to Schiller's objection about inclination...
+- Relevance: Core premise for my argument in section 3
+
+## Secondary Literature
+
+::: {.callout-tip}
+Korsgaard (1996) – Creating the Kingdom of Ends
+:::
+
+- Argument summary: ...
+- Weakness: Assumes too much about rational agency
+- Supports my thesis because...
+
+## Objections & Responses Folder
+
+- Objection 1: Consequence argument (van Inwagen)
+  - Tags: free-will, incompatibilism
+  - Notes: ...
+
+# Reading Log / To-Read
+
+- [ ] Rawls, *Theory of Justice* (scan ch. 3)

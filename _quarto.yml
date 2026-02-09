@@ -1,0 +1,49 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Working Papers 2026"
+  author: "Montaque Reynolds"
+  date: "last-modified"               # auto-updates
+  reader-mode: true                   # nice sidebar TOC
+  search: true
+  repo-url: https://github.com/yourname/working-papers-2026  # optional
+  repo-actions: [edit, source]
+  chapters:
+    - index.qmd
+    - part: "Active Papers"
+      chapters:
+        - ./papers/paper-1-aes-evi/index.qmd
+        - ./papers/paper-2-morality-as-privilege/index.qmd
+        #- papers/paper3-ethics-ai/ethics-ai-draft.qmd
+    - part: "Drafts & Notes"
+      chapters:
+        - ./papers/paper-1-aes-evi/notes/reading.qmd
+        - ./papers/paper-1-aes-evi/notes/prinz.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/malone.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/collins.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/fricker.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/laybourn.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/altshuler.Rmd
+        - ./papers/paper-2-morality-as-privilege/notes/korsgaard.Rmd
+        - ./papers/paper-2-morality-as-privilege/notes/fric-silence.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/davis-type-token.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/susan-peppers-rel.qmd
+        - ./papers/paper-2-morality-as-privilege/notes/prinz-gut-reactions.qmd
+        # add more as needed
+bibliography: ./references.bib
+  #csl: chicago-author-date.csl        # or use biblatex-chicago for philosophy
+
+format:
+  html:
+    theme: cosmo                      # clean & academic
+    highlight-style: tango
+    #css: styles.css                   # optional custom style
+  pdf:
+    documentclass: scrreprt           # nice book-like PDF
+    keep-tex: true
+
+execute:
+  echo: false
+  freeze: auto                        # only re-execute changed files
