@@ -11,3 +11,7 @@ authors:
 ## Abstract
 
 In medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the "seductive skills of sirens". While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullshit.
+
+{{< include ./research-bible.qmd >}}
+
+{{< include ./../notes/fragility/aes-prac-conflict.qmd >}}

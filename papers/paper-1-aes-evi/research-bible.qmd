@@ -7,9 +7,9 @@ format: hikmah-pdf   # or just pdf for drafts
 
 @prin04
 
-- Thesis statement: ...
-- Main question: ...
-- Target length / deadline: ...
+- [ ] Thesis statement: ...
+- [ ] Main question: ...
+- [ ] Target length / deadline: ...
 
 # Outline / Structure
 
@@ -32,7 +32,8 @@ Elizabeth Fricker's (2007) Epistemic Injustice
 ## Secondary Literature
 
 ::: {.callout-tip}
-Korsgaard (1996) – Creating the Kingdom of Ends
+- [ ] Fragility of Goodness
+- [ ] Wandering in Darkness
 :::
 
 - Argument summary: ...
@@ -47,4 +48,14 @@ Korsgaard (1996) – Creating the Kingdom of Ends
 
 # Reading Log / To-Read
 
-- [ ] Rawls, *Theory of Justice* (scan ch. 3)
+- [ ] Fragility of Goodness
+  - [ ] Luck and Ethics
+  - [ ] Aeschylus and Practical Conflict
+
+
+
+- [ ] Wandering in Darkness
+- [ ] Elizabeth Fricker's (2007) Epistemic Injustice
+- [ ] Cost of Being Real
+- [ ] Imago Dei
+- [ ] Talyor's Identity

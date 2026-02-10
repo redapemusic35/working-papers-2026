@@ -20,14 +20,10 @@ format: hikmah-pdf   # or just pdf for drafts
 
 ## Primary Texts
 
-::: {.callout-important}
-Elizabeth Fricker's (2007) Epistemic Injustice
-:::
+### Fragility of Goodness
 
-- Key claim: Good will as unconditionally good (4:393–394)
-- Quote: "Nothing ... can possibly be conceived ... which could be called good without qualification except a **good will**." (4:393)
-- My reaction: This seems vulnerable to Schiller's objection about inclination...
-- Relevance: Core premise for my argument in section 3
+{{< include ./../notes/fragility/luck-ethics.qmd >}}
+
 
 ## Secondary Literature
 
