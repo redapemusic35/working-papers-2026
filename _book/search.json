@@ -1,13 +1,54 @@
 [
   {
-    "objectID": "papers/paper-1-aes-evi/index.html",
-    "href": "papers/paper-1-aes-evi/index.html",
-    "title": "Aesthetics of Evil",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Working Papers 2026",
     "section": "",
+    "text": "1 Working Papers 2026 – Status Dashboard\nCurrent status as of r format(Sys.Date(), '%B %Y')",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Working Papers 2026 – Status Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#active-papers",
+    "href": "index.html#active-papers",
+    "title": "Working Papers 2026",
+    "section": "1.1 Active Papers",
+    "text": "1.1 Active Papers\n\n\n\n\n\n\nManticore\n\n\n\n\nOutline complete\nPrimary texts read & noted\nMain argument drafted\nObjections section started\nResponses to objections\nSubmit to journal X by end of Q2\n\n\n\n\n\n\n\n\n\nMorality as Privilege\n\n\n\n\nOutline complete\nPrimary texts read & noted\nMain argument drafted\nObjections section started\nResponses to objections\nSubmit to journal X by end of Q2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Working Papers 2026 – Status Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#next-up",
+    "href": "index.html#next-up",
+    "title": "Working Papers 2026",
+    "section": "1.2 Next Up",
+    "text": "1.2 Next Up\n\nManticore",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Working Papers 2026 – Status Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-1-aes-evi/index.html#abstract",
+    "href": "papers/paper-1-aes-evi/index.html#abstract",
+    "title": "Project Research Bible: Aesthetics of Evil",
+    "section": "Abstract",
     "text": "Abstract\nIn medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the “seductive skills of sirens”. While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullshit.",
     "crumbs": [
       "Active Papers",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aesthetics of Evil</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-2-morality-as-privilege/index.html#abstract",
+    "href": "papers/paper-2-morality-as-privilege/index.html#abstract",
+    "title": "Morality as Privilege",
+    "section": "Abstract",
+    "text": "Abstract\nThis concerns an interesting and popular assertion, that it takes a certain amount of material wealth to be a good person. I suspect that this is a project of capitalism: buy our stuff or you will be a bad person . . .",
+    "crumbs": [
+      "Active Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Morality as Privilege</span>"
     ]
   },
   {
@@ -22,22 +63,11 @@
     ]
   },
   {
-    "objectID": "papers/paper-1-aes-evi/notes/prinz.html",
-    "href": "papers/paper-1-aes-evi/notes/prinz.html",
-    "title": "Gut Reactions",
-    "section": "",
-    "text": "Piecing Passions\nPrinz (2004)",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gut Reactions</span>"
-    ]
-  },
-  {
     "objectID": "papers/paper-1-aes-evi/notes/prinz.html#piecing-passions",
     "href": "papers/paper-1-aes-evi/notes/prinz.html#piecing-passions",
     "title": "Gut Reactions",
-    "section": "",
-    "text": "Elements of Emotion\n\nthoughts\nbody changes\naction tendencies\nmodulations of mental processes (attention, conscious feelings)\n\nWhich is the emotion?\n\n\nTheories of Emotion\n\nFeeling Theory: emotions are simply feelings\nJames-Lange: bodily changes precede our emotional experiences\nSomatic Theory: ( emotions are feelings \\(\\land\\) emotional feelings are feelings of bodily changes ) \\(\\rightarrow\\) emotions are feelings of bodily state changes\nDamasio, 3 distinctions from somatic:\n\nexpanded states: emotional experiences are experiences of changes in the body, but bodily states are expanded\nAs-If Loop: (interenal milieu, emotions can register changes of levels of chemicals in the brain, brain can enter kind of state it would be in if various bodily changes had taken place).\nemotions are not exhausted by feelings\n\n\n\nFrom Parts to Theories\n\n\nHybrid Theories\n\n\nDimonsional Appraisal Theories\n\n\n\nFrom Parts to Plentya\n\nThe Problem of Plenty\n\n\nComing Attractions\nWhat are emotions?\nPerceptions of patterned changes in the body.",
+    "section": "Piecing Passions",
+    "text": "Piecing Passions\n\nElements of Emotion\n\nthoughts\nbody changes\naction tendencies\nmodulations of mental processes (attention, conscious feelings)\n\nWhich is the emotion?\n\n\nTheories of Emotion\n\nFeeling Theory: emotions are simply feelings\nJames-Lange: bodily changes precede our emotional experiences\nSomatic Theory: ( emotions are feelings \\(\\land\\) emotional feelings are feelings of bodily changes ) \\(\\rightarrow\\) emotions are feelings of bodily state changes\nDamasio, 3 distinctions from somatic:\n\nexpanded states: emotional experiences are experiences of changes in the body, but bodily states are expanded\nAs-If Loop: (interenal milieu, emotions can register changes of levels of chemicals in the brain, brain can enter kind of state it would be in if various bodily changes had taken place).\nemotions are not exhausted by feelings\n\n\n\nFrom Parts to Theories\n\n\nHybrid Theories\n\n\nDimonsional Appraisal Theories\n\n\n\nFrom Parts to Plentya\n\nThe Problem of Plenty\n\n\nComing Attractions\nWhat are emotions?\nPerceptions of patterned changes in the body.",
     "crumbs": [
       "Drafts & Notes",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gut Reactions</span>"
@@ -77,33 +107,80 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Working Papers 2026",
+    "objectID": "papers/paper-2-morality-as-privilege/notes/malone.html",
+    "href": "papers/paper-2-morality-as-privilege/notes/malone.html",
+    "title": "Art Interpretive Injustice",
     "section": "",
-    "text": "1 Working Papers 2026 – Status Dashboard\nCurrent status as of r format(Sys.Date(), '%B %Y')",
+    "text": "Prosecutorial use of rap music as example of art-interpretive injustice",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Working Papers 2026 – Status Dashboard</span>"
+      "Drafts & Notes",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Art Interpretive Injustice</span>"
     ]
   },
   {
-    "objectID": "index.html#active-papers",
-    "href": "index.html#active-papers",
-    "title": "Working Papers 2026",
-    "section": "1.1 Active Papers",
-    "text": "1.1 Active Papers\n\n\n\n\n\n\nImportantManticore\n\n\n\n\nOutline complete\nPrimary texts read & noted\nMain argument drafted\nObjections section started\nResponses to objections\nSubmit to journal X by end of Q2\n\n\n\n\n\n\n\n\n\nTipMorality as Privilege\n\n\n\n\nOutline complete\nPrimary texts read & noted\nMain argument drafted\nObjections section started\nResponses to objections\nSubmit to journal X by end of Q2",
+    "objectID": "papers/paper-2-morality-as-privilege/notes/malone.html#testimonial-and-hermeneutical-injustice",
+    "href": "papers/paper-2-morality-as-privilege/notes/malone.html#testimonial-and-hermeneutical-injustice",
+    "title": "Art Interpretive Injustice",
+    "section": "Testimonial and Hermeneutical Injustice",
+    "text": "Testimonial and Hermeneutical Injustice\n\nTestimonial Injustice: “listeners extend the wrong degree of credibility”\n\nTestimony of the speaker is called into question because of the identity of the speaker\nBut the victim in the Medina case does not suffer from credibility deficit because his lyrics were used as credible evidence\nHowever, the victim’s lyrics were taken as testimony rather than artistic expression\n\nHermeneutical Injustice: “when someone’s own experience is obscured because the available concepts distort it or render it inscrutable”\n\nSocial experiences “obscured from collective understanding”\nThis is caused by structural identity prejudice in the “collective hermeneutical” resource\nAnalogous to the Medina case, the prosecutors misdescribe the victim’s experience (Fricker 2016, 167).",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Working Papers 2026 – Status Dashboard</span>"
+      "Drafts & Notes",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Art Interpretive Injustice</span>"
     ]
   },
   {
-    "objectID": "index.html#next-up",
-    "href": "index.html#next-up",
-    "title": "Working Papers 2026",
-    "section": "1.2 Next Up",
-    "text": "1.2 Next Up\n\nManticore",
+    "objectID": "papers/paper-2-morality-as-privilege/notes/malone.html#some-other-forms-of-epistemic-injustice",
+    "href": "papers/paper-2-morality-as-privilege/notes/malone.html#some-other-forms-of-epistemic-injustice",
+    "title": "Art Interpretive Injustice",
+    "section": "Some other forms of epistemic injustice",
+    "text": "Some other forms of epistemic injustice\n\nInterpretive Injustice\nDiscursive Injustice\nAesthetic Injustice",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Working Papers 2026 – Status Dashboard</span>"
+      "Drafts & Notes",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Art Interpretive Injustice</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html",
+    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html",
+    "title": "Epistemic Injustice",
+    "section": "",
+    "text": "Testimonial Injustice",
+    "crumbs": [
+      "Drafts & Notes",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html#power",
+    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html#power",
+    "title": "Epistemic Injustice",
+    "section": "Power",
+    "text": "Power\nActive and Passive powers\n\nPower that is realized in action\nPower that is being realized even when it is not being realized in action\n\nSocial vs. structural powers\n\nSocial power is power exercised (actively or passively) by one or more social agents.\nBut social power depends on practical coordination among social agents in a net-like organization. In such a case then, it is power that is never in one person’s hands alone.",
+    "crumbs": [
+      "Drafts & Notes",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html#identity-power",
+    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html#identity-power",
+    "title": "Epistemic Injustice",
+    "section": "Identity Power",
+    "text": "Identity Power\nCentral to social power is identity power since social power is dependent on the kinds of social exchanges that are possible between agents.\nAt the center of this are testimonial exchanges which rely on “shared imaginative conceptions of social identity:” identity powers.\nFaulty judgments of a speaker will hinder these kinds of exchanges. We can apply this to the case of the victim. The victim is not able to defend her belief that she is not a victim because her judgment of her friend as speaker hinders her ability to explain herself. Additionally, her friend’s faulty judgment of her as a speaker also hinders her friend’s ability to accept her explanation.",
+    "crumbs": [
+      "Drafts & Notes",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html#the-central-case-of-testimonial-injustice",
+    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html#the-central-case-of-testimonial-injustice",
+    "title": "Epistemic Injustice",
+    "section": "The central case of testimonial injustice",
+    "text": "The central case of testimonial injustice\nAt center:\n\nCredibility excess\nCredibility deficit",
+    "crumbs": [
+      "Drafts & Notes",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
     ]
   },
   {
@@ -118,6 +195,17 @@
     ]
   },
   {
+    "objectID": "papers/paper-2-morality-as-privilege/notes/altshuler.html",
+    "href": "papers/paper-2-morality-as-privilege/notes/altshuler.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "According to reductionism in personal identity, personal constitution, what defines the persistence of the human person over time, is reducible to psychological states being bound together. Causlism is the most popular account that explains the constitution of these psychological states. Accordingly to the causalist account, an object A at time T\\(_1\\) is identical to object B at time T\\(_2\\) as long as we can draw a continuous line from object A at time T\\(_1\\) to object B at time T\\(_2\\).\nNarrativists have argued that such accounts undermine our concepts of agency and moral responsibility, failing to explain attributions of praise or blame in response to an agent’s actions. This is because they offer no way to define the line as beginning at T\\(_1\\) and ending at T\\(_2\\). Christine (kors89?) proposes a practical conception of narrative identity. Accordingly, an agent is a person who uses narrative to define their own constitution. She calls this the self-constitution model of personal identity.",
+    "crumbs": [
+      "Drafts & Notes",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
     "objectID": "papers/paper-2-morality-as-privilege/notes/korsgaard.html",
     "href": "papers/paper-2-morality-as-privilege/notes/korsgaard.html",
     "title": "Narrative Identity Korsgaard",
@@ -129,32 +217,21 @@
     ]
   },
   {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/davis-type-token.html",
-    "href": "papers/paper-2-morality-as-privilege/notes/davis-type-token.html",
-    "title": "Typecasts, Tokens, and Spokespersons",
-    "section": "",
-    "text": "What kind of harm?",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Typecasts, Tokens, and Spokespersons</span>"
-    ]
-  },
-  {
     "objectID": "papers/paper-2-morality-as-privilege/notes/davis-type-token.html#what-kind-of-harm",
     "href": "papers/paper-2-morality-as-privilege/notes/davis-type-token.html#what-kind-of-harm",
     "title": "Typecasts, Tokens, and Spokespersons",
-    "section": "",
-    "text": "harms its targets as knowers\nand transmitters of knowledge\n\n\nRespect\n\nharm which deprives speaker of basic Respect\nRespect == Not a full object\n\nPohlhaus 2014, 105 “Speaker assumes a sort of ‘truncated’ or ‘circumscribed’ Subjectivity\nBeauvoir 1952, status as the ‘other’\n\n\n\nrelegated to the role of epistemic other, being treated as though the range of one’s subject capacities is merely derivative [Pohlhaus 2014, 107]\n\n\nSubject are reduced to attending only to that which stems from the perpetrator’s subjectivity\n\n\n\nEpistemic “derivatization” -&gt; Compulsory Representation -&gt; Unique form of Epistemic Exclusion\n\nthe others capacities as a subject are reduced to attending only to that which stems from the perpetrator’s subjectivity, so that anything the victim might try to express that exceeds the range of the perpetrator’s subjectivity is actively prohibited and /or left unrecognized by the perpetrator, even while he recognizes the victim as capable of having experiences, interests, and desires. [106]\n\nTherefore: not seen as “capable of contributing to epistemic practices uniquely, that is, from her own distinct lived experiences . . . she is not permitted to contribute in ways that extend beyond or trouble the veracity of the dominantly experienced world” [107]\n\nBut, what about only being seen as “capable of contributing to epistemic practices uniquely, that is, from her own distinct lived experiences”\n\n[i.e., not through an ability to reason inferensially to a unique, non-normative conclusion]\n\nand therefore, . . . “she is not permitted to contribute in ways that extend beyond or trouble the veracity of the dominantly experienced world”\n\nA unique epistemic practice is one that is only subjectively true grounded not in universal experience, but subjective one.\n\nThe problem with PCE is not that one is not permitted to contribute in ways that are perceived to extend beyond dominant experiences; rather, the problem is that one is only permitted (and expected to) contribute in ways that are considered “unique” and “distinct”. [Davis 490]",
+    "section": "What kind of harm?",
+    "text": "What kind of harm?\n\nharms its targets as knowers\nand transmitters of knowledge\n\n\nRespect\n\nharm which deprives speaker of basic Respect\nRespect == Not a full object\n\nPohlhaus 2014, 105 “Speaker assumes a sort of ‘truncated’ or ‘circumscribed’ Subjectivity\nBeauvoir 1952, status as the ‘other’\n\n\n\nrelegated to the role of epistemic other, being treated as though the range of one’s subject capacities is merely derivative [Pohlhaus 2014, 107]\n\n\nSubject are reduced to attending only to that which stems from the perpetrator’s subjectivity\n\n\n\nEpistemic “derivatization” -&gt; Compulsory Representation -&gt; Unique form of Epistemic Exclusion\n\nthe others capacities as a subject are reduced to attending only to that which stems from the perpetrator’s subjectivity, so that anything the victim might try to express that exceeds the range of the perpetrator’s subjectivity is actively prohibited and /or left unrecognized by the perpetrator, even while he recognizes the victim as capable of having experiences, interests, and desires. [106]\n\nTherefore: not seen as “capable of contributing to epistemic practices uniquely, that is, from her own distinct lived experiences . . . she is not permitted to contribute in ways that extend beyond or trouble the veracity of the dominantly experienced world” [107]\n\nBut, what about only being seen as “capable of contributing to epistemic practices uniquely, that is, from her own distinct lived experiences”\n\n[i.e., not through an ability to reason inferensially to a unique, non-normative conclusion]\n\nand therefore, . . . “she is not permitted to contribute in ways that extend beyond or trouble the veracity of the dominantly experienced world”\n\nA unique epistemic practice is one that is only subjectively true grounded not in universal experience, but subjective one.\n\nThe problem with PCE is not that one is not permitted to contribute in ways that are perceived to extend beyond dominant experiences; rather, the problem is that one is only permitted (and expected to) contribute in ways that are considered “unique” and “distinct”. [Davis 490]",
     "crumbs": [
       "Drafts & Notes",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Typecasts, Tokens, and Spokespersons</span>"
     ]
   },
   {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/prinz-gut-reactions.html",
-    "href": "papers/paper-2-morality-as-privilege/notes/prinz-gut-reactions.html",
+    "objectID": "papers/paper-2-morality-as-privilege/notes/prinz-gut-reactions.html#elements-of-emotions",
+    "href": "papers/paper-2-morality-as-privilege/notes/prinz-gut-reactions.html#elements-of-emotions",
     "title": "Piecing Passions Apart",
-    "section": "",
+    "section": "Elements of Emotions",
     "text": "Elements of Emotions",
     "crumbs": [
       "Drafts & Notes",
@@ -206,6 +283,50 @@
     ]
   },
   {
+    "objectID": "papers/paper-1-aes-evi/index.html",
+    "href": "papers/paper-1-aes-evi/index.html",
+    "title": "Aesthetics of Evil",
+    "section": "",
+    "text": "Abstract\nIn medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the “seductive skills of sirens”. While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullshit.",
+    "crumbs": [
+      "Active Papers",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aesthetics of Evil</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-1-aes-evi/index.html#primary-texts",
+    "href": "papers/paper-1-aes-evi/index.html#primary-texts",
+    "title": "Project Research Bible: Aesthetics of Evil",
+    "section": "Primary Texts",
+    "text": "Primary Texts\n\n\n\n\n\n\nImportant\n\n\n\nElizabeth Fricker’s (2007) Epistemic Injustice\n\n\n\nKey claim: Good will as unconditionally good (4:393–394)\nQuote: “Nothing … can possibly be conceived … which could be called good without qualification except a good will.” (4:393)\nMy reaction: This seems vulnerable to Schiller’s objection about inclination…\nRelevance: Core premise for my argument in section 3",
+    "crumbs": [
+      "Active Papers",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aesthetics of Evil</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-1-aes-evi/index.html#secondary-literature",
+    "href": "papers/paper-1-aes-evi/index.html#secondary-literature",
+    "title": "Project Research Bible: Aesthetics of Evil",
+    "section": "Secondary Literature",
+    "text": "Secondary Literature\n\n\n\n\n\n\nTip\n\n\n\n\nFragility of Goodness\nWandering in Darkness\n\n\n\n\nArgument summary: …\nWeakness: Assumes too much about rational agency\nSupports my thesis because…",
+    "crumbs": [
+      "Active Papers",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aesthetics of Evil</span>"
+    ]
+  },
+  {
+    "objectID": "papers/paper-1-aes-evi/index.html#objections-responses-folder",
+    "href": "papers/paper-1-aes-evi/index.html#objections-responses-folder",
+    "title": "Project Research Bible: Aesthetics of Evil",
+    "section": "Objections & Responses Folder",
+    "text": "Objections & Responses Folder\n\nObjection 1: Consequence argument (van Inwagen)\n\nTags: free-will, incompatibilism\nNotes: …",
+    "crumbs": [
+      "Active Papers",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aesthetics of Evil</span>"
+    ]
+  },
+  {
     "objectID": "papers/paper-2-morality-as-privilege/index.html",
     "href": "papers/paper-2-morality-as-privilege/index.html",
     "title": "Morality as Privilege",
@@ -217,80 +338,25 @@
     ]
   },
   {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html",
-    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html",
-    "title": "Epistemic Injustice",
-    "section": "",
-    "text": "Hermeneutic Injustice\nFamously, Miranda Fricker develops an account of epistemic injustice that involves both testimony and hermeneutics. An important consideration here, is one’s capacity as a ‘moral’ knower where ‘moral’ knower has to do with a victim’s understanding of virtues, vices, and values that are attributed, or are not to the victim. Following (kupl20?), I argue that central to these are success or failure conditions whereby a person fails or succeeds in engaging in the imaginative ‘process of simulating’ a character’s psychological and emotional states [68]. However, while Kuplen argues the failure is due to our own imagination, I attribute it as a success condition in that these are ‘controlling images’ wherein the outcome is a form of narrative art which intends to portray characters whose mental states and experiences are the converse of that art’s audiences. I argue that this epistemic injustice makes individual who identify, or identified with such characters unintelligible to its audience.\nThe discussions that center around epistemic injustice focus on the moral wrongs of epistemic injustice and define these as wrongs of testimonial inference where the victim is wronged in their capacity as an epistemic knower. The victim’s credibility as an epistemic agent is diminished and as such, she is made unintelligible to a broader public. However, the wrongs do not draw enough attention to a specific kind of moral harm. Here, ‘moral’ implies ‘moral’ information, or ‘moral’ knowledge. Unlike general accounts of knowledge, moral knowledge has been understood as a kind of understanding. On the one hand, these are values that would have been instilled in the victim and that others would attribute to the victim as having. Such a harm I argue is two fold, as I will show. Not only are other prevented from understanding the victim, the victim is prevented from understanding herself. Both she and others are prevented from recognizing the victim’s moral agency.\nWhat is the difference between harm done in regard to someone’s capacity as a knower and their capacity as a ‘moral’ knower? Related to the victim’s capacity as a moral knower, is the victim’s capacity as a person, where personhood denotes more specifically, their own moral agency, held values, and the like.\nLet’s consider hermeneutic injustice.\nHermeneutic harm occurs when the victim suffers because they do not have the conceptual resources to make sense of their own experiences.\nBut here there are two possible concerns:\nFrom these are derived two more:\nAs an example of the first possible concern, a person is victimized by an agent who holds a degree of power over her when she cannot understand that she is a victim.\nWe can imagine that a given victim is a patriotic member of society who throughout the course of their life, has been led to believe that it is their duty and obligation to assist law enforcement in carrying out their duties whenever possible. One day they are walking to work when they notice a police officer chasing a suspect. The suspect runs past the victim, and when they do so, the victim trips the suspect. However here the victim is harmed in their capacity as a moral agent because they are prevented from carrying out what they take to be their moral duty, assisting law enforcement in carrying out their duties. This is because little do they know, the police officer chasing the suspect is actually working as an enforcer for the mob and the suspect is actually a whistle-blower trying to escape the clutches of the mob.\nTherefore, the victim is a victim just because they are prevented from doing what they intended to do, assist law enforcement in carrying out their duties. Here they are not assisting law enforcement, rather they are being victimized by a police officer working for the mob.\nHowever the harm is ambiguous. Either it is the case that in the event that this person does not recognize their own victimization, and believes themselves to be fulfilling their duty, or they are being prevented from fulfilling their duty without realizing it. Another question stemming from this is whether this person is in a position to defend their lack of protest.\nWe can imagine a situation wherein she is able to defend her decision not to protest, she might say “I am not a victim because it is the thought that counts”. In such a case, is she or is she not a victim? Derivative of this then, is the fact that she cannot express her moral values in a way that is interpretable to herself, or to others. For instance, the next day she recounts her story to a friend who convinces her of her victimhood. If they do convince her, is it from a position of power? Which structures, social or otherwise are responsible for this specific ability or inability?",
+    "objectID": "papers/paper-1-aes-evi/index.html#three-kinds-of-tragic-conflict",
+    "href": "papers/paper-1-aes-evi/index.html#three-kinds-of-tragic-conflict",
+    "title": "Project Research Bible: Aesthetics of Evil",
+    "section": "Three Kinds of Tragic Conflict",
+    "text": "Three Kinds of Tragic Conflict\n\nGood people being ruined becuase of things that just happen to them, things they do not control.\nGood people doing bad things, things opposite of their ethical character and commitments because of things they do not control.\nGood people doing bad things without direct physical compulsion and opposite of their ethical character and commitments though done in light of circumstances of equally bad choices.\n\nAgammenon is waiting on the shore with his entire fleet. He intends to carry out a directive from Zeus to avenge his brother whose wife ran away with Paris, prince of Troy. However, because of an earlier transgression against Artimis, Artimis is holding back the wind, stranding his fleet. Agammenon, as the result of an omen of an eagle devouring a hare, is told that in order to appease Artimis, he must sacrifice his daughter Iphigenia.\nAs such, Agammenon is faced with two impossible choices, fail to carry out Zeus’s command, or kill his daughter. It is important to point out that the fleet is already facing starvation being stranded on the coast.\nHowever, Agammenon’s sin, is not that he choices sacrificing his daughter, instead it is the way he sacrificed his daughter.\n\nLike in the biblical story of Abraham, a good man must kill an innocent child “out of obedience to a divine command” [35].\nAgammenon’s sin however, is not the choice, but rather how the choice was made:\n\nAgammenon now begins to cooperate inwardly with necessity, arragning his feelings to accord with his fortune.\nFrom the moment he makes his decision, itself the best he could have made, he strangely turns himself into a collaborator, a willing victim [35].\n\n\nProgression of loss of agency:\n\nNecessity of the act\nto the rightness of the act\nto the rightness of the feelings of the act\n\n\n\n\n\nDe Bruyne, Edgar. 1959. Estudios de Estética Medieval. Vol. 17. Editorial Gredos.\n\n\nGilmore, Jonathan. 2020. Apt Imaginings: Feelings for Fictions and Other Creatures of the Mind. New York, US: Oxford University Press.\n\n\nPiñero Moral, Ricardo. 2021. “Aesthetics of Evil in Middle Ages: Beasts as Symbol of the Devil.” Religions 12 (11): 957. https://doi.org/10.3390/rel12110957.\n\n\nPrinz, Jesse J. 2004. Gut Reactions: A Perceptual Theory of the Emotions. Oxford University Press.",
     "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
+      "Active Papers",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aesthetics of Evil</span>"
     ]
   },
   {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html#power",
-    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html#power",
-    "title": "Epistemic Injustice",
-    "section": "Power",
-    "text": "Power\nActive and Passive powers\n\nPower that is realized in action\nPower that is being realized even when it is not being realized in action\n\nSocial vs. structural powers\n\nSocial power is power exercised (actively or passively) by one or more social agents.\nBut social power depends on practical coordination among social agents in a net-like organization. In such a case then, it is power that is never in one person’s hands alone.",
+    "objectID": "papers/paper-2-morality-as-privilege/index.html#three-kinds-of-tragic-conflict",
+    "href": "papers/paper-2-morality-as-privilege/index.html#three-kinds-of-tragic-conflict",
+    "title": "Morality as Privilege",
+    "section": "Three Kinds of Tragic Conflict",
+    "text": "Three Kinds of Tragic Conflict\n\nGood people being ruined becuase of things that just happen to them, things they do not control.\nGood people doing bad things, things opposite of their ethical character and commitments because of things they do not control.\nGood people doing bad things without direct physical compulsion and opposite of their ethical character and commitments though done in light of circumstances of equally bad choices.\n\nAgammenon is waiting on the shore with his entire fleet. He intends to carry out a directive from Zeus to avenge his brother whose wife ran away with Paris, prince of Troy. However, because of an earlier transgression against Artimis, Artimis is holding back the wind, stranding his fleet. Agammenon, as the result of an omen of an eagle devouring a hare, is told that in order to appease Artimis, he must sacrifice his daughter Iphigenia.\nAs such, Agammenon is faced with two impossible choices, fail to carry out Zeus’s command, or kill his daughter. It is important to point out that the fleet is already facing starvation being stranded on the coast.\nHowever, Agammenon’s sin, is not that he choices sacrificing his daughter, instead it is the way he sacrificed his daughter.\n\nLike in the biblical story of Abraham, a good man must kill an innocent child “out of obedience to a divine command” [35].\nAgammenon’s sin however, is not the choice, but rather how the choice was made:\n\nAgammenon now begins to cooperate inwardly with necessity, arragning his feelings to accord with his fortune.\nFrom the moment he makes his decision, itself the best he could have made, he strangely turns himself into a collaborator, a willing victim [35].\n\n\nProgression of loss of agency:\n\nNecessity of the act\nto the rightness of the act\nto the rightness of the feelings of the act\n\n\nThe vulnerability of the Good Human Life\nAll human excellence requires external resources and necessary conditions.\n\nExternal objects to exercise virtues towards\nExternal objects to receive our virtues\n\nThe most important of these require relational virtues.\nE.g.,\n\nGood activities of citizenship\nPolitical attachment\nPersonal love\nFriendship\n\n\nThe Relational Harm of Slavery\nGood character requires civic activity, good political surroundings.\nA slave however, lacks:\n\nchoice\nphilia\n\nA person needs to be able to make free and un-coerced choices. A slave is unable to do so since he belongs to someone else who makes choices for him. Owing to his inability to make free and unconstrained choices, a slave is unable to use their capacity for practical reason, choosing objects for their own sake. As such, they cannot share in philia which “is based on mutual respect for choice and character” [348].",
     "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
-    ]
-  },
-  {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html#identity-power",
-    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html#identity-power",
-    "title": "Epistemic Injustice",
-    "section": "Identity Power",
-    "text": "Identity Power\nCentral to social power is identity power since social power is dependent on the kinds of social exchanges that are possible between agents.\nAt the center of this are testimonial exchanges which rely on “shared imaginative conceptions of social identity:” identity powers.\nFaulty judgments of a speaker will hinder these kinds of exchanges. We can apply this to the case of the victim. The victim is not able to defend her belief that she is not a victim because her judgment of her friend as speaker hinders her ability to explain herself. Additionally, her friend’s faulty judgment of her as a speaker also hinders her friend’s ability to accept her explanation.",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
-    ]
-  },
-  {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/fricker.html#the-central-case-of-testimonial-injustice",
-    "href": "papers/paper-2-morality-as-privilege/notes/fricker.html#the-central-case-of-testimonial-injustice",
-    "title": "Epistemic Injustice",
-    "section": "The central case of testimonial injustice",
-    "text": "The central case of testimonial injustice\nAt center:\n\nCredibility excess\nCredibility deficit",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Epistemic Injustice</span>"
-    ]
-  },
-  {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/malone.html",
-    "href": "papers/paper-2-morality-as-privilege/notes/malone.html",
-    "title": "Art Interpretive Injustice",
-    "section": "",
-    "text": "Prosecutorial use of rap music as example of art-interpretive injustice",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Art Interpretive Injustice</span>"
-    ]
-  },
-  {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/malone.html#testimonial-and-hermeneutical-injustice",
-    "href": "papers/paper-2-morality-as-privilege/notes/malone.html#testimonial-and-hermeneutical-injustice",
-    "title": "Art Interpretive Injustice",
-    "section": "Testimonial and Hermeneutical Injustice",
-    "text": "Testimonial and Hermeneutical Injustice\n\nTestimonial Injustice: “listeners extend the wrong degree of credibility”\n\nTestimony of the speaker is called into question because of the identity of the speaker\nBut the victim in the Medina case does not suffer from credibility deficit because his lyrics were used as credible evidence\nHowever, the victim’s lyrics were taken as testimony rather than artistic expression\n\nHermeneutical Injustice: “when someone’s own experience is obscured because the available concepts distort it or render it inscrutable”\n\nSocial experiences “obscured from collective understanding”\nThis is caused by structural identity prejudice in the “collective hermeneutical” resource\nAnalogous to the Medina case, the prosecutors misdescribe the victim’s experience (Fricker 2016, 167).",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Art Interpretive Injustice</span>"
-    ]
-  },
-  {
-    "objectID": "papers/paper-2-morality-as-privilege/notes/malone.html#some-other-forms-of-epistemic-injustice",
-    "href": "papers/paper-2-morality-as-privilege/notes/malone.html#some-other-forms-of-epistemic-injustice",
-    "title": "Art Interpretive Injustice",
-    "section": "Some other forms of epistemic injustice",
-    "text": "Some other forms of epistemic injustice\n\nInterpretive Injustice\nDiscursive Injustice\nAesthetic Injustice",
-    "crumbs": [
-      "Drafts & Notes",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Art Interpretive Injustice</span>"
+      "Active Papers",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Morality as Privilege</span>"
     ]
   }
 ]

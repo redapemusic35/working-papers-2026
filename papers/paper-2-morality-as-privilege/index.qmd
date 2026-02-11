@@ -11,3 +11,10 @@ authors:
 ## Abstract
 
 This concerns an interesting and popular assertion, that it takes a certain amount of material wealth to be a good person. I suspect that this is a project of capitalism: buy our stuff or you will be a bad person . . .
+
+{{< include ./../notes/fragility/luck-ethics.qmd >}}
+
+{{< include ./../notes/fragility/aes-prac-conflict.qmd >}}
+
+{{< include ./../notes/fragility/vulnerability-of-good.qmd >}}
+
