@@ -14,4 +14,11 @@ In medieval bestiaries, there are two classes of evil represented by beasts; tho
 
 {{< include ./research-bible.qmd >}}
 
+{{< include ./../notes/manticore-1.qmd >}}
+
+{{< include ./../notes/manticore-2.qmd >}}
+
+{{< include ./../notes/pinero.qmd >}}
+
 {{< include ./../notes/fragility/aes-prac-conflict.qmd >}}
+
