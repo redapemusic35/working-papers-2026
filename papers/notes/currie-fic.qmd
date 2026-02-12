@@ -8,6 +8,10 @@
 	year = {1990}
 }
 
+Why do we think that fairy tales are fiction but news stories are not? Is fake news the same thing as a fairy tale? During the pandemic, fake news became a widely discussed talking point. A less widely discussed talking point however was why don’t we just call it fiction? A derivative of this question is how fiction is made possible. Meaning, what are the creative differences between fake news, news news and fairy tales? To answer this question, Gregory Currie suggests three possible answers.
+
+According to the front page news, the terrorist leader Amelia Boyd was killed by the Headhunters Gang. First are the characteristics that distinguish fiction from non-fiction. This question is a close investigation of the entities that are in fiction and make them possible. For instance, the psychological and linguistic resources that producers and consumers of fiction must have access to.
+
 First, consider that fiction uses language. But there is no universal linguistic feature shared by all fictional works and there is no available proof/s confirming what is a fiction.1 We usually think that reading a work is an act of reading words and sentences that make it up.2 However, consider a mime? Or silent films? These are works that do not use language in the traditional sense, yet we consider them fictional. Therefore, what makes something a fiction cannot necessarily be a linguistic feature. Therefore what makes something a fiction is neither a necessary nor sufficient condition for being fictional. Finally then, something can be a fiction because of its verbal structure, but what makes it a fiction does not lie in the text itself.
 
 ## Semantic Properties
