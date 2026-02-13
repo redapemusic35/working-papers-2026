@@ -1,0 +1,33 @@
+---
+title: "Wendy Laybourn's Cost of Being Real"
+author: "Montaque Reynolds"
+date: "2026-02-10"
+toc: true                     # adds right-side TOC for long notes
+toc-depth: 3
+toc-location: right
+number-sections: false        # usually better for notes
+format:
+  html:
+    code-fold: true             # fold code blocks by default
+    code-tools: true            # show/hide all code
+    theme: cosmo                # or inherit from project
+---
+
+# Laybourn
+
+Research on black authenticity identifies “oppressive othering” and “white standards of beauty”, particularly lighter skin tone, as key components of commercial success in the entertainment industry.
+
+* Oppressive Othering (commodified black authenticity, cab)
+* White Standards of Beauty (wsb)
+
+In this note, I am only going to focus on oppressive othering / commodified black authenticity, cba.
+
+Are rap lyrics a case of oppressive othering? By using rap lyrics, Laybourn argues that we can compare oppressive othering with white standards of beauty. However, the way she does so is by drawing attention to a positive correlation between lighter skin tone and higher Billboard chart ratings.
+
+There wasn't a similar relation noticed between rap lyrics (oppressive othering) and higher chart ratings though at the center of the issue seems to be a suggestion that a harmful representation of blackness is sold to the public as "authentic blackness". Importantly, this particular commodity then "shapes" what is accepted as authentic blackness, and what is commodified as authentic blackness.
+
+In addition to the "oppressive othering" of cab, "white standards" of beauty are also sold. But it isn't clear what correlation there is between cab and wsb if any. Laybourn argues that both wsb and cab stem from attitudes which position blacks as an outgroup and whites as an in-group. As such, when cabs are dangerous when they serve as an avenue for interaction with black culture and a proxy for interpersonal interaction with black Americans, even though they are created within a framework "that" reifies anti-blackness.
+
+Of deep concern here, is that many of the members of the communities depicted by such images, consider aspects of these images to be authentic representations of themselves and of the communities in which they live. Therefore, there is a public perception that such images are not in themselves harmful. Therefore, there is strong disagreement regarding whether or not they are harmful (20C History Project 2014; Collins 2006, 2009; Sartwell 1998).
+
+Laybourn more narrowly defines cab as one dominant group's creation of more inferior groups. This is accomplished through media portrayals linking anti-social behaviors, violence, abuse, crime, to these other groups.

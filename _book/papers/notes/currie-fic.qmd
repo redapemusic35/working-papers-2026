@@ -1,0 +1,28 @@
+# Currie's Fiction
+
+@book{curr90,
+	author = {Gregory Currie},
+	editor = {},
+	publisher = {Cambridge University Press},
+	title = {The Nature of Fiction},
+	year = {1990}
+}
+
+Why do we think that fairy tales are fiction but news stories are not? Is fake news the same thing as a fairy tale? During the pandemic, fake news became a widely discussed talking point. A less widely discussed talking point however was why don’t we just call it fiction? A derivative of this question is how fiction is made possible. Meaning, what are the creative differences between fake news, news news and fairy tales? To answer this question, Gregory Currie suggests three possible answers.
+
+According to the front page news, the terrorist leader Amelia Boyd was killed by the Headhunters Gang. First are the characteristics that distinguish fiction from non-fiction. This question is a close investigation of the entities that are in fiction and make them possible. For instance, the psychological and linguistic resources that producers and consumers of fiction must have access to.
+
+First, consider that fiction uses language. But there is no universal linguistic feature shared by all fictional works and there is no available proof/s confirming what is a fiction.1 We usually think that reading a work is an act of reading words and sentences that make it up.2 However, consider a mime? Or silent films? These are works that do not use language in the traditional sense, yet we consider them fictional. Therefore, what makes something a fiction cannot necessarily be a linguistic feature. Therefore what makes something a fiction is neither a necessary nor sufficient condition for being fictional. Finally then, something can be a fiction because of its verbal structure, but what makes it a fiction does not lie in the text itself.
+
+## Semantic Properties
+
+Currie concludes that fictionality is a relational property, it is something possessed in virtue of the text’s relations to other things. Therefore while it is possible that fictionality is a linguistic matter, what makes it a fiction lies in some other property. (a method of communication, communicative practice)
+
+Currie suggests that fictional properties, like non-fictional ones, have the semantic properties of truth value and reference. What this means is that a fictional statement can be true and false. For instance, consider the statement “Killing an NPC in monitored space will earn you a crime state”. According to Currie, this statement is true. What makes something true or false in a fiction, is its relation to the outside world. What is important however, is what this relationship is.
+
+Readers and Authors
+
+Because fiction is a relational property, they are community based and “depend on the prevailing attitudes of the community, or of a subgroup of the community rather than the ideas of a single individual” (Currie 1990, 10).
+For I take it that an act of joint authorship is exactly that: an act engaged in by more than one person rather than several distinct acts undertaken individually and patched together. (Currie 1990, 11)
+
+The process of creating a fiction begins with the intention. It is not a singular intention however, but is a social enterprise. So maybe the reason that we do not call fake news, fiction, is because of the purposes and intent of fake news. It is intended to deceive rather than express true propositions. But if this is true, then why do we not consider that fiction is intended to deceive? Why does fiction have semantic properties such as truth whereas fake news does not? @curr90

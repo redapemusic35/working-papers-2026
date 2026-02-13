@@ -19,18 +19,7 @@ book:
         #- papers/paper3-ethics-ai/ethics-ai-draft.qmd
     - part: "Drafts & Notes"
       chapters:
-        - ./papers/paper-1-aes-evi/notes/reading.qmd
-        - ./papers/paper-1-aes-evi/notes/prinz.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/malone.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/collins.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/fricker.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/laybourn.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/altshuler.Rmd
-        - ./papers/paper-2-morality-as-privilege/notes/korsgaard.Rmd
-        - ./papers/paper-2-morality-as-privilege/notes/fric-silence.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/davis-type-token.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/susan-peppers-rel.qmd
-        - ./papers/paper-2-morality-as-privilege/notes/prinz-gut-reactions.qmd
+        - ./papers/notes/index.qmd
         # add more as needed
 bibliography: ./references.bib
   #csl: chicago-author-date.csl        # or use biblatex-chicago for philosophy

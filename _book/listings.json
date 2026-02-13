@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/papers/notes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/papers/notes-overview.html",
+    "items": [
+      "/papers/paper-1-aes-evi/index.html",
+      "/papers/paper-2-morality-as-privilege/index.html"
+    ]
+  }
+]

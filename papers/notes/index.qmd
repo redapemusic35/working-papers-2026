@@ -1,0 +1,19 @@
+---
+title: Notes
+listing:
+  type: default
+  sort: date desc
+  categories: true
+---
+
+{{< include ./pinero.qmd >}}
+
+{{< include ./laybourn-cost/index.qmd >}}
+
+{{< include ./collins-black-feminist-thought/index.qmd >}}
+
+{{< include ./currie-fic.qmd >}}
+
+{{< include ./manticore-1.qmd >}}
+
+

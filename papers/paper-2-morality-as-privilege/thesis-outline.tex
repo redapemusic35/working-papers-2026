@@ -1,0 +1,584 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+
+
+\section{Two Classes of Evil in Medieval
+Bestiaries}\label{two-classes-of-evil-in-medieval-bestiaries}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Deceivers}: Camouflage, imitation, seduction
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Chameleon: camouflage
+  \item
+    Manticore: accurate imitations
+  \item
+    Sirens: seductive skills
+  \end{itemize}
+\item
+  \textbf{Fear and Death Generators}
+\item
+  Purpose: Educate illiterate via art for \textbf{orthodoxy} and proper
+  behavior (Piñero Moral 2021)
+\end{itemize}
+
+Medieval taxonomy mirrors modern epistemic harms: misinformation, false
+narratives, bullshit.
+
+\section{Deception in Bestiaries → Modern Epistemic
+Harms}\label{deception-in-bestiaries-modern-epistemic-harms}
+
+\begin{itemize}
+\tightlist
+\item
+  Medieval worries: Not just epistemic, but close to today
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Misinformation} (chameleon-like camouflage)
+  \item
+    \textbf{False/inauthentic narratives} (manticore imitation)
+  \item
+    \textbf{Bullshit} (siren seduction)
+  \end{itemize}
+\end{itemize}
+
+\begin{quote}
+Beasts symbolize \textbf{evil} to promote right action.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Hermeneutic Injustice (Fricker
+2007)}\label{hermeneutic-injustice-fricker-2007}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Definition}: Gap in collective interpretive resources
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Hinders making sense of one's own experiences
+  \end{itemize}
+\item
+  \textbf{Link to Deceptive Evil}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Restricts hermeneutic participation in social life
+  \item
+    Historically against women, but not exclusively
+  \end{itemize}
+\item
+  \textbf{Manticore} as artistic representation of this evil
+\end{itemize}
+
+\begin{quote}
+Evil is ``direct and intuitive by the victim'' (Russell 2016, 1).
+\end{quote}
+
+Hermeneutic injustice deceives like the manticore.
+
+\section{Hermeneutic Codes in
+Bestiaries}\label{hermeneutic-codes-in-bestiaries}
+
+\begin{quote}
+Beastiaries composed of \textbf{hermeneutic codes} mapped to levels:
+anatomy → ethical-philosophical → moral → theological (Voisenet 2020,
+321--25). Words and images intertwined (Kay 2017).
+\end{quote}
+
+\section{Types of Codes}\label{types-of-codes}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Level & Focus \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Mere Anatomy & Physical description \\
+Ethical-Philosophical & Moral reasoning \\
+Moral Perspectives & Behavior norms \\
+Theological & God vs.~Devil \\
+\end{longtable}
+
+\section{Art and Complex Reality}\label{art-and-complex-reality}
+
+\begin{quote}
+``Commitment with reality undeniable, yet so complex\ldots{} limits
+blurred between what \textbf{is} and \textbf{is not}, what we
+\textbf{believe} and \textbf{know}\ldots{}'' (Cronin 1941).
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Conflict}: God vs.~Devil
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Jesus' death/resurrection: Devil's action → God's victory
+  \end{itemize}
+\item
+  Art configures \textbf{human condition}: experience, knowledge,
+  beliefs
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, coltitle=black, bottomtitle=1mm, titlerule=0mm, colback=white, breakable, colbacktitle=quarto-callout-important-color!10!white, opacityback=0, arc=.35mm, colframe=quarto-callout-important-color-frame, toprule=.15mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, rightrule=.15mm, left=2mm, bottomrule=.15mm, opacitybacktitle=0.6, toptitle=1mm]
+
+Medieval \emph{ars} \textgreater{} mere norms; profound lecture on
+reality.
+
+\end{tcolorbox}
+
+\section{Origins of the Manticore}\label{origins-of-the-manticore}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Persian literature} (5th--4th BC, Ctesias)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Red skin, lion-sized, \textbf{human-like face}, 3 rows of teeth,
+    \textbf{scorpion tail}
+  \item
+    Eats men; imitates voices (Pliny)
+  \end{itemize}
+\item
+  \textbf{Evolution}:
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Source & Key Traits \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Aristotle & Rough as lion, grey eyes, sting darts spines \\
+Pliny & Fixed gaze, continuous teeth, imitates speech \\
+Ctesias & Azure eyes, blood color, flute/trumpet voice \\
+\end{longtable}
+
+\begin{quote}
+Became symbol of \textbf{evil, death, hell} → Christ's power over them.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Familiar vs.~Unfamiliar
+Imagery}\label{familiar-vs.-unfamiliar-imagery}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Familiar}: Animals (lion, scorpion)
+\item
+  \textbf{Unfamiliar}: Human face, triple teeth → \textbf{Immaterial
+  evil}
+\item
+  \textbf{Why?} Easier to intuit abstract concepts: pain, death, good
+  vs.~evil
+\item
+  \textbf{Hermeneutic Tool}: Confront evil's attributes (seduces,
+  deceives, harms)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Bodleian Library Examples} (placeholders): - Fol. 009v: Early
+folio - Fol. 025r: Classic manticore (MS. Bodl. 764) - Fol. 022v:
+Variant (MS. Ashmole 1511)
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{thesis-outline_files/mediabag/.pdf}}
+
+}
+
+\caption{Manticore Placeholder}
+
+\end{figure}%
+
+\section{Emotions, Cognition, and
+Identity}\label{emotions-cognition-and-identity}
+
+\textbf{Gut Reactions (Prinz)}: Emotions affect cognition
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Emotion Type & Cognitive Effect \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Positive & Stereotypes, creative reasoning (Isen et al.~1987) \\
+Negative & Narrow focus, threats (Ohman et al.~2001) \\
+Congruent & Better recall (Bower 1981) \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Identity Links}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Narrative Identity
+  \item
+    Personal Identity (response to emotions)
+  \end{itemize}
+\end{itemize}
+
+Emotions shape self-understanding.
+
+\section{Black Authenticity \& Controlling Images (Laybourn
+2018)}\label{black-authenticity-controlling-images-laybourn-2018}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Criticism}: Identity commodified as ``realness''
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Authentic? Male, female, ethnic\ldots{}
+  \end{itemize}
+\item
+  \textbf{Hermeneutic Injustice}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Popular media images accepted as representative
+  \item
+    Blurs harm vs.~authenticity
+  \end{itemize}
+\item
+  \textbf{Core Question}: Narratives → Personal Identity? \textgreater{}
+  ``We are defined by stories we accept about ourselves''
+  (controversial).
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Wicked: Modern Analogy for
+Othering}\label{wicked-modern-analogy-for-othering}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Elphaba} (Cynthia Erivo): Green skin → scapegoat
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Leans into ``wicked'' persona
+  \end{itemize}
+\item
+  \textbf{Trope}: Water bucket (racist bathing myth)
+\item
+  \textbf{Outcome}: ``Dies'' (hides), flees as eternal outsider with
+  Fiyero
+\item
+  \textbf{Link}: Hermeneutic gap → false self-beliefs
+\end{itemize}
+
+\begin{quote}
+Medieval manticore \textbf{lends credibility} to epistemic injustice
+claims.
+\end{quote}
+
+\section{Medieval vs.~Modern Art
+Functions}\label{medieval-vs.-modern-art-functions}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2394}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3803}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3803}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Aspect
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Medieval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Modern (Gilmore 2020)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Purpose} & Orthodoxy, behavior motivation & Pleasure,
+entertainment \\
+\textbf{Outcome} & Desirable actions/dispositions & Absorption,
+revenue \\
+\textbf{Example} & Manticore → intuit evil & Advertising campaigns \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Medieval}: ``Right reason'' (Aquinas, Summa Theologica I-II,
+  Q.57)
+\item
+  Good cognitive use → virtuous actions/objects
+\end{itemize}
+
+Gaskell's \emph{Mary Barton} → social safety net (Harrison 2011).
+
+\section{Moral Reality in Medieval Art (Piñero Moral
+2021)}\label{moral-reality-in-medieval-art-piuxf1ero-moral-2021}
+
+\begin{quote}
+Art represents \textbf{complex reality}, esp.~moral (De Bruyne 1959).
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Manticore}: Evil via projection (obscure/contested reality)
+\item
+  \textbf{Not} mere facts/history → \textbf{wished beliefs} for
+  orthodoxy
+\item
+  \textbf{Key}: Motivate behavior for good outcomes
+\end{itemize}
+
+\textbf{Conclusion}: Bestiaries combat \textbf{deceptive evil} like
+hermeneutic injustice.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{References}\label{references}
+
+\begin{itemize}
+\tightlist
+\item
+  Fricker, Miranda. 2007. \emph{Epistemic Injustice}. Oxford University
+  Press.
+\item
+  Gilmore, Jonathan. 2020. \emph{Apt Imaginings}. Oxford University
+  Press.
+\item
+  Harrison, Mary-Catherine. 2011. ``Narrative Relationships\ldots{}''
+  \emph{Poetics Today} 32(2).
+\item
+  Laybourn, Wendy M. 2018. ``Cost of Being `Real'\ldots{}'' \emph{Ethnic
+  and Racial Studies} 41(11).
+\item
+  Piñero Moral, Ricardo. 2021. ``Aesthetics of Evil\ldots{}''
+  \emph{Religions} 12(957).
+\item
+  Russell, Jeffrey Burton. 2016. \emph{The Prince of Darkness}. Cornell
+  University Press.
+\item
+  Others: Voisenet 2020, Kay 2017, Cronin 1941, etc.
+\end{itemize}
+
+Full citations in text. Customize images/links as needed.
+
+
+
+
+\end{document}
