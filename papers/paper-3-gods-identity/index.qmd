@@ -1,0 +1,9 @@
+---
+title: tbd
+---
+
+# Introduction
+
+Following Goldie (2009)’s short paper Narrative Thinking, Emotion, and Planning, I consider the representation of emotional expressions of regret, narrative regret. I draw specific attention to the context of the representation of distinct special relationships in fiction. Important here are discourses on the fictional representation of such relationships as a special kind of human agency. I argue that a related concern are the assumptions about what is true and what is fiction in popular fiction.
+
+{{< include ./../notes/laybourn-cost/index.qmd >}}
