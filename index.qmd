@@ -8,9 +8,15 @@ Current status as of `r format(Sys.Date(), '%B %Y')`
 
 ### Manticore
 
-- [ ] Outline complete
+- [ ] Literature Review
 - [ ] Primary texts read & noted
-- [ ] Main argument drafted
+- [ ] Brainstorm Core Argument
+- [ ] Draft paper outline with main sections
+- [ ] Write first draft
+- [ ] Share draft with trusted colleagues
+- [ ] Identify possible objections
+- [ ] Research Relevant Conferences
+- [ ] Research target journals for submission
 - [ ] Objections section started
 - [ ] Responses to objections
 - [ ] Submit to journal X by end of Q2
@@ -19,11 +25,48 @@ Current status as of `r format(Sys.Date(), '%B %Y')`
 
 ::: {.callout-tip appearance="minimal"}
 
+### The Aesthetic Problem of Evil
+
+- [ ] Literature Review
+- [ ] Primary texts read & noted
+- [ ] Brainstorm Core Argument
+- [ ] Draft paper outline with main sections
+- [ ] Write first draft
+- [ ] Share draft with trusted colleagues
+- [ ] Identify possible objections
+- [ ] Research Relevant Conferences
+- [ ] Research target journals for submission
+- [ ] Objections section started
+- [ ] Responses to objections
+- [ ] Submit to journal X by end of Q2
+
 ### Morality as Privilege
 
-- [ ] Outline complete
+- [ ] Literature Review
 - [ ] Primary texts read & noted
-- [ ] Main argument drafted
+- [ ] Brainstorm Core Argument
+- [ ] Draft paper outline with main sections
+- [ ] Write first draft
+- [ ] Share draft with trusted colleagues
+- [ ] Identify possible objections
+- [ ] Research Relevant Conferences
+- [ ] Research target journals for submission
+- [ ] Objections section started
+- [ ] Responses to objections
+- [ ] Submit to journal X by end of Q2
+
+### God as the Best Possible Epistemic Ground of Human Dignity
+
+- [ ] Literature Review
+  - [ ] Imago Dei as Human Identity by Ryan Peterson
+- [ ] Primary texts read & noted
+- [ ] Brainstorm Core Argument
+- [ ] Draft paper outline with main sections
+- [ ] Write first draft
+- [ ] Share draft with trusted colleagues
+- [ ] Identify possible objections
+- [ ] Research Relevant Conferences
+- [ ] Research target journals for submission
 - [ ] Objections section started
 - [ ] Responses to objections
 - [ ] Submit to journal X by end of Q2
@@ -32,4 +75,4 @@ Current status as of `r format(Sys.Date(), '%B %Y')`
 
 ## Next Up
 
-- Manticore
+- [Aesthetics of Evil](./papers/paper-1-aes-evi/index.qmd)
