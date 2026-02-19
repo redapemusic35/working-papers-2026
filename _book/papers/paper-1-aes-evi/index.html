@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project Research Bible: Aesthetics of Evil – Working Papers 2026</title>
+<title>Unjust Religion as Fiction – Working Papers 2026</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -91,6 +91,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -103,7 +132,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html">Active Papers</a></li><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Project Research Bible: Aesthetics of Evil</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html">Active Papers</a></li><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Unjust Religion as Fiction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -154,7 +183,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../papers/paper-1-aes-evi/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Project Research Bible: Aesthetics of Evil</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Unjust Religion as Fiction</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -176,8 +205,8 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../papers/notes-overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pinero: The Manticore</span></span></a>
+  <a href="../../papers/notes/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Notes</span></span></a>
   </div>
 </li>
       </ul>
@@ -193,20 +222,21 @@ div.csl-indent {
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#outline-structure" id="toc-outline-structure" class="nav-link" data-scroll-target="#outline-structure">Outline / Structure</a></li>
-  <li><a href="#key-sources-notes" id="toc-key-sources-notes" class="nav-link" data-scroll-target="#key-sources-notes">Key Sources &amp; Notes</a>
+  <li><a href="#pinero-beasts-as-symbols-of-evil" id="toc-pinero-beasts-as-symbols-of-evil" class="nav-link" data-scroll-target="#pinero-beasts-as-symbols-of-evil">Pinero: Beasts as Symbols of Evil</a>
   <ul class="collapse">
-  <li><a href="#primary-texts" id="toc-primary-texts" class="nav-link" data-scroll-target="#primary-texts">Primary Texts</a></li>
-  <li><a href="#secondary-literature" id="toc-secondary-literature" class="nav-link" data-scroll-target="#secondary-literature">Secondary Literature</a></li>
-  <li><a href="#objections-responses-folder" id="toc-objections-responses-folder" class="nav-link" data-scroll-target="#objections-responses-folder">Objections &amp; Responses Folder</a></li>
+  <li><a href="#art-as-an-orthodox-end" id="toc-art-as-an-orthodox-end" class="nav-link" data-scroll-target="#art-as-an-orthodox-end">Art as an Orthodox End</a></li>
   </ul></li>
-  <li><a href="#reading-log-to-read" id="toc-reading-log-to-read" class="nav-link" data-scroll-target="#reading-log-to-read">Reading Log / To-Read</a>
+  <li><a href="#pinero" id="toc-pinero" class="nav-link" data-scroll-target="#pinero">Pinero</a>
   <ul class="collapse">
-  <li><a href="#the-manticore" id="toc-the-manticore" class="nav-link" data-scroll-target="#the-manticore">The Manticore</a></li>
-  <li><a href="#the-manticore-in-medieval-art" id="toc-the-manticore-in-medieval-art" class="nav-link" data-scroll-target="#the-manticore-in-medieval-art">The Manticore in Medieval Art</a></li>
+  <li><a href="#some-questions" id="toc-some-questions" class="nav-link" data-scroll-target="#some-questions">Some Questions</a></li>
+  <li><a href="#peppers-gates-analysis-of-fricker" id="toc-peppers-gates-analysis-of-fricker" class="nav-link" data-scroll-target="#peppers-gates-analysis-of-fricker">Peppers-Gates Analysis of Fricker</a></li>
+  <li><a href="#silencing" id="toc-silencing" class="nav-link" data-scroll-target="#silencing">Silencing</a></li>
+  <li><a href="#hermeneutic-injustice" id="toc-hermeneutic-injustice" class="nav-link" data-scroll-target="#hermeneutic-injustice">Hermeneutic Injustice</a>
+  <ul class="collapse">
+  <li><a href="#one-possible-example-of-hermeneutic-injustice-against-religious-minorities" id="toc-one-possible-example-of-hermeneutic-injustice-against-religious-minorities" class="nav-link" data-scroll-target="#one-possible-example-of-hermeneutic-injustice-against-religious-minorities">One Possible example of hermeneutic injustice against religious minorities</a></li>
   </ul></li>
-  <li><a href="#pinero" id="toc-pinero" class="nav-link" data-scroll-target="#pinero">Pinero</a></li>
+  </ul></li>
+  <li><a href="#patricia-collins-black-feminist-thought" id="toc-patricia-collins-black-feminist-thought" class="nav-link" data-scroll-target="#patricia-collins-black-feminist-thought">Patricia Collins Black Feminist Thought</a></li>
   <li><a href="#on-greek-tragedy" id="toc-on-greek-tragedy" class="nav-link" data-scroll-target="#on-greek-tragedy">On Greek Tragedy</a>
   <ul class="collapse">
   <li><a href="#three-kinds-of-tragic-conflict" id="toc-three-kinds-of-tragic-conflict" class="nav-link" data-scroll-target="#three-kinds-of-tragic-conflict">Three Kinds of Tragic Conflict</a></li>
@@ -217,9 +247,9 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html">Active Papers</a></li><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Project Research Bible: Aesthetics of Evil</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html">Active Papers</a></li><li class="breadcrumb-item"><a href="../../papers/paper-1-aes-evi/index.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Unjust Religion as Fiction</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Project Research Bible: Aesthetics of Evil</h1>
+<h1 class="title">Unjust Religion as Fiction</h1>
 </div>
 
 
@@ -251,120 +281,171 @@ div.csl-indent {
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the “seductive skills of sirens”. While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullshit.</p>
-</section>
-<section id="project-overview" class="level1">
-<h1>Project Overview</h1>
-<p><span class="citation" data-cites="prin04">Prinz (<a href="#ref-prin04" role="doc-biblioref">2004</a>)</span></p>
-<ul class="task-list">
-<li><label><input type="checkbox">Thesis statement: …</label></li>
-<li><label><input type="checkbox">Main question: …</label></li>
-<li><label><input type="checkbox">Target length / deadline: …</label></li>
-</ul>
-</section>
-<section id="outline-structure" class="level1">
-<h1>Outline / Structure</h1>
-<ol type="1">
-<li>Introduction</li>
-<li>Exposition of Primary View</li>
-</ol>
-</section>
-<section id="key-sources-notes" class="level1">
-<h1>Key Sources &amp; Notes</h1>
-<section id="primary-texts" class="level2">
-<h2 class="anchored" data-anchor-id="primary-texts">Primary Texts</h2>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Elizabeth Fricker’s (2007) Epistemic Injustice</p>
-</div>
-</div>
+<p>In medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the “seductive skills of sirens”.</p>
 <ul>
-<li>Key claim: Good will as unconditionally good (4:393–394)</li>
-<li>Quote: “Nothing … can possibly be conceived … which could be called good without qualification except a <strong>good will</strong>.” (4:393)</li>
-<li>My reaction: This seems vulnerable to Schiller’s objection about inclination…</li>
-<li>Relevance: Core premise for my argument in section 3</li>
-</ul>
-</section>
-<section id="secondary-literature" class="level2">
-<h2 class="anchored" data-anchor-id="secondary-literature">Secondary Literature</h2>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul class="task-list">
-<li><label><input type="checkbox">Fragility of Goodness</label></li>
-<li><label><input type="checkbox">Wandering in Darkness</label></li>
-</ul>
-</div>
-</div>
+<li><strong>Deceivers</strong>: Camouflage, imitation, seduction
 <ul>
-<li>Argument summary: …</li>
-<li>Weakness: Assumes too much about rational agency</li>
-<li>Supports my thesis because…</li>
-</ul>
-</section>
-<section id="objections-responses-folder" class="level2">
-<h2 class="anchored" data-anchor-id="objections-responses-folder">Objections &amp; Responses Folder</h2>
-<ul>
-<li>Objection 1: Consequence argument (van Inwagen)
-<ul>
-<li>Tags: free-will, incompatibilism</li>
-<li>Notes: …</li>
+<li>Chameleon: camouflage</li>
+<li>Manticore: accurate imitations</li>
+<li>Sirens: seductive skills</li>
 </ul></li>
+<li><strong>Fear and Death Generators</strong></li>
 </ul>
+<p>While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullsh*t. For this reason, this article will only focus on beasts which represent epistemic harms.</p>
 </section>
-</section>
-<section id="reading-log-to-read" class="level1">
-<h1>Reading Log / To-Read</h1>
-<ul class="task-list">
-<li><label><input type="checkbox">Fragility of Goodness</label>
-<ul class="task-list">
-<li><label><input type="checkbox">Luck and Ethics</label></li>
-<li><label><input type="checkbox">Aeschylus and Practical Conflict</label></li>
-</ul></li>
-<li><label><input type="checkbox">Wandering in Darkness</label></li>
-<li><label><input type="checkbox">Elizabeth Fricker’s (2007) Epistemic Injustice</label></li>
-<li><label><input type="checkbox">Cost of Being Real</label></li>
-<li><label><input type="checkbox">Imago Dei</label></li>
-<li><label><input type="checkbox">Talyor’s Identity</label></li>
-<li><label><input type="checkbox">Gregory Currie’s “On Fiction”</label></li>
-</ul>
-<section id="the-manticore" class="level3">
-<h3 class="anchored" data-anchor-id="the-manticore">The Manticore</h3>
+<section id="pinero-beasts-as-symbols-of-evil" class="level2">
+<h2 class="anchored" data-anchor-id="pinero-beasts-as-symbols-of-evil">Pinero: Beasts as Symbols of Evil</h2>
 <p>The Manticore is a fictionalized beast that was born in Persian art and literature sometime around its cultural zenith. It at once symbolizes evil, death and hell, but in medieval religious art, it came to symbolize the power of Christ over death and hell.</p>
-<p>The Manticore is an imagined beast that has been found in literature as early as the 5th and 4th century BC. In his Photius, the Greek historian working for the Persian court describes the Manticore as a beast with red skin, as large as a lion, three rows of teeth, a human-like face and the tail of a scorpion. Later writers would quote Ctesias’ description of the Manticore, adding emphasis on the dietary habits of it, including that it ate men. Though it is likely that many of these descriptions were of predatory animals passed by word of mouth until they reached the Persian king’s court, what is even more important is the way in which these descriptions began to stand in for imageries of evil in the Medieval literature.</p>
-<p>On some accounts, the manticore is a union between a hyena and Ethiopian lioness. It imitates the voices of men and possesses a fixed and immoveable gaze. In addition, it does not possess gums in either of its jaws, and rather than having multiple teeth, it has one large one.</p>
+<p>The Manticore is an imagined beast that has been found in literature as early as the 5th and 4th century BC. In his Photius, the Greek historian working for the Persian court describes the Manticore as a beast with red skin, as large as a lion, three rows of teeth, a human-like face and the tail of a scorpion. Later writers would quote Ctesias’ description of the Manticore, adding emphasis on its dietary habits, including that it ate men. Though it is likely that many of these descriptions were of predatory animals passed by word of mouth until they reached the Persian king’s court, what is even more important is the way in which these descriptions begin to stand in for imageries of evil in the Medieval literature.</p>
+<p>On some accounts, the manticore is a union between a hyena and Ethiopian lioness. It imitates the voices of men and possesses a fixed and immoveable gaze. In addition, it does not possess gums in either of its jaws, and rather than having multiple teeth, it has one large one that curves around its jaw bone.</p>
 <p>Ctesias argued that the Manticore had a triple row of teeth which fit into each other like a comb, the face and ears of a human, blood colored eyes, the body of a lion and a stinging tail similar to a scorpion. While Pliny the elder argued that it imitated the voices of men, Ctesias tells us that its voice resembles a union of a flute and trumpet, that it is exceedingly swift, and has an appetite for human flesh [p.&nbsp;280].</p>
-<p>Aristotle questions Ctesias’ account, but nevertheless preserves it in his own writings. He gives Ctesias’ account, that the Manticore possesses a double row of teeth, similar feet and size of a lion, with ears and face like a man. Grey colored eyes and a red body, with a tail like that of a scorpion. [p.&nbsp;30-31; also see Aristotle, History of Animals 8.28, 605b22-606a10]</p>
-<p>Owing to the fantastical nature of these accounts, it is highly probable that they are either misguided or motivated by some purposes other than truth. In the 57th question of the 1st of the second part of the Summa Theologica, Thomas Aquinas defends the view of art as a form of right reason. There is a distinction here between the right reason for making objects, and the right reason for doing good actions. We should first focus on the point that is important to both of these activities, is the right use of one’s cognitive faculties. The difference lies in the produced object, whether an action or thing.</p>
-</section>
-<section id="the-manticore-in-medieval-art" class="level3">
-<h3 class="anchored" data-anchor-id="the-manticore-in-medieval-art">The Manticore in Medieval Art</h3>
-<p>We might think that medieval art has no place in a discussion about epistemic injustice, but I argue that the depiction of the fictional beast called the manticore, as a personification of deception lends credibility to this claim. According to the modern function of art summed up by <span class="citation" data-cites="gilm20">Gilmore (<a href="#ref-gilm20" role="doc-biblioref">2020</a>)</span>, art’s function is oriented to ends such as pleasure, entertainment, and absorption [132]. Conversely, the medieval function of art is directed at more orthodox ends intending to motivate desirable behaviors and behavioral responses. On one account of this deception, a person holds false beliefs about themselves. These beliefs stem from hermeneutically unjust environments where the individual lacks access to resources that would lead to accurate self-understanding and moral beliefs. Such beliefs are rooted in irrational actions performed by the individual.</p>
-<p>It does this by contrasting the concept of hermeneutic justice as popularized by Miranda Fricker (2007) but developed by earlier feminists. We might think that medieval art has no place in a discussion about epistemic injustice, but I argue that the depiction of the fictional beast called the manticore, as a personification of deception lends credibility to this claim. According to the modern function of art summed up by Jonathan Gilmore (2020), art’s function is oriented to ends such as pleasure, entertainment, and absorption (Gilmore 2020, 132). Conversely, the medieval function of art is directed at more orthodoxical ends intending to motivate behaviors and behavioral responses. As an artistic object, the Manticore is a fictionalized beast that was born in Persian art and literature sometime around its cultural zenith. It at once symbolizes evil, death and hell, but in medieval religious art, it came to symbolize the power of Christ over death and hell.</p>
-<p>The Manticore is an imagined beast that has been found in literature as early as the 5th and 4th century BC. In his Photius, the Greek historian working for the Persian court describes the Manticore as a beast with red skin, as large as a lion, three rows of teeth, a human-like face and the tail of a scorpion. Later writers would quote Ctesias’ description of the Manticore, adding emphasis on the dietary habits of it, including that it ate men. Though it is likely that many of these descriptions were of predatory animals passed by word of mouth until they reached the Persian king’s court, what is even more important is the way in which these descriptions began to stand in for imageries of evil in the Medieval literature.</p>
+<p>Aristotle questions Ctesias’ account, but nevertheless preserves it in his own writings. He also reproduces Ctesias’ account, that the Manticore possesses a double row of teeth, has similar feet as a lion and is similar in size to a lion. It possesses the ears and face of a human, has grey eyes and red body and possesses the a tail like that of a scorpion. [p.&nbsp;30-31; also see Aristotle, History of Animals 8.28, 605b22-606a10]</p>
+<p>Owing to the fantastical nature of these accounts, it is highly probable that they are either misguided representations of some more familiar animal, or motivated by purposes other than truth. In the classical era, it is most likely the case that the Manticore is a confused representation of some other more familiar animal, while in the medieval period, the motivation for the representation lies outside of truth.</p>
+<p>On this second point, in the 57th question of the 1st of the second part of the Summa Theologica, Thomas Aquinas defends the view of art as a form of right reason. There is a distinction here between the right reason for making objects, and the right reason for doing good actions. We should first focus on a central point here, what is important to both of these activities, namely the right use of one’s cognitive faculties. Therefore, the difference here lies in the produced object, whether an action or thing.</p>
+<section id="art-as-an-orthodox-end" class="level3">
+<h3 class="anchored" data-anchor-id="art-as-an-orthodox-end">Art as an Orthodox End</h3>
+<p>We might think that medieval art has no place in a discussion about epistemic injustice, but I argue that the depiction of the fictional beast called the manticore, as a personification of deception lends credibility to this claim. According to the modern function of art summed up by <span class="citation" data-cites="gilm20">Gilmore (<a href="#ref-gilm20" role="doc-biblioref">2020</a>)</span>, art’s function is oriented to ends such as pleasure, entertainment, and absorption [132]. Conversely, the medieval function of art is directed at more orthodox ends intending to motivate desirable behaviors and behavioral responses. According to views centering on epistemic injustice, because of a misappropriated power imbalance, a person holds false beliefs about themselves. These beliefs stem from unjust environments where the individual lacks access to resources that would lead to accurate self-understanding and moral beliefs. Such beliefs are rooted in irrational actions performed by that individual.</p>
+<p>It does this by contrasting the concept of hermeneutic justice as popularized by Miranda <span class="citation" data-cites="fric07">Fricker (<a href="#ref-fric07" role="doc-biblioref">2007</a>)</span> but developed by earlier feminists. We might think that medieval art has no place in a discussion about epistemic injustice, but I argue that the depiction of the fictional beast called the manticore, as a personification of deception lends credibility to this claim. According to the modern function of art, art’s function is oriented to ends such as pleasure, entertainment, and absorption <span class="citation" data-cites="gilm20">(<a href="#ref-gilm20" role="doc-biblioref">Gilmore 2020, 132</a>)</span>. Conversely, the medieval function of art is directed at more orthodox ends, ones intending to motivate behaviors and behavioral responses. As an artistic object, the Manticore is a fictionalized beast that was born in Persian art and literature sometime around its cultural zenith. It at once symbolizes evil, death and hell, but in medieval religious art, it came to symbolize the power of Christ over death and hell.</p>
 </section>
 </section>
 <section id="pinero" class="level1">
 <h1>Pinero</h1>
 <p><span class="citation" data-cites="mora21">Piñero Moral (<a href="#ref-mora21" role="doc-biblioref">2021</a>)</span> argues that this is because art’s purpose in the middle ages is to represent reality. It is one thing to accurately and factually represent a tree, however, Pinero is talking about more complex reality, especially moral reality. One example of medieval representations of moral reality include the Persian Manticore. The manticore as depicted in medieval art is said to represent evil.</p>
-<p>There are several ways in which some art objects may represent more complex realities. One may think that the purpose of a painting is to reflect the experiences one had during a war, or peace time event. Such a painting may express the given facts of the case, for instance an artist could paint the signing of the Magna Carta. If the painting were painted by an artist who was alive to witness the signing of the Magna Carta, then the artist would merely be representing contemporary reality. If the art were not alive at the time, then we could argue that the artist is representing historical reality. If the artist is relying on trusted sources that are well-known, then this would be different than if the artist were imagining an event in which not many direct sources exist. But an artist can represent a projection of reality as well when the reality they want to convey is obscure, not well known, highly contested etc.</p>
-<p>By definition, medieval art implies metaphysical aspirations and normative elements <span class="citation" data-cites="debr59">(Also see <a href="#ref-debr59" role="doc-biblioref">De Bruyne 1959</a>)</span>. Its commitment with reality is undeniable yet the reality which it attempts to represent is so complex and vast that the limits between what is and what is not, between what we believe and what we know, between what we are and what we wish to be, are often blurred. (Cronin 1941)</p>
-<p>Here, the artist can represent facts as they believe them to be, or as they wish them to be. It is this latter motivation that Pinero suggests motivated medieval artwork representing the manticore. I will claim that there is a difference between modern and medieval artistic function. This in itself is uninteresting. However, what may be more interesting to the reader, is the further claim that this difference can be applied in response to the contemporary account of epistemic injustice.</p>
+<p>There are several ways in which some art objects may represent more complex realities. One may think that the purpose of a painting is to reflect the experiences one had during a war, or peace time event. Such a painting may express the given facts of the case, for instance an artist could paint the signing of the Magna Carta. If the painting were painted by an artist who was alive to witness the signing of the Magna Carta, then the artist would merely be representing contemporary reality. If the artist were not alive at the time, then we could argue that the artist is representing historical reality. The artist is relying on trusted and well known sources would be different from the artist imagining an event in which not many direct sources exist. But an artist can represent a projection of reality as well when the reality they want to convey is obscure, not well known, highly contested or hypothetical.</p>
+<p>According the this definition of medieval art, art implies metaphysical aspirations and normative elements <span class="citation" data-cites="debr59">(Also see <a href="#ref-debr59" role="doc-biblioref">De Bruyne 1959</a>)</span>. Its commitment to reality is undeniable, yet the reality which it attempts to represent is so complex and vast that the limits between what is and what is not, between what we believe and what we know, between what we are and what we wish to be, are often blurred <span class="citation" data-cites="cron41">(<a href="#ref-cron41" role="doc-biblioref"><strong>cron41?</strong></a>)</span>.</p>
+<p>Here, the artist can represent facts as they believe them to be, or as they wish them to be. It is this latter motivation that Pinero suggests motivated medieval artwork representing the manticore. There is a difference here then between modern and medieval artistic function. This in itself is uninteresting. However, what may be more interesting to the reader, is the further claim that this difference can be applied in response to the contemporary account of epistemic injustice.</p>
+<p>Susan Pepper-Gates in a forth-coming paper writes a very engaging and important paper article applying Miranda <span class="citation" data-cites="fric07">Fricker (<a href="#ref-fric07" role="doc-biblioref">2007</a>)</span>’s analysis of epistemic injustice to contemporary Western Religion WR, and the Philosophy of Religion, PoWR. She argues that the philosophy of religion should cultivate epistemic-ethical virtues in order to recognize and include philosopers from minority voices. Doing so helps WR and PoWR understand and recognize the ways that power shapes our lives as embodied social beings.</p>
+<p>I think that the initial conclusion is a strong one. Namely the ways that power shapes our lives as embodied social beings is important for concepts that we associate with who we are. However, I think that the most important conclusion here is a premise conclusion statement. Rather than WR and PoWR cultivating epistemic virtues, WR and PoWR should focus on the cultivation of epistemic virtues, meaning that they should focus on how epistemic virtue is created. This will give the project of WR and PoWR two convergent aims.</p>
+<ol type="1">
+<li>First, it would be to draw attention to the ways in which power <strong><em>can</em></strong> shape our lives as embodied social beings.</li>
+<li>Cultivating virtue in this context then, means that WR and PoWR ought be formative, cultivating virtue in their audiences.</li>
+<li>However, possessing virtue in this sense, I will argue, makes it less likely that power will shape the lives of WR and PoWR’s audiences.</li>
+</ol>
+<section id="some-questions" class="level2">
+<h2 class="anchored" data-anchor-id="some-questions">Some Questions</h2>
+<p>A central question here is one of difference in kinds of harm. Specifically what kind of harm is being done. Additionally, is the kind of harm that we care about adjudicated solely in virtue of racial, or ethnic distinctiveness?</p>
+</section>
+<section id="peppers-gates-analysis-of-fricker" class="level2">
+<h2 class="anchored" data-anchor-id="peppers-gates-analysis-of-fricker">Peppers-Gates Analysis of Fricker</h2>
+<p>Peppers-Gates first points out that Western Religion, WR, and The Philosophy of Western Religion, PoWR, have historically ignored work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach. However, how is this done? First, traditional epistmology, TE, focuses on abstract universal knowledge while the philosophy of religion has traditionally grounded itself in TE by focusing on rational belief.</p>
+<p>In order for the philosophy of religion to cultivate epistemic-ethical virtues, it should recognize and include philosopers from minority voices. Peppers-Gates argument takes the following form:</p>
+<ol type="1">
+<li>WR and PoWR ignore work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach,
+<ol type="1">
+<li>Traditional epistmology focuses on abstract universal knowledge.</li>
+<li>Philosophy of religion grounds itself in traditional epistemology and focuses on rational belief</li>
+</ol></li>
+<li>Therefore WR and PoWR embrace narrow methodologies that exclude others and contributes to the marginalization of minority voices.</li>
+<li>Therefore WR and PoWR conflate the truth about the existence and attributes of a [pateriachal] God with traditional epistemic approaches grounded in [narrow methological approaches to knowledge].</li>
+<li>By focusing on narrow methologies and abstract conceptions of knowledge, WR and PoWR fail to consider ways that power shapes our lives as embodied social beings.</li>
+</ol>
+<p>WR and PoWR have silenced marginalized groups. These inclde women, people of color, disabled persons and members of the LGBTQI+ community. This is because traditional epistemology focues on abstract conceptions of knowledge and thereby fails to consider the ways that power shapes our lives as embodied social beings. We might think however, that the argument rests on a notion of rules bias. Namely that by using certain converstational rules in philosophical discourse, that PoWR and WR silence minority groups due to their falling in some way to abide by those rules of discourse.</p>
+<p>To see how this is the case, we can use the grammar contrast. Here, we assume that a person can learn grammar and we exclude them from the larger conversation until they do. But this would be an unfair response to the above argument. On the one hand, we could argue that it is grounded in a misreading of the argument, that minority voices are excluded from the philosophical lexicon not because they have failed to abide by the rules of philosophical discourse, but because either 1) their topics of concern fall outside the margin of interest, or 2) because of some varying identifying physical characteristic, such as failure to develop a ‘rational’ argument as determined by narrow rules of discourse. The way I understand Peppers-Gates argument, is that marginalized groups have been excluded from philosophical discourse because of certain hermeneutic challenges, namely the way they are <em>understood</em> as failing to abide by the rules of philosophical discourse. Therefore, we can amend the above argument in the following way:</p>
+<ol type="1">
+<li>WR and PoWR have silenced marginal groups.</li>
+<li>TE focuses on abstract conceptions of knowledge.</li>
+<li>PoWR grounds itself in TE by focusing on ‘rational’ belief in its debates about God’s existence and attributes.</li>
+<li>Therefore PoWR ignores feminist philosophers and philosophers of race who challenge PoWR’s rules which are grounded in TE.</li>
+<li>PoWR’s embrace of its narrow methodology and range of topics then is based in an exclusion of ‘others’ from meaning making in institutional philosophy.</li>
+</ol>
+<p>The final premise then says that the narrow methodology employed by PoWR is not a natural methodology, but is rather exclusive in its construction. Meaning that it is narrow specifically for the purposes of excluding minority views and opinions within the lexicon. As such, I understand that the paper defends the following conclusion:</p>
+<p>The Philosophy of Western Religion focuses on rational belief and conflates this in its debates about the existence and attributes of a patriarchal God.</p>
+</section>
+<section id="silencing" class="level2">
+<h2 class="anchored" data-anchor-id="silencing">Silencing</h2>
+<p>Western religion and the philosophy of religion have silenced marginalized groups by focusing on abstract conceptions of knowledge which fail to consider ways that power shapes our lives as embodied social beings. This is because traditional epistemology focuses on abstract conceptions of knowledge. These abstract conceptions of knowledge are inadequate because they do not analyze the ways power shapes our lives as “embodied social beings”. We are born in webs of meaning and social relations of power and privilege. Some voices are heard, meaning they pass review, and therefore shape the social imagination. Others are ignored however. These others then are incapable of shaping the social imagination.</p>
+<p>On the one hand, a defense of the traditional power structure would make sure to emphasize what it means to participate in the sort of debate that does have the potential to shape the social imagination. How is one’s voice heard? One way is through the enforcement of so-called grammar rules. Taking an art class, the attempted to communicate the rules which apply to a given art genre. However, the students noted the many deviations from these rules. The teacher replied by saying that “once you know how to apply the rules, then you are allowed to break the rules”. An imagined analogy would be a reviewer rejecting a paper for the alleged abuse of grammar rules and syntax rather than content or truth value etc. A concern here is one where the so-called rules are being inappropriately applied as a means of gatekeeping who gets to shape the ‘social-imagination’. A student who fails to learn the rules, is not accepted into the art community, where work is posted in galleries, sold at auctions, is not publically (positive or negative) reviewed.</p>
+<ol type="1">
+<li>This excludes people from shared social understanding, contributing to the harm of that individual, can be used as a weapon that harms.</li>
+<li>What is this weapon and how specifically does it harm? 1. Participation in shared conceptual structure is a marker of humanity. 2. Therefore gatekeepers undermine the process by which a person becomes human.</li>
+<li>Better, is to say they undermine the process by which a person is considered human.</li>
+</ol>
+</section>
+<section id="hermeneutic-injustice" class="level2">
+<h2 class="anchored" data-anchor-id="hermeneutic-injustice">Hermeneutic Injustice</h2>
+<ol type="1">
+<li>When DSS (Dominant Social Structure) of meaning exclude you or distort your experiences, and no social concepts that you recognize capture your vision of yourself, then your capacity as a knower and your own self-understanding have been stunted.
+<ol type="1">
+<li>But this introduces a very narrow vision of social structure. Isn’t it possible that while you are excluded from a dss, a non-dss, one that includes you and does not distort your experiences, could still capture a vision of yourself, and your capacity as a knower and fortifying your self-understanding.</li>
+<li>What is needed then is a new non-dss, education.</li>
+<li>While a person is excluded from a dss, they could have their capacity as a knower fortified by a non-dss, education reimagined.</li>
+</ol></li>
+</ol>
+<p>The need to reimagine eduction.</p>
+<ol type="1">
+<li>WR and PoR become DSS’s of meaning and exclude some or distort their experiences</li>
+<li>But this introduces a very narrow vision of social structure.
+<ol type="1">
+<li>It is possible that while you are excluded from a dss, a non-dss, one that includes you and does not distort your experiences, could still capture a vision of yourself, and your capacity as a knower and fortifying your self-understanding.</li>
+<li>So while a person is excluded from a dss, they could have their capacity as a knower fortified by a non-dss.</li>
+</ol></li>
+<li>Therefore 2 this does not mean that there are no social concepts that you recognize and capture your vision of yourself and your capacity as a knower and your own self-understanding are stunted but not by the DSS, but the lack of the non-dss.</li>
+</ol>
+<section id="one-possible-example-of-hermeneutic-injustice-against-religious-minorities" class="level3">
+<h3 class="anchored" data-anchor-id="one-possible-example-of-hermeneutic-injustice-against-religious-minorities">One Possible example of hermeneutic injustice against religious minorities</h3>
+<p>Secular community marginalization against people of religious faith.</p>
+<ol type="1">
+<li>PoRF may lack ’sensibilities and resources needed to make sense of religious people’s experiences,” (Kidd, 20217).</li>
+<li>But does not capture gravity of systemic cases of hermeneutical injsutice whose targests experience multiple forms of injustice.
+<ol type="1">
+<li>Hermeneutical marginalization “entails mariginalization of a socioeconomic sort’, targets will not ’participate on equal terms within the practices of law, academia, politics, religion, journalism, media, etc. (Fricker, 2010).
+<ol type="1">
+<li>However, DSS vs.&nbsp;non-DSS? While DSS of meaning may distort experiences, non-dss may not, instead rejecting dss of meaning which says that “there are no social concepts which capture a religious person’s vision of themselves (i.e., made in image of God, human dignity bestowed by God, not DSS, etc.)”. Consider the following claims:
+<ol type="1">
+<li>Here, Fricker, a published philosopher, the DSS, says persons of a certain sort are marginalized and therefore have been silenced. But here, marginalization means they lack a marker of humanity. As such, Fricker claims that certain individuals lack a marker of humanity.
+<ol type="1">
+<li>Why? For not adhering to rules of rationality practiced by the dss. Surely they could however do so?</li>
+<li>Because of 1, they lack participation in shared meaning.</li>
+<li>Therefore lack capacity as knowers.</li>
+<li>From 3, their self-understanding is mitigated and stunted.</li>
+<li>Participation in shared hermeneutic, i.e., 1-4, in shared conceptual structure is a marker of humanity”,</li>
+<li>Therefore, because of exclusion from shared conceptual structure, they lack a marker of humanity.</li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol>
+<p>but rather than ‘victims’ being excluded from shared conceptual structure and lacking capacity as knowers and lacking marker of humanity, they instead are included in different conceptual structure (e.g., religious conceptual structure) which fortifies their capacity as knowers and self-understanding, acting as marker of humanity.</p>
+</section>
+</section>
+</section>
+<section id="patricia-collins-black-feminist-thought" class="level1">
+<h1>Patricia Collins Black Feminist Thought</h1>
+<div id="collins-knowledge-power">
+<p>In the 2009 version of Collin’s Black Feminist Thought, BFT, Collins draws greater emphasis between relationships of knowledge and power. It is often said</p>
+<ul>
+<li>that knowledge = power,</li>
+</ul>
+<p>but a worrying theme throughout the book, is that this is wrong and that rather</p>
+<ul>
+<li>power = knowledge.</li>
+</ul>
+<p>One might notice the misapplication of a logical principle here, because whenever we use the equals sign, there is not a logical difference between power = knowledge and knowledge = power.</p>
+<blockquote class="blockquote">
+<p>Rather, this says that power is identical in value to knowledge and if power is identical to knowledge, then knowledge is identical to power.</p>
+</blockquote>
+<p>In other words, the initial application claims that the direction of fit is not directional but rather than uni- or bi-directional.</p>
+<p>For instance, we could look at some possible relationships between knowledge and power below:</p>
+<ul>
+<li>knowledge <span class="math inline">\(\rightarrow\)</span> power</li>
+</ul>
+<p>or</p>
+<ul>
+<li>power <span class="math inline">\(\rightarrow\)</span> knowledge</li>
+</ul>
+<p>or</p>
+<ul>
+<li>knowledge <span class="math inline">\(\leftrightarrow\)</span> power</li>
+</ul>
+<p>Initially, we might think that assuming that if one has knowledge then the correct state of affairs should be that they will fulfill their aims, whatever those may be. This is often a selling point for higher education.</p>
+</div>
+<div id="collins-struggle">
+<p>This is a common position in what is lauded as “African American Studies”. Often times these positions are wrapped in the language of “struggle”. While Collins notes that this “struggle” is a struggle for empowerment, it is not particularly clear who the struggle is directed at. She argues that the struggle is global and transcendent, and she defines it as one for “survival.” But she expands the target in the most recent edition of her book to include recent developments in the areas of sexuality and “sexual politics” of black womanhood.</p>
+</div>
+<p>The books target initially then is “black” empowerment which would involve the acquisition of knowledge. The problem with the above however, is that any correlation between knowledge and power is wrong from a Christian world view. Rather one is grounded in power if they have humility. “The fear of the Lord is the beginning of wisdom.” Collins mentions the 19th century black feminist scholar Maria Stewart, noting that she urged self-reliance and independence and that her work was suppressed along with many other black feminist scholars of the era. However, we as a society know a lot more about the importance of community and inter-personal relationships, a fact which Stewart herself draws attention to:</p>
+<blockquote class="blockquote">
+<p>You have souls committed to your charge. . . . It is you that must create in the minds of your little girls and boys a thirst for knowledge, the love of virtue, . . . and the cultivation of a pure heart.</p>
+</blockquote>
 </section>
 <section id="on-greek-tragedy" class="level1">
 <h1>On Greek Tragedy</h1>
@@ -398,14 +479,14 @@ Tip
 <div id="ref-debr59" class="csl-entry" role="listitem">
 De Bruyne, Edgar. 1959. <em>Estudios de Est<span>é</span>tica Medieval</em>. Vol. 17. Editorial Gredos.
 </div>
+<div id="ref-fric07" class="csl-entry" role="listitem">
+Fricker, Miranda. 2007. <em>Epistemic <span>Injustice</span>: <span>Power</span> and the <span>Ethics</span> of <span>Knowing</span></em>. Oxford ; New York: Oxford University Press.
+</div>
 <div id="ref-gilm20" class="csl-entry" role="listitem">
 Gilmore, Jonathan. 2020. <em>Apt Imaginings: Feelings for Fictions and Other Creatures of the Mind</em>. New York, US: Oxford University Press.
 </div>
 <div id="ref-mora21" class="csl-entry" role="listitem">
 Piñero Moral, Ricardo. 2021. <span>“Aesthetics of <span>Evil</span> in <span>Middle Ages</span>: <span>Beasts</span> as <span>Symbol</span> of the <span>Devil</span>.”</span> <em>Religions</em> 12 (11): 957. <a href="https://doi.org/10.3390/rel12110957">https://doi.org/10.3390/rel12110957</a>.
-</div>
-<div id="ref-prin04" class="csl-entry" role="listitem">
-Prinz, Jesse J. 2004. <em>Gut <span>Reactions</span>: <span>A Perceptual Theory</span> of the <span>Emotions</span></em>. Oxford University Press.
 </div>
 </div>
 </section>

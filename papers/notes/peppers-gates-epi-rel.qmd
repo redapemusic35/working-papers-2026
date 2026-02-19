@@ -2,44 +2,23 @@
 title: "Unjust Religion as Fiction"
 ---
 
-Susan Pepper-Gates writes a very engaging and important paper criticizing article applying Miranda @fric07's analysis of epistemic injustice to contemporary Western Religion WR, and the Philosophy of Religion, PoWR. She argues that the philosophy of religion should cultivate epistemic-ethical virtues in order to recognize and include philosopers from minority voices. Doing so helps WR and PoWR understand and recognize the ways that power shapes our lives as embodied social beings.
+Susan Pepper-Gates in a forth-coming paper writes a very engaging and important paper article applying Miranda @fric07's analysis of epistemic injustice to contemporary Western Religion WR, and the Philosophy of Religion, PoWR. She argues that the philosophy of religion should cultivate epistemic-ethical virtues in order to recognize and include philosopers from minority voices. Doing so helps WR and PoWR understand and recognize the ways that power shapes our lives as embodied social beings.
 
-I think that the initial conclusion is a strong one. Namely the ways that power shapes our lives as embodied social beings. However, I think that the most important conclusion here is a premise conclusion statement, rather than just a conclusion. Rather than WR and PoWR cultivating epistemic virtues, WR and PoWR should focus on the cultivation of epistemic virtues. This will give the project of WR and PoWR two convergent aims.
+I think that the initial conclusion is a strong one. Namely the ways that power shapes our lives as embodied social beings is important for concepts that we associate with who we are. However, I think that the most important conclusion here is a premise conclusion statement. Rather than WR and PoWR cultivating epistemic virtues, WR and PoWR should focus on the cultivation of epistemic virtues, meaning that they should focus on how epistemic virtue is created. This will give the project of WR and PoWR two convergent aims.
 
 1. First, it would be to draw attention to the ways in which power ***can*** shape our lives as embodied social beings.
 2. Cultivating virtue in this context then, means that WR and PoWR ought be formative, cultivating virtue in their audiences.
-3. This virtue in turn makes it less likely that power will shape the lives of members of WR and PoWR's audiences.
-
-Finally, though I will not have space to argue this here, I would add that versions of WR and PoWR has already historically done this.
+3. However, possessing virtue in this sense, I will argue, makes it less likely that power will shape the lives of WR and PoWR's audiences.
 
 ## Some Questions
 
-I have some initial questions which I will articulate first here:
-
-What harms are suffered by which groups? This point is probably more appropriate to ask of the broad literature and I am not sure that it has not been raised yet. However, if it has, then it seems that it would be an important point to include here. Following are a couple of reasons why I think this is true.
-
-1. As I can tell, it is hard to understand why a racial or gendered minority may believe that a white samesex male couple ought to be considered marginalized in any context.
-2. E.g., we might think that a white heterosexual couple should be considered more marginzalized than the white male samesex couple.
-   1. White men have more social mobility than white women.
-   2. Therefore, two white men have more social mobility than one white man and one white woman while one white man and one white woman have more social mobility than two white women.
-3. On the other hand, we might have reason to suspect that a white female samesex couple is considered more marginalized than the white heterosexual couple.
-
-The second question is one of difference in kinds of harm. Is the kind of harm faced by racial, or ethnic minorities different from the kind faced by sexual preference? What about the kinds of harms faced by immigrant groups verses those faced by native born populations?
+A central question here is one of difference in kinds of harm. Specifically what kind of harm is being done. Additionally, is the kind of harm that we care about adjudicated solely in virtue of racial, or ethnic distinctiveness?
 
 ## Peppers-Gates Analysis of Fricker
 
-1. Western Religion, WR, and The Philosophy of Western Religion, PoWR, ignore work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach,
-   1. Traditional epistmology, TE, focuses on abstract universal knowledge.
-   2. Philosophy of religion grounds itself in TE and focuses on rational belief
+Peppers-Gates first points out that Western Religion, WR, and The Philosophy of Western Religion, PoWR, have historically ignored work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach. However, how is this done? First, traditional epistmology, TE, focuses on abstract universal knowledge while the philosophy of religion has traditionally grounded itself in TE by focusing on rational belief.
 
-The philosophy of religion should cultivate epistemic-ethical virtues in order to recognize and include philosopers from minority voices.
-
-Some initial confusions:
-
-1. What harms are suffered by which groups?
-   1. A white samesex male couple may not be considered marginalized in any context. E.g., white heterosexual couple should be considered more marginzalized than the white male samesex couple while the white female samesex couple is considered more marginalized than the white heterosexual couple.
-   2. White men have more social mobility than white women. Two white men have more social mobility than one white man. Therefore, two white men have more social mobility than one white man and one white woman while one white man and one white woman have more social mobility than two white women.
-2. The kind of harm faced by racial, or ethnic minorities is different from the kind faced by sexual preference.
+In order for the philosophy of religion to cultivate epistemic-ethical virtues, it should recognize and include philosopers from minority voices. Peppers-Gates argument takes the following form:
 
 1. WR and PoWR ignore work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach,
    1. Traditional epistmology focuses on abstract universal knowledge.
@@ -48,35 +27,31 @@ Some initial confusions:
 3. Therefore WR and PoWR conflate the truth about the existence and attributes of a [pateriachal] God with traditional epistemic approaches grounded in [narrow methological approaches to knowledge].
 4. By focusing on narrow methologies and abstract conceptions of knowledge, WR and PoWR fail to consider ways that power shapes our lives as embodied social beings.
 
-WR and PoWR have silenced marginalized groups. These inclde women, people of color, disabled persons and LGBTQI community members [if these voices are marginalized, how can they be considered community members?].
+WR and PoWR have silenced marginalized groups. These inclde women, people of color, disabled persons and members of the LGBTQI+ community. This is because traditional epistemology focues on abstract conceptions of knowledge and thereby fails to consider the ways that power shapes our lives as embodied social beings. We might think however, that the argument rests on a notion of rules bias. Namely that by using certain converstational rules in philosophical discourse, that PoWR and WR silence minority groups due to their falling in some way to abide by those rules of discourse.
 
-This is because traditional epistemology, TE, focues on abstract conceptions of knowledge and thereby fails to consider the ways that power shapes our lives as embodied social beings [Using the grammar contrast, we assume that a person can learn grammar and we exclude them from the larger conversation until they do. Do we not think that a person can learn how to operate within the rules invoked under 'abstract conceptions of knowledge'?].
+To see how this is the case, we can use the grammar contrast. Here, we assume that a person can learn grammar and we exclude them from the larger conversation until they do. But this would be an unfair response to the above argument. On the one hand, we could argue that it is grounded in a misreading of the argument, that minority voices are excluded from the philosophical lexicon not because they have failed to abide by the rules of philosophical discourse, but because either 1) their topics of concern fall outside the margin of interest, or 2) because of some varying identifying physical characteristic, such as failure to develop a 'rational' argument as determined by narrow rules of discourse. The way I understand Peppers-Gates argument, is that marginalized groups have been excluded from philosophical discourse because of certain hermeneutic challenges, namely the way they are *understood* as failing to abide by the rules of philosophical discourse. Therefore, we can amend the above argument in the following way:
 
-TE focues on abstract conceptions of knowledge and thereby fails to consider the ways that power shapes our lives as embodied social beings [Using the grammar contrast, we assume that a person can learn grammar and we exclude them from the larger conversation until they do. Do we not think that a person can learn how to operate within the rules invoked under 'abstract conceptions of knowledge'?].
+1. WR and PoWR have silenced marginal groups.
+  1. TE focuses on abstract conceptions of knowledge.
+  2. PoWR grounds itself in TE by focusing on 'rational' belief in its debates about God's existence and attributes.
+  3. Therefore PoWR ignores feminist philosophers and philosophers of race who challenge PoWR's rules which are grounded in TE.
+2. PoWR's embrace of its narrow methodology and range of topics then is based in an exclusion of 'others' from meaning making in institutional philosophy.
 
-1. WR and PoWR ahve silenced marginal groups [calling groups marginal seems to marginalize them].
-   1. TE focuses on abstract conceptions of knowledge and therefore fails to consider ways power shapes our lives as social beings.
-   2. PoR grounds itself in TE by focusing on 'rational' belief in its debates about God's existence and attributes.
-   3. Therefore PoR ignores feminist philosophers and philosophers of race who challenge PoR grounds in TE (fp and por then reject 'rational' belief?).
-2. PoR's embrace of its narrow methology and range of topics then is based in an exclusion of 'others' from meaning making in institutional philosophy.
+The final premise then says that the narrow methodology employed by PoWR is not a natural methodology, but is rather exclusive in its construction. Meaning that it is narrow specifically for the purposes of excluding minority views and opinions within the lexicon. As such, I understand that the paper defends the following conclusion:
 
-My contribution: The Philosophy of religion focuses on rational belief and conflates this in its debates about existence and attributes of a pateriachal God.
+The Philosophy of Western Religion focuses on rational belief and conflates this in its debates about the existence and attributes of a patriarchal God.
 
 ## Silencing
 
-Western religion and philosophy of religion have silenced marginalizxed groups by focusing on abstract conceptions of knowledge which fails to consider ways that power shapes our lives as emboidied social beings.
+Western religion and the philosophy of religion have silenced marginalized groups by focusing on abstract conceptions of knowledge which fail to consider ways that power shapes our lives as embodied social beings. This is because traditional epistemology focuses on abstract conceptions of knowledge. These abstract conceptions of knowledge are inadequate because they do not analyze the ways power shapes our lives as "embodied social beings". We are born in webs of meaning and social relations of power and privilege. Some voices are heard, meaning they pass review, and therefore shape the social imagination. Others are ignored however. These others then are incapable of shaping the social imagination.
 
-1. Traditional epistemology focuses on abstract conceptions of knowledge.
-2. These are inadequate because they do not analyze the ways power shapes our lives as "embodied social beings".
-   1. We are born in webs of meaning and social relations of [power and prvilege (are journal review practices an exercise of power and privilege?)].
-   2. Some voices are heard [pass review], meaning that they shape the social imagination (define social imagination) and others are ignored [do not pass review and therefore . . .]. They are incapable of shaping the social imagination.
-      1. However, how is this done? One way is through the enforcement of so-called grammar rules. Taking an art class, the attempted to communicate the rules which apply to a given art genre. However, the students noted the many deviations from these rules. The teacher replied by saying that "once you know how to apply the rules, then you are allowed to break the rules".
-      2. An imagined analogy would be a reviewer rejecting a paper for the alleged abuse of grammar rules, syntax, and not content, truth value, where the so-called rules are applied as a means of gatekeeping who gets to shape the 'social-imagination'. A student who fails to learn the rules, is not accepted into the art community, there work is posted in galleries, sold at auctions, is not publically (positive or negative) reviewed.
-   3. This excludes people from shared social understanding, contributing to the harm of that individual, can be used as a weapon that harms.
-      1. What is this weapon and how specifically does it harm?
-        1. Participation in shared conceptual structure is a marker of humanity.
-        2. Therefore gatekeepers undermine the process by which a person becomes human.
-           1. Better, is to say they undermine the process by which a person is considered human.
+On the one hand, a defense of the traditional power structure would make sure to emphasize what it means to participate in the sort of debate that does have the potential to shape the social imagination. How is one's voice heard? One way is through the enforcement of so-called grammar rules. Taking an art class, the attempted to communicate the rules which apply to a given art genre. However, the students noted the many deviations from these rules. The teacher replied by saying that "once you know how to apply the rules, then you are allowed to break the rules". An imagined analogy would be a reviewer rejecting a paper for the alleged abuse of grammar rules and syntax rather than content or truth value etc. A concern here is one where the so-called rules are being inappropriately applied as a means of gatekeeping who gets to shape the 'social-imagination'. A student who fails to learn the rules, is not accepted into the art community, where work is posted in galleries, sold at auctions, is not publically (positive or negative) reviewed.
+
+1. This excludes people from shared social understanding, contributing to the harm of that individual, can be used as a weapon that harms.
+  1. What is this weapon and how specifically does it harm?
+    1. Participation in shared conceptual structure is a marker of humanity.
+    2. Therefore gatekeepers undermine the process by which a person becomes human.
+2. Better, is to say they undermine the process by which a person is considered human.
 
 ## Hermeneutic Injustice
 
