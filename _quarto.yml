@@ -16,6 +16,7 @@ book:
       chapters:
         - ./papers/paper-1-aes-evi/index.qmd
         - ./papers/paper-2-morality-as-privilege/index.qmd
+        - ./papers/paper-1-moral-privilege/index.qmd
         #- papers/paper3-ethics-ai/ethics-ai-draft.qmd
     - part: "Drafts & Notes"
       chapters:
