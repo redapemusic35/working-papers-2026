@@ -1,13 +1,5 @@
 # Currie's Fiction
 
-@book{curr90,
-	author = {Gregory Currie},
-	editor = {},
-	publisher = {Cambridge University Press},
-	title = {The Nature of Fiction},
-	year = {1990}
-}
-
 Why do we think that fairy tales are fiction but news stories are not? Is fake news the same thing as a fairy tale? During the pandemic, fake news became a widely discussed talking point. A less widely discussed talking point however was why don’t we just call it fiction? A derivative of this question is how fiction is made possible. Meaning, what are the creative differences between fake news, news news and fairy tales? To answer this question, Gregory Currie suggests three possible answers.
 
 According to the front page news, the terrorist leader Amelia Boyd was killed by the Headhunters Gang. First are the characteristics that distinguish fiction from non-fiction. This question is a close investigation of the entities that are in fiction and make them possible. For instance, the psychological and linguistic resources that producers and consumers of fiction must have access to.
