@@ -8,7 +8,7 @@ I think that the initial conclusion is a strong one. Namely the ways that power 
 
 1. First, it would be to draw attention to the ways in which power ***can*** shape our lives as embodied social beings.
 2. Cultivating virtue in this context then, means that WR and PoWR ought be formative, cultivating virtue in their audiences.
-3. However, possessing virtue in this sense, I will argue, makes it less likely that power will shape the lives of WR and PoWR's audiences.
+3. However, possessing virtue in this sense, makes it less likely that power will shape the lives of WR and PoWR's audiences.
 
 ## Some Questions
 
@@ -20,38 +20,36 @@ Peppers-Gates first points out that Western Religion, WR, and The Philosophy of 
 
 In order for the philosophy of religion to cultivate epistemic-ethical virtues, it should recognize and include philosopers from minority voices. Peppers-Gates argument takes the following form:
 
-1. WR and PoWR ignore work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach,
-   1. Traditional epistmology focuses on abstract universal knowledge.
-   2. Philosophy of religion grounds itself in traditional epistemology and focuses on rational belief
-2. Therefore WR and PoWR embrace narrow methodologies that exclude others and contributes to the marginalization of minority voices.
-3. Therefore WR and PoWR conflate the truth about the existence and attributes of a [pateriachal] God with traditional epistemic approaches grounded in [narrow methological approaches to knowledge].
-4. By focusing on narrow methologies and abstract conceptions of knowledge, WR and PoWR fail to consider ways that power shapes our lives as embodied social beings.
+1. Traditional epistmology focuses on abstract universal knowledge.
+2. Philosophy of religion grounds itself in traditional epistemology and focuses on rational belief.
+3. Therefore WR and PoWR embrace narrow methodologies that exclude others and contributes to the marginalization of minority voices.
+4. Given its focus on abstract universal knowledge and its marginalization of minority voices, WR and PoWR ignore work by intersectional feminist philosophers and philosophers of race who challenge the traditional approach and argue that power shapes our lives as embodied social beings.
+6. As such, WR and PoWR conflate the truth about the existence and attributes of a [pateriachal] God with traditional epistemic approaches grounded in [narrow methological approaches to knowledge].
+7. By focusing on narrow methodologies and abstract conceptions of knowledge, WR and PoWR fail to consider ways that power shapes our lives as embodied social beings.
 
-WR and PoWR have silenced marginalized groups. These inclde women, people of color, disabled persons and members of the LGBTQI+ community. This is because traditional epistemology focues on abstract conceptions of knowledge and thereby fails to consider the ways that power shapes our lives as embodied social beings. We might think however, that the argument rests on a notion of rules bias. Namely that by using certain converstational rules in philosophical discourse, that PoWR and WR silence minority groups due to their falling in some way to abide by those rules of discourse.
+A central point in the above argument is that WR and PoWR have silenced marginalized groups. These include women, people of color, disabled persons and members of the LGBTQI+ community. As stated above, the reason for this is because traditional epistemology focuses on abstract conceptions of knowledge and thereby fails to consider the ways that power shapes our lives as embodied social beings. We might think however, that the argument rests on a notion of rules bias. Namely that by using certain conversational rules in philosophical discourse, that PoWR and WR silence minority groups due to their falling in some way to abide by these rules of discourse.
 
-To see how this is the case, we can use the grammar contrast. Here, we assume that a person can learn grammar and we exclude them from the larger conversation until they do. But this would be an unfair response to the above argument. On the one hand, we could argue that it is grounded in a misreading of the argument, that minority voices are excluded from the philosophical lexicon not because they have failed to abide by the rules of philosophical discourse, but because either 1) their topics of concern fall outside the margin of interest, or 2) because of some varying identifying physical characteristic, such as failure to develop a 'rational' argument as determined by narrow rules of discourse. The way I understand Peppers-Gates argument, is that marginalized groups have been excluded from philosophical discourse because of certain hermeneutic challenges, namely the way they are *understood* as failing to abide by the rules of philosophical discourse. Therefore, we can amend the above argument in the following way:
+To see how this is the case, we can use the grammar contrast. Here, we assume that a person can learn grammar and we exclude them from the larger conversation until they do. But this would be an unfair response to the above argument. On the one hand, we could argue that it is grounded in a misreading of the argument, that minority voices are excluded from the philosophical lexicon not because they have failed to abide by the rules of philosophical discourse, but because either 1) their topics of concern fall outside the margin of interest, or 2) because of some varying identifying physical characteristic, such as failure to develop a 'rational' argument as determined by the implied narrow rules of discourse. But this would be a misrepresentation of the above argument.
 
-1. WR and PoWR have silenced marginal groups.
-  1. TE focuses on abstract conceptions of knowledge.
-  2. PoWR grounds itself in TE by focusing on 'rational' belief in its debates about God's existence and attributes.
-  3. Therefore PoWR ignores feminist philosophers and philosophers of race who challenge PoWR's rules which are grounded in TE.
-2. PoWR's embrace of its narrow methodology and range of topics then is based in an exclusion of 'others' from meaning making in institutional philosophy.
+The way I understand Peppers-Gates argument, is that marginalized groups have been excluded from philosophical discourse because of certain hermeneutic challenges, namely the way they are *understood* as having failed to abide by the rules of philosophical discourse. Therefore, we can amend the above argument in the following way:
+
+1. TE focuses on abstract conceptions of knowledge.
+2. PoWR grounds itself in TE by focusing on 'rational' belief in its debates about God's existence and attributes.
+3. Therefore PoWR ignores feminist philosophers and philosophers of race who challenge PoWR's rules which are grounded in TE.
+4. As such, WR and PoWR have silenced marginal groups.
+5. PoWR's embrace of its narrow methodology and range of topics then is based in an exclusion of 'others' from meaning making in institutional philosophy.
 
 The final premise then says that the narrow methodology employed by PoWR is not a natural methodology, but is rather exclusive in its construction. Meaning that it is narrow specifically for the purposes of excluding minority views and opinions within the lexicon. As such, I understand that the paper defends the following conclusion:
 
-The Philosophy of Western Religion focuses on rational belief and conflates this in its debates about the existence and attributes of a patriarchal God.
+> The Philosophy of Western Religion focuses on rational belief and conflates this with evolving and misapplied lexical rules in its debates about the existence and attributes of a patriarchal God.
 
 ## Silencing
 
 Western religion and the philosophy of religion have silenced marginalized groups by focusing on abstract conceptions of knowledge which fail to consider ways that power shapes our lives as embodied social beings. This is because traditional epistemology focuses on abstract conceptions of knowledge. These abstract conceptions of knowledge are inadequate because they do not analyze the ways power shapes our lives as "embodied social beings". We are born in webs of meaning and social relations of power and privilege. Some voices are heard, meaning they pass review, and therefore shape the social imagination. Others are ignored however. These others then are incapable of shaping the social imagination.
 
-On the one hand, a defense of the traditional power structure would make sure to emphasize what it means to participate in the sort of debate that does have the potential to shape the social imagination. How is one's voice heard? One way is through the enforcement of so-called grammar rules. Taking an art class, the attempted to communicate the rules which apply to a given art genre. However, the students noted the many deviations from these rules. The teacher replied by saying that "once you know how to apply the rules, then you are allowed to break the rules". An imagined analogy would be a reviewer rejecting a paper for the alleged abuse of grammar rules and syntax rather than content or truth value etc. A concern here is one where the so-called rules are being inappropriately applied as a means of gatekeeping who gets to shape the 'social-imagination'. A student who fails to learn the rules, is not accepted into the art community, where work is posted in galleries, sold at auctions, is not publically (positive or negative) reviewed.
+On the one hand, a defense of the traditional power structure would make sure to emphasize what it means to participate in the sort of debate that does have the potential to shape the social imagination. How is one's voice heard? One way is through the enforcement of so-called grammar rules. Taking an art class, the professor attempts to communicate the rules which apply to a given art genre. However, the students note the many deviations from these rules, the supposed exceptions. The professor then replies by saying that "once you know how to apply the rules, then you are allowed to break the rules". An imagined analogy would be a reviewer rejecting a paper for the alleged abuse of grammar rules that a more seasoned author would be allowed to bend. A concern here is one where the so-called rules are being inappropriately applied as a means of gate-keeping who gets to shape the 'social-imagination'. A student who fails to learn the rules, is not accepted into the art community, where work is posted in galleries, sold at auctions, is not publicly (positively or negatively) reviewed etc,. Of additional importance here, is that assuming a more seasoned author is justified in bending the lexical rules of philosophical discourse, than the more seasoned author can also be seen as contributing to the development of the lexicon rules surrounding philosophical discourse. As such, the more seasoned professional is allowed to shape the rules of discourse, and thereby contribute to the social imagination.
 
-1. This excludes people from shared social understanding, contributing to the harm of that individual, can be used as a weapon that harms.
-  1. What is this weapon and how specifically does it harm?
-    1. Participation in shared conceptual structure is a marker of humanity.
-    2. Therefore gatekeepers undermine the process by which a person becomes human.
-2. Better, is to say they undermine the process by which a person is considered human.
+As such, the harm which ought to concern us here includes the exclusion of individuals from the generally shared social understanding. Excluding voices in this way contributes to their harm or can be used as a weapon to harm individual. But what is this weapon and how specifically does it  as a weapon cause harm? In the following section, I will show how participation in the shared lexical structure has been called a marker of humanity. Therefore gatekeepers undermine the process by which a person becomes human.
 
 ## Hermeneutic Injustice
 
@@ -75,14 +73,14 @@ Secular community marginalization against people of religious faith.
 1. PoRF may lack 'sensibilities and resources needed to make sense of religious people's experiences," (Kidd, 20217).
 2. But does not capture gravity of systemic cases of hermeneutical injsutice whose targests experience multiple forms of injustice.
    1. Hermeneutical marginalization "entails mariginalization of a socioeconomic sort', targets will not 'participate on equal terms within the practices of law, academia, politics, religion, journalism, media, etc. (Fricker, 2010).
-      1. However, DSS vs. non-DSS? While DSS of meaning may distort experiences, non-dss may not, instead rejecting dss of meaning which says that "there are no social concepts which capture a religious person's vision of themselves (i.e., made in image of God, human dignity bestowed by God, not DSS, etc.)". Consider the following claims:
-         1. Here, Fricker, a published philosopher, the DSS, says persons of a certain sort are marginalized and therefore have been silenced. But here, marginalization means they lack a marker of humanity. As such, Fricker claims that certain individuals lack a marker of humanity.
-            1. Why? For not adhering to rules of rationality practiced by the dss. Surely they could however do so?
-            2. Because of 1, they lack participation in shared meaning.
-            3. Therefore lack capacity as knowers.
-            4. From 3, their self-understanding is mitigated and stunted.
-            5. Participation in shared hermeneutic, i.e., 1-4, in shared conceptual structure is a marker of humanity",
-            6. Therefore, because of exclusion from shared conceptual structure, they lack a marker of humanity.
+   2. However, DSS vs. non-DSS? While DSS of meaning may distort experiences, non-dss may not, instead rejecting dss of meaning which says that "there are no social concepts which capture a religious person's vision of themselves (i.e., made in image of God, human dignity bestowed by God, not DSS, etc.)". Consider the following claims:
+     1. Here, Fricker, a published philosopher, the DSS, says persons of a certain sort are marginalized and therefore have been silenced. But here, marginalization means they lack a marker of humanity. As such, Fricker claims that certain individuals lack a marker of humanity.
+     2. Why? For not adhering to rules of rationality practiced by the dss. Surely they could however do so?
+     3. Because of 1, they lack participation in shared meaning.
+     4. Therefore lack capacity as knowers.
+     5. From 3, their self-understanding is mitigated and stunted.
+     6. Participation in shared hermeneutic, i.e., 1-4, in shared conceptual structure is a marker of humanity",
+     7. Therefore, because of exclusion from shared conceptual structure, they lack a marker of humanity.
 
 
 but rather than 'victims' being excluded from shared conceptual structure and lacking capacity as knowers and lacking marker of humanity, they instead are included in different conceptual structure (e.g., religious conceptual structure) which fortifies their capacity as knowers and self-understanding, acting as marker of humanity.

@@ -5,7 +5,7 @@ authors:
     affiliation: Stetson University
     roles: writing
     corresponding: true
-#bibliography: ./../../references.bib
+bibliography: ["./../../Un-Duplicates.bib", "./../../references.bib"]
 ---
 
 ## Abstract
@@ -18,7 +18,7 @@ In medieval bestiaries, there are two classes of evil represented by beasts; tho
   - Sirens: seductive skills
 - **Fear and Death Generators**
 
-While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullsh*t. For this reason, this article will only focus on beasts which represent epistemic harms.
+While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullsh*t. This article looks at those beasts which represent epistemic harms and attempts to develop an account of inauthentic narrative as a moral harm.
 
 {{< include ./../notes/manticore-1.qmd >}}
 
@@ -29,6 +29,10 @@ While we might think this to be a medieval taxonomy of epistemic harms only, the
 {{< include ./../notes/peppers-gates-epi-rel.qmd >}}
 
 {{< include ./../notes/collins-black-feminist-thought/index.qmd >}}
+
+{{< include ./../paper-1-moral-privilege/notes/fanon.qmd >}}
+
+{{< include ./../notes/collins-black-feminist-thought/coll-2.qmd >}}
 
 {{< include ./../notes/fragility/aes-prac-conflict.qmd >}}
 

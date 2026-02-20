@@ -1,0 +1,4 @@
+---
+title: "Project Research Bible: Moral Priviledge"
+format: hikmah-pdf   # or just pdf for drafts
+---

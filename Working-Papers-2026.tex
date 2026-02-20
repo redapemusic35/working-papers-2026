@@ -1,0 +1,2657 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Unjust Religion as Fiction},
+  pdfauthor={Montaque Reynolds},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Unjust Religion as Fiction}
+\author{Montaque Reynolds}
+\date{2026-02-20}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\bookmarksetup{startatroot}
+
+\chapter{Working Papers 2026 -- Status
+Dashboard}\label{working-papers-2026-status-dashboard}
+
+Current status as of
+\texttt{r\ format(Sys.Date(),\ \textquotesingle{}\%B\ \%Y\textquotesingle{})}
+
+\section{Active Papers}\label{active-papers}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, rightrule=.15mm, arc=.35mm, opacityback=0, colback=white, bottomrule=.15mm, breakable, left=2mm, leftrule=.75mm, toprule=.15mm]
+
+\vspace{-3mm}\textbf{Manticore}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Literature Review
+\item[$\square$]
+  Primary texts read \& noted
+\item[$\square$]
+  Brainstorm Core Argument
+\item[$\square$]
+  Draft paper outline with main sections
+\item[$\square$]
+  Write first draft
+\item[$\square$]
+  Share draft with trusted colleagues
+\item[$\square$]
+  Identify possible objections
+\item[$\square$]
+  Research Relevant Conferences
+\item[$\square$]
+  Research target journals for submission
+\item[$\square$]
+  Objections section started
+\item[$\square$]
+  Responses to objections
+\item[$\square$]
+  Submit to journal X by end of Q2
+\end{itemize}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, rightrule=.15mm, arc=.35mm, opacityback=0, colback=white, bottomrule=.15mm, breakable, left=2mm, leftrule=.75mm, toprule=.15mm]
+
+\vspace{-3mm}\textbf{The Aesthetic Problem of Evil}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Literature Review
+\item[$\square$]
+  Primary texts read \& noted
+\item[$\square$]
+  Brainstorm Core Argument
+\item[$\square$]
+  Draft paper outline with main sections
+\item[$\square$]
+  Write first draft
+\item[$\square$]
+  Share draft with trusted colleagues
+\item[$\square$]
+  Identify possible objections
+\item[$\square$]
+  Research Relevant Conferences
+\item[$\square$]
+  Research target journals for submission
+\item[$\square$]
+  Objections section started
+\item[$\square$]
+  Responses to objections
+\item[$\square$]
+  Submit to journal X by end of Q2
+\end{itemize}
+
+\subsection{Morality as Privilege}\label{morality-as-privilege}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Literature Review
+\item[$\square$]
+  Primary texts read \& noted
+\item[$\square$]
+  Brainstorm Core Argument
+\item[$\square$]
+  Draft paper outline with main sections
+\item[$\square$]
+  Write first draft
+\item[$\square$]
+  Share draft with trusted colleagues
+\item[$\square$]
+  Identify possible objections
+\item[$\square$]
+  Research Relevant Conferences
+\item[$\square$]
+  Research target journals for submission
+\item[$\square$]
+  Objections section started
+\item[$\square$]
+  Responses to objections
+\item[$\square$]
+  Submit to journal X by end of Q2
+\end{itemize}
+
+\subsection{God as the Best Possible Epistemic Ground of Human
+Dignity}\label{god-as-the-best-possible-epistemic-ground-of-human-dignity}
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Literature Review
+
+  \begin{itemize}
+  \tightlist
+  \item[$\square$]
+    Imago Dei as Human Identity by Ryan Peterson
+  \end{itemize}
+\item[$\square$]
+  Primary texts read \& noted
+\item[$\square$]
+  Brainstorm Core Argument
+\item[$\square$]
+  Draft paper outline with main sections
+\item[$\square$]
+  Write first draft
+\item[$\square$]
+  Share draft with trusted colleagues
+\item[$\square$]
+  Identify possible objections
+\item[$\square$]
+  Research Relevant Conferences
+\item[$\square$]
+  Research target journals for submission
+\item[$\square$]
+  Objections section started
+\item[$\square$]
+  Responses to objections
+\item[$\square$]
+  Submit to journal X by end of Q2
+\end{itemize}
+
+\end{tcolorbox}
+
+\section{Next Up}\label{next-up}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{./papers/paper-1-aes-evi/index.qmd}{Aesthetics of Evil}
+\end{itemize}
+
+\part{Active Papers}
+
+\chapter{Aesthetics of Evil}\label{aesthetics-of-evil}
+
+Montaque Reynolds (Stetson University)
+
+\hfill\break
+
+\section{Abstract}\label{abstract}
+
+In medieval bestiaries, there are two classes of evil represented by
+beasts; those which deceive and those which generate fear and death.
+Among the first class of beasts, those which are notable for their
+abilities to deceive, there are three kinds of deception: these are
+noted by the camouflages of the chameleon, accurate imitations of the
+manticore, and the ``seductive skills of sirens''.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Deceivers}: Camouflage, imitation, seduction
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Chameleon: camouflage
+  \item
+    Manticore: accurate imitations
+  \item
+    Sirens: seductive skills
+  \end{itemize}
+\item
+  \textbf{Fear and Death Generators}
+\end{itemize}
+
+While we might think this to be a medieval taxonomy of epistemic harms
+only, the kinds of epistemic harms the medievalists worried about are
+not far off from contemporary epistemic harms and risks; misinformation,
+false and inauthentic narratives, and bullsh*t. This article looks at
+those beasts which represent epistemic harms and attempts to develop an
+account of inauthentic narrative as a moral harm.
+
+\section{Pinero: Beasts as Symbols of
+Evil}\label{pinero-beasts-as-symbols-of-evil}
+
+The Manticore is a fictionalized beast that was born in Persian art and
+literature sometime around Persia's cultural zenith. It at once
+symbolizes evil, death and hell, but in medieval religious art, it came
+to symbolize the power of Christ over death and hell.
+
+It is an imagined beast that has been found in literature as early as
+the 5th and 4th century BC. In his Photius, the Greek historian working
+for the Persian court describes the Manticore as a beast with red skin,
+as large as a lion, possessing three rows of teeth, a human-like face
+and the tail of a scorpion. Later writers would quote Ctesias'
+description of the Manticore adding emphasis on its dietary habits,
+including that it ate men. Though it is likely that many of these
+descriptions were of predatory animals passed by word of mouth until
+they reached the Persian king's court, what is even more important is
+the way in which these descriptions begin to stand in for imageries of
+evil in the Medieval literature and specifically the kinds of evil they
+begin the represent.
+
+On some accounts, the manticore is a union between a hyena and Ethiopian
+lioness. It imitates the voices of men and possesses a fixed and
+immoveable gaze. In addition, it does not possess gums in either of its
+jaws, and rather than having multiple teeth, it has one large one that
+curves around its jaw bone.
+
+Ctesias' description includes that the Manticore had a triple row of
+teeth which fit into each other like a comb, the face and ears of a
+human, blood colored eyes, the body of a lion and a stinging tail
+similar to a scorpion. While Pliny the elder argued that it imitated the
+voices of men, Ctesias tells us that its voice resembles a union of a
+flute and trumpet, that it is exceedingly swift, and has an appetite for
+human flesh {[}p.~280{]}.
+
+Aristotle questions Ctesias' account, but nevertheless preserves it in
+his own writings. He also reproduces Ctesias' account, that the
+Manticore possesses a double rather than triple row of teeth, has
+similar feet as a lion and is similar in size to a lion. What is perhaps
+important are the anthropomorphic descriptions including those of the
+ears and face of a human, and that it has non-anthropomorphic ones such
+as grey eyes and red body and possesses a tail like that of a scorpion.
+{[}p.~30-31; also see Aristotle, History of Animals 8.28,
+605b22-606a10{]}
+
+Owing to the fantastical nature of these accounts, it is highly probable
+that they are either misguided representations of some more familiar
+animal, or motivated by purposes other than truth. In the classical era,
+it is most likely the case that the Manticore is a confused
+representation of some other more familiar animal, while in the medieval
+period, the motivation for the representation lies outside of truth.
+
+On this second point, in the 57th question of the 1st of the second part
+of the Summa Theologica, Thomas Aquinas defends the view of art as a
+form of right reason. There is a distinction here between the right
+reason for making objects, and the right reason for doing good actions.
+We should first focus on a central point here, what is important to both
+of these activities, namely the right use of one's cognitive faculties.
+Therefore, the difference here lies in the produced object, whether an
+action or thing.
+
+\subsection{Art as an Orthodox End}\label{art-as-an-orthodox-end}
+
+We might think that medieval art has no place in a discussion about
+epistemic injustice, but I argue that the depiction of the fictional
+beast called the manticore, as a personification of deception lends
+credibility to this claim. According to the modern function of art
+summed up by Gilmore (2020), art's function is oriented to ends such as
+pleasure, entertainment, and absorption {[}132{]}. Conversely, the
+medieval function of art is directed at more orthodox ends intending to
+motivate desirable behaviors and behavioral responses. According to
+views centering on epistemic injustice, because of a misappropriated
+power imbalance, a person holds false beliefs about themselves. These
+beliefs stem from unjust environments where the individual lacks access
+to resources that would lead to accurate self-understanding and moral
+beliefs. Such beliefs are rooted in irrational actions performed by that
+individual.
+
+It does this by contrasting the concept of hermeneutic justice as
+popularized by Miranda Fricker (2007) but developed by earlier
+feminists. We might think that medieval art has no place in a discussion
+about epistemic injustice, but I argue that the depiction of the
+fictional beast called the manticore, as a personification of deception
+lends credibility to this claim. According to the modern function of
+art, art's function is oriented to ends such as pleasure, entertainment,
+and absorption (Gilmore 2020, 132). Conversely, the medieval function of
+art is directed at more orthodox ends, ones intending to motivate
+behaviors and behavioral responses. As an artistic object, the Manticore
+is a fictionalized beast that was born in Persian art and literature
+sometime around its cultural zenith. It at once symbolizes evil, death
+and hell, but in medieval religious art, it came to symbolize the power
+of Christ over death and hell.
+
+\chapter{Pinero}\label{pinero}
+
+Piñero Moral (2021) argues that this is because art's purpose in the
+middle ages is to represent reality. It is one thing to accurately and
+factually represent a tree, however, Pinero is talking about more
+complex reality, especially moral reality. One example of medieval
+representations of moral reality include the Persian Manticore. The
+manticore as depicted in medieval art is said to represent evil.
+
+There are several ways in which some art objects may represent more
+complex realities. One may think that the purpose of a painting is to
+reflect the experiences one had during a war, or peace time event. Such
+a painting may express the given facts of the case, for instance an
+artist could paint the signing of the Magna Carta. If the painting were
+painted by an artist who was alive to witness the signing of the Magna
+Carta, then the artist would merely be representing contemporary
+reality. If the artist were not alive at the time, then we could argue
+that the artist is representing historical reality. The artist is
+relying on trusted and well known sources would be different from the
+artist imagining an event in which not many direct sources exist. But an
+artist can represent a projection of reality as well when the reality
+they want to convey is obscure, not well known, highly contested or
+hypothetical.
+
+According the this definition of medieval art, art implies metaphysical
+aspirations and normative elements (Also see De Bruyne 1959). Its
+commitment to reality is undeniable, yet the reality which it attempts
+to represent is so complex and vast that the limits between what is and
+what is not, between what we believe and what we know, between what we
+are and what we wish to be, are often blurred (\textbf{cron41?}).
+
+Here, the artist can represent facts as they believe them to be, or as
+they wish them to be. It is this latter motivation that Pinero suggests
+motivated medieval artwork representing the manticore. There is a
+difference here then between modern and medieval artistic function. This
+in itself is uninteresting. However, what may be more interesting to the
+reader, is the further claim that this difference can be applied in
+response to the contemporary account of epistemic injustice.
+
+Susan Pepper-Gates in a forth-coming paper writes a very engaging and
+important paper article applying Miranda Fricker (2007)'s analysis of
+epistemic injustice to contemporary Western Religion WR, and the
+Philosophy of Religion, PoWR. She argues that the philosophy of religion
+should cultivate epistemic-ethical virtues in order to recognize and
+include philosopers from minority voices. Doing so helps WR and PoWR
+understand and recognize the ways that power shapes our lives as
+embodied social beings.
+
+I think that the initial conclusion is a strong one. Namely the ways
+that power shapes our lives as embodied social beings is important for
+concepts that we associate with who we are. However, I think that the
+most important conclusion here is a premise conclusion statement. Rather
+than WR and PoWR cultivating epistemic virtues, WR and PoWR should focus
+on the cultivation of epistemic virtues, meaning that they should focus
+on how epistemic virtue is created. This will give the project of WR and
+PoWR two convergent aims.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  First, it would be to draw attention to the ways in which power
+  \textbf{\emph{can}} shape our lives as embodied social beings.
+\item
+  Cultivating virtue in this context then, means that WR and PoWR ought
+  be formative, cultivating virtue in their audiences.
+\item
+  However, possessing virtue in this sense, makes it less likely that
+  power will shape the lives of WR and PoWR's audiences.
+\end{enumerate}
+
+\section{Some Questions}\label{some-questions}
+
+A central question here is one of difference in kinds of harm.
+Specifically what kind of harm is being done. Additionally, is the kind
+of harm that we care about adjudicated solely in virtue of racial, or
+ethnic distinctiveness?
+
+\section{Peppers-Gates Analysis of
+Fricker}\label{peppers-gates-analysis-of-fricker}
+
+Peppers-Gates first points out that Western Religion, WR, and The
+Philosophy of Western Religion, PoWR, have historically ignored work by
+intersectional feminist philosophers and philosophers of race who
+challenge the traditional approach. However, how is this done? First,
+traditional epistmology, TE, focuses on abstract universal knowledge
+while the philosophy of religion has traditionally grounded itself in TE
+by focusing on rational belief.
+
+In order for the philosophy of religion to cultivate epistemic-ethical
+virtues, it should recognize and include philosopers from minority
+voices. Peppers-Gates argument takes the following form:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Traditional epistmology focuses on abstract universal knowledge.
+\item
+  Philosophy of religion grounds itself in traditional epistemology and
+  focuses on rational belief.
+\item
+  Therefore WR and PoWR embrace narrow methodologies that exclude others
+  and contributes to the marginalization of minority voices.
+\item
+  Given its focus on abstract universal knowledge and its
+  marginalization of minority voices, WR and PoWR ignore work by
+  intersectional feminist philosophers and philosophers of race who
+  challenge the traditional approach and argue that power shapes our
+  lives as embodied social beings.
+\item
+  As such, WR and PoWR conflate the truth about the existence and
+  attributes of a {[}pateriachal{]} God with traditional epistemic
+  approaches grounded in {[}narrow methological approaches to
+  knowledge{]}.
+\item
+  By focusing on narrow methodologies and abstract conceptions of
+  knowledge, WR and PoWR fail to consider ways that power shapes our
+  lives as embodied social beings.
+\end{enumerate}
+
+A central point in the above argument is that WR and PoWR have silenced
+marginalized groups. These include women, people of color, disabled
+persons and members of the LGBTQI+ community. As stated above, the
+reason for this is because traditional epistemology focuses on abstract
+conceptions of knowledge and thereby fails to consider the ways that
+power shapes our lives as embodied social beings. We might think
+however, that the argument rests on a notion of rules bias. Namely that
+by using certain conversational rules in philosophical discourse, that
+PoWR and WR silence minority groups due to their falling in some way to
+abide by these rules of discourse.
+
+To see how this is the case, we can use the grammar contrast. Here, we
+assume that a person can learn grammar and we exclude them from the
+larger conversation until they do. But this would be an unfair response
+to the above argument. On the one hand, we could argue that it is
+grounded in a misreading of the argument, that minority voices are
+excluded from the philosophical lexicon not because they have failed to
+abide by the rules of philosophical discourse, but because either 1)
+their topics of concern fall outside the margin of interest, or 2)
+because of some varying identifying physical characteristic, such as
+failure to develop a `rational' argument as determined by the implied
+narrow rules of discourse. But this would be a misrepresentation of the
+above argument.
+
+The way I understand Peppers-Gates argument, is that marginalized groups
+have been excluded from philosophical discourse because of certain
+hermeneutic challenges, namely the way they are \emph{understood} as
+having failed to abide by the rules of philosophical discourse.
+Therefore, we can amend the above argument in the following way:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  TE focuses on abstract conceptions of knowledge.
+\item
+  PoWR grounds itself in TE by focusing on `rational' belief in its
+  debates about God's existence and attributes.
+\item
+  Therefore PoWR ignores feminist philosophers and philosophers of race
+  who challenge PoWR's rules which are grounded in TE.
+\item
+  As such, WR and PoWR have silenced marginal groups.
+\item
+  PoWR's embrace of its narrow methodology and range of topics then is
+  based in an exclusion of `others' from meaning making in institutional
+  philosophy.
+\end{enumerate}
+
+The final premise then says that the narrow methodology employed by PoWR
+is not a natural methodology, but is rather exclusive in its
+construction. Meaning that it is narrow specifically for the purposes of
+excluding minority views and opinions within the lexicon. As such, I
+understand that the paper defends the following conclusion:
+
+\begin{quote}
+The Philosophy of Western Religion focuses on rational belief and
+conflates this with evolving and misapplied lexical rules in its debates
+about the existence and attributes of a patriarchal God.
+\end{quote}
+
+\section{Silencing}\label{silencing}
+
+Western religion and the philosophy of religion have silenced
+marginalized groups by focusing on abstract conceptions of knowledge
+which fail to consider ways that power shapes our lives as embodied
+social beings. This is because traditional epistemology focuses on
+abstract conceptions of knowledge. These abstract conceptions of
+knowledge are inadequate because they do not analyze the ways power
+shapes our lives as ``embodied social beings''. We are born in webs of
+meaning and social relations of power and privilege. Some voices are
+heard, meaning they pass review, and therefore shape the social
+imagination. Others are ignored however. These others then are incapable
+of shaping the social imagination.
+
+On the one hand, a defense of the traditional power structure would make
+sure to emphasize what it means to participate in the sort of debate
+that does have the potential to shape the social imagination. How is
+one's voice heard? One way is through the enforcement of so-called
+grammar rules. Taking an art class, the professor attempts to
+communicate the rules which apply to a given art genre. However, the
+students note the many deviations from these rules, the supposed
+exceptions. The professor then replies by saying that ``once you know
+how to apply the rules, then you are allowed to break the rules''. An
+imagined analogy would be a reviewer rejecting a paper for the alleged
+abuse of grammar rules that a more seasoned author would be allowed to
+bend. A concern here is one where the so-called rules are being
+inappropriately applied as a means of gate-keeping who gets to shape the
+`social-imagination'. A student who fails to learn the rules, is not
+accepted into the art community, where work is posted in galleries, sold
+at auctions, is not publicly (positively or negatively) reviewed etc,.
+Of additional importance here, is that assuming a more seasoned author
+is justified in bending the lexical rules of philosophical discourse,
+than the more seasoned author can also be seen as contributing to the
+development of the lexicon rules surrounding philosophical discourse. As
+such, the more seasoned professional is allowed to shape the rules of
+discourse, and thereby contribute to the social imagination.
+
+As such, the harm which ought to concern us here includes the exclusion
+of individuals from the generally shared social understanding. Excluding
+voices in this way contributes to their harm or can be used as a weapon
+to harm individual. But what is this weapon and how specifically does it
+as a weapon cause harm? In the following section, I will show how
+participation in the shared lexical structure has been called a marker
+of humanity. Therefore gatekeepers undermine the process by which a
+person becomes human.
+
+\section{Hermeneutic Injustice}\label{hermeneutic-injustice}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  When DSS (Dominant Social Structure) of meaning exclude you or distort
+  your experiences, and no social concepts that you recognize capture
+  your vision of yourself, then your capacity as a knower and your own
+  self-understanding have been stunted.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    But this introduces a very narrow vision of social structure. Isn't
+    it possible that while you are excluded from a dss, a non-dss, one
+    that includes you and does not distort your experiences, could still
+    capture a vision of yourself, and your capacity as a knower and
+    fortifying your self-understanding.
+  \item
+    What is needed then is a new non-dss, education.
+  \item
+    While a person is excluded from a dss, they could have their
+    capacity as a knower fortified by a non-dss, education reimagined.
+  \end{enumerate}
+\end{enumerate}
+
+The need to reimagine eduction.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  WR and PoR become DSS's of meaning and exclude some or distort their
+  experiences
+\item
+  But this introduces a very narrow vision of social structure.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    It is possible that while you are excluded from a dss, a non-dss,
+    one that includes you and does not distort your experiences, could
+    still capture a vision of yourself, and your capacity as a knower
+    and fortifying your self-understanding.
+  \item
+    So while a person is excluded from a dss, they could have their
+    capacity as a knower fortified by a non-dss.
+  \end{enumerate}
+\item
+  Therefore 2 this does not mean that there are no social concepts that
+  you recognize and capture your vision of yourself and your capacity as
+  a knower and your own self-understanding are stunted but not by the
+  DSS, but the lack of the non-dss.
+\end{enumerate}
+
+\subsection{One Possible example of hermeneutic injustice against
+religious
+minorities}\label{one-possible-example-of-hermeneutic-injustice-against-religious-minorities}
+
+Secular community marginalization against people of religious faith.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  PoRF may lack 'sensibilities and resources needed to make sense of
+  religious people's experiences,'' (Kidd, 20217).
+\item
+  But does not capture gravity of systemic cases of hermeneutical
+  injsutice whose targests experience multiple forms of injustice.
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Hermeneutical marginalization ``entails mariginalization of a
+    socioeconomic sort', targets will not 'participate on equal terms
+    within the practices of law, academia, politics, religion,
+    journalism, media, etc. (Fricker, 2010).
+  \item
+    However, DSS vs.~non-DSS? While DSS of meaning may distort
+    experiences, non-dss may not, instead rejecting dss of meaning which
+    says that ``there are no social concepts which capture a religious
+    person's vision of themselves (i.e., made in image of God, human
+    dignity bestowed by God, not DSS, etc.)''. Consider the following
+    claims:
+  \item
+    Here, Fricker, a published philosopher, the DSS, says persons of a
+    certain sort are marginalized and therefore have been silenced. But
+    here, marginalization means they lack a marker of humanity. As such,
+    Fricker claims that certain individuals lack a marker of humanity.
+  \item
+    Why? For not adhering to rules of rationality practiced by the dss.
+    Surely they could however do so?
+  \item
+    Because of 1, they lack participation in shared meaning.
+  \item
+    Therefore lack capacity as knowers.
+  \item
+    From 3, their self-understanding is mitigated and stunted.
+  \item
+    Participation in shared hermeneutic, i.e., 1-4, in shared conceptual
+    structure is a marker of humanity'',
+  \item
+    Therefore, because of exclusion from shared conceptual structure,
+    they lack a marker of humanity.
+  \end{enumerate}
+\end{enumerate}
+
+but rather than `victims' being excluded from shared conceptual
+structure and lacking capacity as knowers and lacking marker of
+humanity, they instead are included in different conceptual structure
+(e.g., religious conceptual structure) which fortifies their capacity as
+knowers and self-understanding, acting as marker of humanity.
+
+\chapter{Patricia Collins Black Feminist
+Thought}\label{patricia-collins-black-feminist-thought}
+
+\phantomsection\label{collins-knowledge-power}
+In the 2009 version of Collin's Black Feminist Thought, BFT, Collins
+draws greater emphasis between relationships of knowledge and power. It
+is often said
+
+\begin{itemize}
+\tightlist
+\item
+  that knowledge = power,
+\end{itemize}
+
+but a worrying theme throughout the book, is that this is wrong and that
+rather
+
+\begin{itemize}
+\tightlist
+\item
+  power = knowledge.
+\end{itemize}
+
+One might notice the misapplication of a logical principle here, because
+whenever we use the equals sign, there is not a logical difference
+between power = knowledge and knowledge = power.
+
+\begin{quote}
+Rather, this says that power is identical in value to knowledge and if
+power is identical to knowledge, then knowledge is identical to power.
+\end{quote}
+
+In other words, the initial application claims that the direction of fit
+is not directional but rather than uni- or bi-directional.
+
+For instance, we could look at some possible relationships between
+knowledge and power below:
+
+\begin{itemize}
+\tightlist
+\item
+  knowledge \(\rightarrow\) power
+\end{itemize}
+
+or
+
+\begin{itemize}
+\tightlist
+\item
+  power \(\rightarrow\) knowledge
+\end{itemize}
+
+or
+
+\begin{itemize}
+\tightlist
+\item
+  knowledge \(\leftrightarrow\) power
+\end{itemize}
+
+Initially, we might think that assuming that if one has knowledge then
+the correct state of affairs should be that they will fulfill their
+aims, whatever those may be. This is often a selling point for higher
+education.
+
+\phantomsection\label{collins-struggle}
+This is a common position in what is lauded as ``African American
+Studies''. Often times these positions are wrapped in the language of
+``struggle''. While Collins notes that this ``struggle'' is a struggle
+for empowerment, it is not particularly clear who the struggle is
+directed at. She argues that the struggle is global and transcendent,
+and she defines it as one for ``survival.'' But she expands the target
+in the most recent edition of her book to include recent developments in
+the areas of sexuality and ``sexual politics'' of black womanhood.
+
+This is the naive view:
+
+It can perhaps be with a bit of irony that one pursues the study of
+African American literary critiques. At once, these critiques are
+leveled against a system that is responsible for their own publishing.
+Frantz Fanon's, we might naively say, is one such example. It is perhaps
+uncouth to look at a book's publishers in an effort to more fully
+understand the semantic content of that book. Explanations of how the
+book came to exist are not thought to lend much support in assessing the
+validity of an author's claims. Unfortunately however, the temptation to
+do so can be quite overwhelming at times.
+
+Perhaps there are reasons why an understanding of the processes
+surrounding a book's existence are an important part of the existence of
+that book, for instance the Western education of the author, the book's
+distribution, the retail outlets, libraries, and classrooms, that
+represent the demand for the book.
+
+Naively, I might be led to think that without any of these artifacts of
+a culture, that a given book would not exist. More important however,
+are those specific motivations that go into the book's creation. The
+demands of the editor, positive reviews by reviewers, a public's
+insistence that such a book needs to be written. Lastly, there is a
+worry that only certain authors can write a given book, such that if
+anyone else where to write it, it would not be received by publishers,
+editors, or the public.
+
+A similar critique here is Frantz Fanon's exploration of the effects of
+colonialism in the psychology of Africans. Of concern both for Fanon's
+work as well as Jackson (2020), it can be difficult to disentangle what
+might be considered a person's culture in isolation from the affects of
+colonialism. I myself am sceptical that such a project could be
+successful.
+
+To read a word like Fanon's \emph{Black Skin, White Masks}, then, for
+someone as unsophisticated as myself, can be quite a daunting task. In
+the foreword, written by Anthony Appiah, it is claimed \emph{Masks} is
+confronting the psychological affects of racism. This is an important
+point, given that Fanon himself is trained as a psychologist. However,
+Fanon begins the introduction using colonial expressions of old world
+notions of blackness as objects devoid of personhood. These expressions
+prove to me to be quite difficult obstacles to surmount.
+
+The books target initially then is ``black'' empowerment which would
+involve the acquisition of knowledge. The problem with the above
+however, is that any correlation between knowledge and power is wrong
+from a Christian world view. Rather one is grounded in power if they
+have humility. ``The fear of the Lord is the beginning of wisdom.''
+Collins mentions the 19th century black feminist scholar Maria Stewart,
+noting that she urged self-reliance and independence and that her work
+was suppressed along with many other black feminist scholars of the era.
+However, we as a society know a lot more about the importance of
+community and inter-personal relationships, a fact which Stewart herself
+draws attention to:
+
+This is a common position in what is lauded as ``African American
+Studies''. Often times these positions are wrapped in the language of
+``struggle''. While Collins notes that this ``struggle'' is a struggle
+for empowerment, it is not particularly clear who the struggle is
+directed at. She argues that the struggle is global and transcendent,
+she defines the struggle as one for ``survival.'' But she expands the
+target in this edition to include recent developments of sexuality and
+``sexual politics'' of black womanhood.
+
+Here, the implication is not on knowledge, knowledge without wisdom is
+useless and a fool's errand, it does not lead to ``empowerment''. As
+noted in the feminist and social epistemology literature, there are many
+divergent accounts of knowledge and while the discourse may focus on one
+account of knowledge as being central to empowerment, they are often
+missing other accounts of the importance of knowledge. Collins mentions
+the 19th century black feminist scholar Maria Stewart, noting that she
+urged self-reliance and independence and that her work was suppressed
+along with many other black feminist scholars of the era. However, we as
+a society know a lot more about the importance of community and
+inter-personal relationships, a fact which Stewart herself draws
+attention to:
+
+\begin{quote}
+You have souls committed to your charge. . . . It is you that must
+create in the minds of your little girls and boys a thirst for
+knowledge, the love of virtue, . . . and the cultivation of a pure
+heart.
+\end{quote}
+
+Here, an important development is that Stewart draws a deep connection
+between knowledge and virtue.
+
+\chapter{On Greek Tragedy}\label{on-greek-tragedy}
+
+\section{Three Kinds of Tragic
+Conflict}\label{three-kinds-of-tragic-conflict}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Good people being ruined becuase of things that just happen to them,
+  things they do not control.
+\item
+  Good people doing bad things, things opposite of their ethical
+  character and commitments because of things they do not control.
+\item
+  Good people doing bad things without direct physical compulsion and
+  opposite of their ethical character and commitments though done in
+  light of circumstances of equally bad choices.
+\end{enumerate}
+
+Agammenon is waiting on the shore with his entire fleet. He intends to
+carry out a directive from Zeus to avenge his brother whose wife ran
+away with Paris, prince of Troy. However, because of an earlier
+transgression against Artimis, Artimis is holding back the wind,
+stranding his fleet. Agammenon, as the result of an omen of an eagle
+devouring a hare, is told that in order to appease Artimis, he must
+sacrifice his daughter Iphigenia.
+
+As such, Agammenon is faced with two impossible choices, fail to carry
+out Zeus's command, or kill his daughter. It is important to point out
+that the fleet is already facing starvation being stranded on the coast.
+
+However, Agammenon's sin, is not that he choices sacrificing his
+daughter, instead it is the way he sacrificed his daughter.
+
+\begin{itemize}
+\tightlist
+\item
+  Like in the biblical story of Abraham, a good man must kill an
+  innocent child ``out of obedience to a divine command'' {[}35{]}.
+\item
+  Agammenon's sin however, is not the choice, but rather how the choice
+  was made:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Agammenon now begins to cooperate inwardly with necessity, arragning
+    his feelings to accord with his fortune.
+  \item
+    From the moment he makes his decision, itself the best he could have
+    made, he strangely turns himself into a collaborator, a willing
+    victim {[}35{]}.
+  \end{itemize}
+\end{itemize}
+
+Progression of loss of agency:
+
+\begin{itemize}
+\tightlist
+\item
+  Necessity of the act
+\item
+  to the rightness of the act
+\item
+  to the rightness of the feelings of the act
+\end{itemize}
+
+\chapter{Morality as Privilege}\label{morality-as-privilege-1}
+
+Montaque Reynolds (Stetson University)
+
+\hfill\break
+
+\section{Abstract}\label{abstract-1}
+
+This concerns an interesting and popular assertion, that it takes a
+certain amount of material wealth to be a good person. I suspect that
+this is a project of capitalism: buy our stuff or you will be a bad
+person . . .
+
+\chapter{The Virtue of Luck (a reading of luck and ethics from Fragility
+of
+Goodness)}\label{the-virtue-of-luck-a-reading-of-luck-and-ethics-from-fragility-of-goodness}
+
+What is the relationship between human virtue and environmental
+variables? In order for a trait to be the virtue of a human being, some
+would like to say that it has to represent choices, rationality,
+actions, beliefs. However, often times these depend on environmental
+variables which we do not control. Most importantly among these are the
+values that we hold dear to us. Whether or not we recognize the
+importance of close relationships for instance. However, if the luck
+question is accurate, even these values depend on factors that are
+outside of our control. Our fragility, need for loved ones, friendship,
+etc., can at one time depend on whether or not we've encountered
+sufficient hardships for instance, but even outside the experience of
+hardships, friendships, which are also external and an environmental
+variable at once hold intrinsic importance, although these are external
+to us. As such ``human goodness is nourished, even constituted, by
+external happenings''. {[}1-2{]}
+
+\chapter{On Greek Tragedy}\label{on-greek-tragedy-1}
+
+\section{Three Kinds of Tragic
+Conflict}\label{three-kinds-of-tragic-conflict-1}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Good people being ruined becuase of things that just happen to them,
+  things they do not control.
+\item
+  Good people doing bad things, things opposite of their ethical
+  character and commitments because of things they do not control.
+\item
+  Good people doing bad things without direct physical compulsion and
+  opposite of their ethical character and commitments though done in
+  light of circumstances of equally bad choices.
+\end{enumerate}
+
+Agammenon is waiting on the shore with his entire fleet. He intends to
+carry out a directive from Zeus to avenge his brother whose wife ran
+away with Paris, prince of Troy. However, because of an earlier
+transgression against Artimis, Artimis is holding back the wind,
+stranding his fleet. Agammenon, as the result of an omen of an eagle
+devouring a hare, is told that in order to appease Artimis, he must
+sacrifice his daughter Iphigenia.
+
+As such, Agammenon is faced with two impossible choices, fail to carry
+out Zeus's command, or kill his daughter. It is important to point out
+that the fleet is already facing starvation being stranded on the coast.
+
+However, Agammenon's sin, is not that he choices sacrificing his
+daughter, instead it is the way he sacrificed his daughter.
+
+\begin{itemize}
+\tightlist
+\item
+  Like in the biblical story of Abraham, a good man must kill an
+  innocent child ``out of obedience to a divine command'' {[}35{]}.
+\item
+  Agammenon's sin however, is not the choice, but rather how the choice
+  was made:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Agammenon now begins to cooperate inwardly with necessity, arragning
+    his feelings to accord with his fortune.
+  \item
+    From the moment he makes his decision, itself the best he could have
+    made, he strangely turns himself into a collaborator, a willing
+    victim {[}35{]}.
+  \end{itemize}
+\end{itemize}
+
+Progression of loss of agency:
+
+\begin{itemize}
+\tightlist
+\item
+  Necessity of the act
+\item
+  to the rightness of the act
+\item
+  to the rightness of the feelings of the act
+\end{itemize}
+
+\subsection{The vulnerability of the Good Human
+Life}\label{the-vulnerability-of-the-good-human-life}
+
+All human excellence requires external resources and necessary
+conditions.
+
+\begin{itemize}
+\tightlist
+\item
+  External objects to exercise virtues towards
+\item
+  External objects to receive our virtues
+\end{itemize}
+
+The most important of these require relational virtues.
+
+E.g.,
+
+\begin{itemize}
+\tightlist
+\item
+  Good activities of citizenship
+\item
+  Political attachment
+\item
+  Personal love
+\item
+  Friendship
+\end{itemize}
+
+\subsubsection{The Relational Harm of
+Slavery}\label{the-relational-harm-of-slavery}
+
+Good character requires civic activity, good political surroundings.
+
+A slave however, lacks:
+
+\begin{itemize}
+\tightlist
+\item
+  choice
+\item
+  \emph{philia}
+\end{itemize}
+
+A person needs to be able to make free and un-coerced choices. A slave
+is unable to do so since he belongs to someone else who makes choices
+for him. Owing to his inability to make free and unconstrained choices,
+a slave is unable to use their capacity for practical reason, choosing
+objects for their own sake. As such, they cannot share in \emph{philia}
+which ``is based on mutual respect for choice and character'' {[}348{]}.
+
+\chapter{Narrative Regrets in Truth and
+Fiction}\label{narrative-regrets-in-truth-and-fiction}
+
+God as the Best Possible Epistemic Ground of Human Dignity
+
+Following @gold09's short paper \emph{Narrative Thinking, Emotion, and
+Planning}, I consider the representation of emotional expressions of
+regret, \emph{narrative regret}. I draw specific attention to the
+context of the representation of distinct special relationships in
+fiction. Important here are discourses on the fictional representation
+of such relationships as a special kind of human agency. I argue that a
+related concern are the assumptions about what is true and what is
+fiction in popular fiction, where what is true are expressions of
+relational sanctification that is grounded in a divine union of love
+appropriate to friendship.
+
+\hfill\break
+
+\chapter{Introduction}\label{introduction}
+
+Wendy Laybourn (2018) draws a comparison between black authenticity and
+what she calls commodified realness. According to Laybourn, identity is
+sold to a broader public as black authenticity. This criticism is
+centered around the effects of what she calls \emph{controlling images}
+in popular media. Of deep concern here, is that many of the members of
+the communities depicted by such images, consider aspects of these
+images to be authentic representations of themselves and the communities
+in which they live. Therefore, there is a public perception that such
+images are not in themselves harmful. If they are in some degree
+controlling, then they would be harmful, but there is strong
+disagreement regarding whether or not they are authentic representations
+of the communities and people they describe (20C History Project 2014;
+Collins 2006, 2009; Sartwell 1998).
+
+At an organized protest in 1993, the Reverend Calvin Butts drew
+attention to what he called ``vulgar and offensive'' music. I suspect
+that at once this debate is no longer interesting in the halls of
+academia. Given that there were two passionately opposing sides to the
+debate, and like any debate, there are winners and there are losers, the
+Reverend Calvin Butts appears to have lost. While many may object to
+this characterization, asking what it might look like instead for Butts
+to have won, they will conclude that in fact we've all won.
+
+However, this would be based on a unfounded characterization of the
+central issues of importance. Instead, the important issue has to do
+with the metaphysical assumptions we use when developing our
+understanding of personhood as applicable to ourselves. I consider the
+hermeneutic implications of this puzzle grounded in one's moral
+epistemology. First, it is not clear just specifically which aspects of
+the member's lives are being represented in fictional content. Second,
+it is also not clear which images are harmful considering that such
+images are accepted as representative (See Smitherman 1997; Shusterman
+2007; Lindsey 2013). Collins (2006); and Collins (2009) has placed much
+emphasis on this later point. Unfortunately, this specific
+interpretation of her work has not achieved the recognition in the
+epistemology literature that it deserves.
+
+Taking Miranda Fricker (2007)'s work on epistemic injustice, there is a
+conceptual space to understand the affects of the kinds of controlling
+images articulated by Collins. The primary accounts of epistemic justice
+focus on testimonial, whether or not a person's testimony is accepted,
+and hermeneutic injustices, whether or not knowledge is attributed to
+the victim. Unlike general accounts of knowledge however, moral
+knowledge has often been understood as a special kind of second-person
+perception (Arpaly 2004; Hills 2009; Martha Craven Nussbaum 1990; Martha
+C. Nussbaum 2001; Fletcher 2016; Howard 2018; Sliwa 2017 among others).
+
+On the one hand then, a form of epistemic injustice occurs when the
+wrong values are attributed to a victim because of they fail to accept
+the testimony of the victim. On the other hand, a form of epistemic
+injustice occurs when the audience is prevented from understanding the
+victim because the victim is incomprehensible to the audience, while the
+audience does listen to the testimony of the victim, the victim is
+unable to communicate their actual meaning back to the audience. It may
+be the case, for instance, that the victim is attempting to communicate
+certain value concepts to the audience. But the audience is unable to
+attribute these concepts to anything the victim would intend to
+communicate. Therefore, if Collins is correct, a person becomes a victim
+when members of a community fail to attribute value concepts to a victim
+on account of some irrelevant non-communicative feature. An example of
+this practice is the belief that nuclear households are a ``structural
+mechanism of White hetero-patriarchal family supremacy'' (Letiecq 2024)
+rather than a potentially universally shared value devoid of racial
+connotations. On this account, denying the existence of non-white
+nuclear households would be committing acts of epistemic injustice to
+non-whites who happen to value their nuclear families.
+
+But if we consider moral knowledge accounts, testimony is grounded in
+emotional expressions of reactive attitudes. Here, we derive a
+particular understanding of a person's accepted values from the way he
+or she responds to a particular state of affairs. Such accounts
+characterize moral knowledge, specifically, as a kind of feeling, or an
+apt emotional response to an event or action (Harrison 2011). This harm
+occurs when we fail to attribute a particular emotional experience to
+someone on account of some non-relevant / non-personal feature of who
+they are. An example would be denying that someone experiences
+heartbreak on the dissolution of his or her relationship. Therefore, it
+is to deny a given phenomenal experience to an individual on account of
+the non-relevant feature. As such, this specific epistemic harm is two
+fold. Not only are others prevented from (morally) understanding the
+victim, the victim is potentially prevented from (morally) understanding
+herself, she is unable to truly understand what her values are. In other
+words, others are prevented from understanding who she is, and she is
+prevented from understanding who she herself is.
+
+Although it would be important to carve out specifically just in which
+ways the epistemology literature misses these points, I think that it
+will be more fruitful to provide a way to mitigate these harms. An
+important question here has to do with the relationship between popular
+narratives that contain these images and personal identity. One
+approach, \emph{narrative identity* }, argues that we are defined by the
+stories we accept about ourselves. Therefore at the center of the
+response, is an account of how victims can choose their own stories.
+
+Important here are narratives as the representation of humanity in
+artifacts of culture. Some similar examples of this criticism can be
+found in Mbembe (2017)`s \emph{Critique of Black Reason} or Zakiyyah
+Iman Jackson (2020). Jackson (2020), for instance, uses the view of race
+as a social construct. According to this view, 'black' represents a void
+of reason and a surplus of animality. It is not clear what the counter
+to this claim should be as it is not represented anywhere in either
+work.
+
+A similar critique here is Frantz Fanon's exploration of the effects of
+colonialism in the psychology of Africans. Of concern both for Fanon's
+work as well as Jackson's, is that it can be difficult to disentangle
+what might be considered a person's culture in isolation from the
+affects of colonialism. I myself am sceptical that such a project could
+be successful. Both Jackson and Fanon repeat the claim that to be black
+is to be devoid of personhood, but they are deriving such assertions
+from colonial perceptions and it is not clear why these need to be
+frequently repeated.
+
+Such views are not objective, but rather subjective through the eyes of
+another. Fanon and Jackson are viewing themselves through the eyes of
+another and a better way to develop a self-understanding, is to first
+focus on the self in abstraction from other perspectives. Eleonore Stump
+(2010) in her book ``Wandering in Darkness'' calls this psychic
+disintegration, a person has desires that they themselves do not
+endorse. Sanctification in love, which is a sanctification that is
+grounded in the integration of the good, gives power to a human person
+to will their own good. Unfortunately, I do not have the space to give
+professor Stump (2010)'s view the full weight of scholarship that it
+deserves and for this reason, I will address it in a future article. For
+now, it is important to focus on the fact that the narrative identity
+literature in general, gives us reason to believe that the self can be
+discovered and cultivated through narratives.
+
+As such, I look at three important narratives for how an understanding
+of the self could be derived by looking at a fundamental part of self,
+namely regret and its objects. After highlighting some examples
+regarding the expression of regret in popular media, I provide a summary
+of the literature on narrative identity. I suggest that \emph{narrative
+identity* } is a better alternative. I then propose what I call
+narrative regret as a necessary component of `narrative identity*'.
+
+I compare three songs as quintessential examples of narrative regret;
+\emph{By yourself} by Ty Dolla \$ign, a song about financial and
+relational independence and \emph{Rich and Sad} by Post Malone, and
+\emph{Insecure No More} by Alex Jean. The protagonist in \emph{by
+yourself} is praised for her ability to sever her relational ties
+without regret from a partner who is unwilling or unable to financially
+contribute to that relationship. In contrast, the song \emph{Rich and
+Sad} by Post Malone is a song about relational dependence where the
+protagonist expresses his regret at pursuing wealth and other material
+possessions rather than a special relationship. In contrast to the two,
+Jean in \emph{Insecure} uses regret to express ways in which he reclaims
+his human agency. As examples of narrative regret, I consider whether
+one is more expressive of human agency than the other.
+
+\chapter{Robust vs.~Generic Expressions of
+Regret}\label{robust-vs.-generic-expressions-of-regret}
+
+What is the difference between harm done in regard to someone's capacity
+as a knower and their capacity as a `moral' knower? In part, this is a
+relation between the victim's capacity as a moral knower, and the
+victim's capacity \emph{as a person}, where personhood denotes more
+specifically, their own moral agency, held values, and the like.
+Patricia Collin's work is central to contemporary literature on
+standpoint epistemology precisely because of the possible implications
+for self-knowledge and moral agency (See Collins 2006; and Collins
+2009). Of little notice however, are her contributions to questions
+about authenticity and representation and where these intersect with
+moral agency.
+
+Discussions following Miranda Fricker's work are centered around the
+moral wrongs of epistemic injustice. These are defined as wrongs of
+testimonial inference where the victim is wronged in their capacity as
+an epistemic knower (Especially see Fricker 2007, 44). The victim's
+credibility as an epistemic agent is diminished and as such, she is made
+unintelligible to a broader public. However, the wrongs do not draw
+enough attention to a specific kind of moral harm. Here, `moral' implies
+`moral' information, or `moral' knowledge and self-knowledge or
+understanding.
+
+Fricker hints at the moral non-moral implication by drawing attention to
+cases where an agent's epistemic contributions are diminished when she
+notes that ``the epistemic wrong bears a social \emph{meaning} to the
+effect that the subject is less than fully human'' (Fricker 2007, 44).
+While Fricker emphasizes the word `meaning', the proper emphasis is on
+the word \emph{social}, drawing instead to the word \emph{`social
+meaning'} as the proper focus of the epistemic wrong.
+
+For instance, Emma Magnus and Malone (2023) gives such an account by
+highlighting the criminal prosecutions that cite song lyrics as
+testimonial confessions. Malone argues that being too generous in
+treating artistic assertions as truth in songs, commits the harm of
+art-interpretive injustice. She argues that the listener, in this case
+the prosecution, extends the wrong degree of credibility to the artist.
+Instead of interpreting the song lyrics as art, the listener interprets
+the lyrics as testimony.
+
+Importantly, a component of Malone's argument is that prosecutions do
+not treat other genres of music based on the content of their art.
+However, there is another and more important issue at concern here. This
+worry is found in the dual character account of art Malone has
+previously defended. There, Malone argues that \emph{authentic} country
+music is a dual character art-form that embodies ``the core value
+commitments of the genre'' (\emph{Rich and {Sad}} 2018, 1). According to
+this view, country music, like punk rock and hip-hop (Liao, Meskin, and
+Knobe 2020) constitute core value commitments. As such, following the
+dual character account of art, it is not clear what level of credibility
+we should assign to the song lyrics in criminal prosecutions.
+
+Consider the following dialogue used by Liao, Meskin, and Knobe (2020),
+7-8:
+
+\subsubsection{The Scientist}\label{the-scientist}
+
+\begin{quote}
+Alfie: She is not a scientist. I know many people think she is a
+scientist, but when you think about what scientists really are, you will
+realize that she is not a scientist at all.
+\end{quote}
+
+\begin{quote}
+Betty: Of course she is a scientist. She is skilled at running
+experiments and publishing in scientific journals.
+\end{quote}
+
+\begin{quote}
+Alfie: That is not what I meant! What I meant is that she does not
+possess a genuine willingness to revise her beliefs in light of
+empirical evidence.
+\end{quote}
+
+\subsubsection{The Christian}\label{the-christian}
+
+\begin{quote}
+Alfie: She is not a Christian. I know many people think she is a
+Christian, but when you think about what it really means to be a
+Christian, you will realize that she is not a Christian at all.
+\end{quote}
+
+\begin{quote}
+Betty: Of course she is a Christian. She goes to church every week and
+believes that Jesus is the son of God.
+\end{quote}
+
+\begin{quote}
+Alfie: That is not what I meant! What I meant is that she does not show
+genuine compassion.
+\end{quote}
+
+According to Liao \emph{et al}, we can ``pick out the concepts'' for
+which people make various judgments as those above by distinguishing
+them from the kinds of judgments for which people would not make similar
+judgments. Here, many things will both satisfy and at the same time fail
+to satisfy criteria allowing one to make identity judgments such as
+`christian' or `scientist'. These enable one to judge whether someone
+\emph{truly} belongs to a given category.
+
+Malone follows Liao, Meskin, and Knobe (2020) who argue that we can
+``pick out the concepts'' for which people make various judgments as
+those above by distinguishing them from the kinds of judgments ``from
+concepts for which people would not make such judgments'' (Liao, Meskin,
+and Knobe 2020, 6). Here, many things will both satisfy and at the same
+time fail to satisfy the criteria that allows one to make identity
+judgments. I argue that here, as a character attribution, these concepts
+enable one to judge whether someone \emph{truly} belongs to a given
+category.
+
+\section{Testimonial and Hermeneutical
+Injustice}\label{testimonial-and-hermeneutical-injustice}
+
+Here, art injustice is treated as a form of testimonial injustice.
+Listeners ``extend the wrong degree of credibility'', then the testimony
+of the speaker is called into question because of the identity of the
+speaker. In people v. medina, Alex Medina was accused of murdering Seth
+Scarminach. In the case, the prosecution attempted to use song lyrics
+performed by Medina as an admission of guilt. When Alex Medina was tried
+for murder, he experienced an art interpretive injustice because ``In
+cases like Medina's, the rapper is either not deemed to have produced a
+work of art at all or deemed presumptively to have produced art which is
+confessional''. As such, Medina's lyrics were treated as confessional
+rather than a work of art. But Medina does not suffer from credibility
+deficit, hermeneutic injustice, because his lyrics were used as credible
+evidence. Although Medina was employing artistic license, he was not
+treated as though he was.
+
+Hermeneutic injustice, unlike testimonial injustice, occurs ``when
+someone's own experience is obscured because the available concepts
+distort it or render it inscrutable''. Yet, as a counter to Malone,
+Medina's case can also be one of hermeneutic injustice. Important to
+this point, is that social experiences are ``obscured from collective
+understanding''. This is caused by the structural identity prejudice in
+the ``collective hermeneutic'' resource. Important here, is the fact
+that analogous to the Medina case, it is highly likely that audiences
+misdescribe the victim's narrative experiences, reinterpreting regret as
+empowerment {[}See Fricker (2007); 169{]}.
+
+\chapter{Practical Identity (Narrative
+Identity)}\label{practical-identity-narrative-identity}
+
+In previous work, Malone (2023) argues that country music allows its
+audiences to ``reconnect with, reify, and revise'' a common
+\emph{practical} identity. There is no reason to think that country
+music in this regard is any different than rap and hip-hop in that both
+genres provide opportunities for their audience to make character
+assessments about the members of a category.
+
+A hermeneutic artistic injustice then is not the failure to attribute
+art concepts to a person's work because of their identity; ``identity
+prejudice and the matter at issue is the application of shared art
+concepts'' (Magnus and Malone 2023). This is important in the
+conversation of black country music. But in the early epistemic
+literature at the start of this article, the injustice occurs when
+certain concepts common to a genre (love, relationship, family,
+community) are the cause of the identity prejudice in the ``collective
+hermeneutic'' resource. For instance, when values often associated with
+a given genre are the reason for denying an artist inclusion into that
+genre. On this account, we might explain the long time exclusion of
+African Americans from country music not by their race, but because we
+do not associate them with the kinds of values which country music
+promotes. Contemporary discussions argue that an artist is denied
+because of their race, however, while this may be true, it is important
+to understand the full implications here.
+
+The failure to include an artist in a genre stems from a failure to
+attribute shared value concepts that would be inferred by that person's
+inclusion into a given genre. As such, there are two competing versions
+of victimhood relevant to Medina's case. On the one hand, Medina's
+lyrics are treated as art because of a lack of remorse characteristic of
+the artistic genre he is a part of. On this account, his lyrics are
+celebrated as art and not as expressions of regret or testimony.
+However, on the other account of harm, instead of treating his lyrics as
+art, identified by the shared lack of remorse and regret common to the
+genre, they are treated as testimony, i.e., expressions of regret
+(confession) that we might think are characteristic of a more
+universally expressed emotion.
+
+The social version of this question is more opaque. It is a question
+about our social environments and to what extent our social environments
+can provide us with the resources necessary to fulfill our moral
+obligations. What about representative expressions of a universal value,
+can these be characteristic expressions of regret when failing a moral
+obligation? Once again, there are two questions here however, the first
+asks how our moral obligations define us. More important, i.e., more
+manageable here, is the second which asks how our experiences of regret
+entail those obligations or entail our acceptance of our social
+obligations.
+
+\section{Identity Reductionism}\label{identity-reductionism}
+
+Here I focus on a narrowly defined understanding of intra and extra
+personal character assessments. Narrative accounts of identity attempt
+to use the way an individual responds to events in a person's life to
+identify the agent through space and time. For instance, in the agency
+literature, reductionists explain the metaphysical continuity of an
+object across space and time in terms of personal identity. Derek Parfit
+(1987) argues that in order to understand what sort of object a person
+is, we need to understand two different qualities. These include the
+nature of a person and their \emph{criterion of identity}, i.e., their
+continued existence over time. But when we consider these qualities in
+contrast to persons versus non-persons, we include not only physical
+states of matter, but also immaterial ones such as mental states,
+memories, beliefs, motivations, etc. A person can be identified just if
+continuity between subsequent immaterial mental states and physical
+states are achieved.
+
+Reductionists such as Parfit can define personal identity as the
+persistence of the human person over time, and say that this is
+reducible to the binding of psychological states with physical matter.
+Causalism is the most popular account that explains the origin of
+psychological states, an object \emph{A} at time \emph{T\(_1\)} is
+identical to object \emph{B} at time \emph{T\(_2\)} as long as we can
+draw a continuous line from object \emph{A} at time \emph{T\(_1\)} to
+object \emph{B} at time \emph{T\(_2\)}. The continuous line here is most
+often mental states such as memory, passions, character traits and
+dispositions. But often times it is the case that those memories we
+accept as definitive, have their origins in persons or events other than
+ourselves. There are certain dispositions I have because of persons
+other than myself signing various documents articulating what rights I
+recognize as belonging to me for instance.
+
+While Parfit's account does show how persons are not mere matter, he and
+other causalists state that an action performed by an agent, is an event
+caused by the mental state of that agent (Altshuler 2021). The
+difficulty arises in understanding how mental states are related to
+prior events. While a mental state may be the source of some event,
+another event may be the source of another mental state. Regardless of
+the relationship between mental states and the material universe, it is
+not clear where the causal chain originates.
+
+In response, Christine Christine M. Korsgaard (1989) has argued that on
+Parfit (1987)`s account of identity, a person is primarily a \emph{locus
+of experience} (Christine M. Korsgaard 1989, 103). This means that the
+way to identify an object as existing through space and time as it
+correlates with a person, is by identifying a set of experiences between
+objects across space and time that are connected through a set of events
+or some other connecting factor. These events are psychological states
+and 'spatio-temporally continuous living bod{[}ies{]}' (Christine M.
+Korsgaard 1989, 104). In this way I might define myself as \emph{an
+American} and defend such values as independence and freedom. It is
+plausible then to draw a line from events in 1776, America's founding,
+to my present day. Therefore I associate various values I hold with
+events that transpired in 1776 and as such, the psychological states I
+currently have, have their own origins centuries before. In other words,
+because a person's psychological states have prior causes, the states
+themselves are merely some form of event and experience.
+
+Narrative accounts then are responses to impersonal accounts. According
+to narrative accounts, how we frame events such as these, is what makes
+the event meaningful for a given individual (Schechtman 1996, 96).
+Without narratives, the agency and the identity of the subject is lost
+among a causal chain of events. This has been called `constitution'. In
+terms of the constitution model of identity, without the binding effect
+of narrative, the subject of a given event is victim to a disparate
+causal chain of cause and effect. Our identity then would merely be an
+impersonal metaphysical continuation of matter (C. M. Korsgaard 1996).
+
+The meanings that stories provide are not derived from the individual
+meanings of the events they represent, rather the individual events
+derive their meaning from the overall meaning of the story. The outcome
+of the story determines the meaning of the events within the story. Why
+something happened is explained by the end of the story in which it
+happened. But this is ascribed by the agent, that individual. The
+difficulty arises in understanding how mental states are related to
+events, whether emotional, causal or something else. The divergence not
+only has implications for ways in which we identify material objects
+persisting across space and time, but also with respect to moral
+attributions of praise and blame. These uniquely belong to active
+\emph{immaterial} objects such as persons.
+
+Kantians and Utilitarians have differing conceptions of agency which
+together represent a source of justification for either view. When
+concerning moral obligation and duty for instance, it is the moral agent
+who deserves to be praised or blamed. In this way, say my acceptance of
+a person's human rights, has nothing to do with me. Utilitarians on the
+other hand ask `what should be done for the agent?', persons with a
+characteristic form of experience and the Kantian asks `what ought the
+agent do?', despite a given experience. Parfit's account does not
+account for what we all might think of as the exercise of agency. As
+such, Korsgaard goes on to argue that focusing on what an agent does,
+rather than their experiences, will lead to a drastically different
+concept of identity, one that is grounded in a unique characterization
+of agency. She calls this characterization `practical' identity.
+
+Korsgaard then, defends a concept of narrative identity. Reductionist
+and causalist conceptions of identity undermine what we think of as
+agency with regard to moral responsibility. These accounts fail to
+explain the attribution of praise or blame in response to an agent's
+actions. They offer no way to define the line as beginning at
+\emph{T\(_1\)} and ending at \emph{T\(_2\)}. On this account, the
+object, that persistent thing deserving of either moral praise or blame,
+is indefinable.
+
+On her narrative account of identity, a person is an agent who uses
+narrative to define her own constitution. She calls this the
+\emph{self}-constitution model of personal identity. As such, Korsgaard
+defends an account of personhood and identity grounded in narrative
+agency. On this account, we are defined by the stories we accept about
+ourselves. The act of acceptance means that we select individual events
+from our pasts in order to construct a narrative that defines us.
+
+As an explanation, narrative theories provide one account of personhood
+by explaining the relationship of cause and event in a way that
+preserves agency. Stories make our lives intelligible (Velleman 2003) by
+providing motive and context to a collection of events and episodes. In
+other words, narrative gives meaning to otherwise meaningless events.
+Overall, the meanings that stories provide are not derived from the
+individual meanings of the events they represent. Rather, the individual
+events derive their meaning from the overall meaning of the story. The
+outcome of the story determines the meaning of the events within the
+story. Finally, the meaning of the outcome is determined by the story
+teller. Why something happened is explained by the end of the story in
+which it happened.
+
+The second question is even more difficult and grounds the first. It
+begins as a question about ourselves and the sources of our beliefs as
+to what is possible. Peter Goldie (2009) convincingly argues that we
+would not experience regret for an event that we had no control over the
+same way we would for an event we did have control over. It will first
+be helpful to understand how narrative theories shape our identities.
+
+\section{Constitutionalism reconfigured (Narrative
+Identity*)}\label{constitutionalism-reconfigured-narrative-identity}
+
+Altshuler identifies a problem with the above account, namely that it
+does not account for those events that are not selected by the agent. He
+argues that such events do have a causal effects on what ultimately
+constitutes one's identity. Following Peter Goldie (2009), Altshuler
+instead identifies narrative with an agent's \emph{ability} to
+reconfigure their motivational and psychological past with respect to
+their own reactions to these events. In other words, Altshuler too,
+defends a self-constitution model of agency and identity, but one on
+which a person's responses to his or her past, shape her future
+identity.
+
+Altshuler responds to the reductionistic identity problem by expanding
+Korsgaard's analysis. On his account then, we are defined by the stories
+we accept about ourselves, which is determined by our reflexive rather
+than reflective endorsements. This reflexive endorsement is determined
+by emotions we express upon our reflection on our narratives. Since on
+Altshuler's account it is possible for the agent to give an accounting
+for all of the experiences she has by the way of reflexive endorsement
+or rejection, this account does not disregard important agent forming
+experiences. Therefore, his account is grounded in a more comprehensive
+description of how the agent goes about selecting events that
+self-prescribe their identity.
+
+The locus of the reduction is hard to pin down in the context of the
+kinds of desires expressed by an entity as complex as a human person. An
+analogous complexity can be found in many popular love songs. Although a
+murky concept, narratives offer a promising way to better understand
+causal and psychological reductionism. This is because they can
+incorporate and give shape to ``a wide range of heterogeneous'' mental
+states and events (Altshuler 2021). By giving shape to these factors,
+narrative theories explicate an agent's motivations as a response to
+environmental effects.
+
+\subsection{Narrative production in
+context}\label{narrative-production-in-context}
+
+It is important to point out that comparing narrative identity accounts
+and popular narratives conflates two different understandings of
+`narrative'. We might think that \emph{narratives} are insufficient for
+the kinds of narrative portrayed by Altshuler and Korsgaard. Such
+narratives then are not controlling in the way Laybourn argues that they
+are.
+
+Although narrative offers promise, it is also not clear how we might
+recognize a narrative in the wild, what does a sample narrative look
+like? Focusing on the expressions of regret in some popular songs may
+provide one answer. If some songs are narratives, the expressions of
+regret in them may provide a response to psychological and causal
+reductionism. As we saw earlier, love songs or anti-love songs can
+express regret for when the relationship ends, or regret for the
+relationship not ending sooner; which is another way for thinking about
+how the narrator's life may have gone differently.
+
+What is important about the expression of the feeling of regret here, is
+what that experience does for the agent's behavior going forward in the
+context of the meaning that the narrative gives to that event, or the
+agent derives from it. Love songs could be a form of narrative thinking
+in both the philosophical context and the popular one. Importantly here
+however, love songs might be a process by which someone organizes their
+experience and creates their own identity (Schechtman 1996).
+
+As such, the second kind of question is a question about what we believe
+to be true about ourselves. Related to this then is a question about
+what extent do our environments contribute to our beliefs about what is
+true about ourselves, including our moral and other obligations. Here I
+suggest then that how we should understand such questions, who we are,
+is in the form of narrative regrets. How we should understand art then,
+is as a way of exploring expressions of narrative regret.
+
+Even more important for our context of identity, this narrative thinking
+is always done in the context of self-other relationships. As such, the
+emotion of love is important, and regret is important for understanding
+the importance of love for self-identity. Without this particularly
+self-other relational thinking rooted in love, it is difficult for the
+victim to develop an authentic understanding of who she is.
+
+\section{Regret and Other Popular Music
+Forms}\label{regret-and-other-popular-music-forms}
+
+It is possible that when a song expresses regret for not having met
+someone sooner, they are thinking about how their life might have gone
+had they married sooner. The marriage itself is not meaningful for the
+individual as a stand-alone event. Rather, the marriage only has causal
+influence on the subsequent events of that person's life and it is the
+person who defines the event in such a way to make it a meaningful
+marker of their own identity. It is where the marriage sits in the
+overall context of the course of a given relationship for instance. A
+marriage event in the context of a short and harmful relationship has a
+very different meaning than one in the context of a long and loving
+relationship. Most importantly however, it is important in the context
+of the meaning that a person derives from the event.
+
+Many popular songs are saturated in the emotion of regret. In such
+contexts, the narrative expresses a negative emotion in response to
+something a character in the narration did, or that was done to them.
+
+In \emph{The Grand Tour}, the narrator as character expresses regret at
+having lost a significant other while the song \emph{He Stopped Loving
+Her Today}, the narrator, giving a narrative account of someone else
+also expresses the regret felt by the character when their relationship
+dissolves. The above are emblematic country songs in that regret is
+commonly expressed in country music. Different songs express regret in
+different contexts however. \emph{Apologize} by Timbaland is not a
+country song, and expresses regret in a different context. Here the
+narrator expresses regret for the love that he, the narrator, \emph{had}
+felt.
+
+Love songs often express regret when a relationship ends. In the song
+\emph{The Grand Tour}, our attention is drawn to the daily use of items
+``where she used to . . .'' which speak to the fact that they were once
+shared by people who experienced positive sentiments toward one another.
+Their current state however suggests that they are no longer used this
+way ``. . . this old house will never be the same . . .''. In \emph{The
+Grand Tour}, there is existing controversy over whether the end of the
+relationship is caused by the narrator, or someone else. In the podcast
+\emph{Cocaine and Rhinestones: The history of country music}, Tyler
+Mahan Coe suggests that the change in the state of the lives of the
+individuals involved in \emph{The Grand Tour} is the result of a tragic
+mishap citing these lines in the song; ``There's her rings, all her
+things, and her clothes are in the closet'' and ``as you leave you'll
+see the nursery, . . . taking nothing but the baby and my heart''.
+
+The events in \emph{The Grand Tour} may not have been caused by the
+involvement from any agent. For instance, if Coe is correct, then the
+dissolution of the relationship depicted in \emph{The Grand Tour} has
+nothing to do with any actions committed on the part of the narrator or
+his lost love. In \emph{He Stopped Loving Her Today}, the regret is more
+definitively caused by an action when the subject whom the song speaks
+about is left by their significant other effectively dissolving their
+relationship. ``He said I'll love you `till I die, She told him 'you'll
+forget in time'\,''. Regret can be the result of either an action or an
+event and the regret in \emph{The Grand Tour} is likely caused by an
+event, whereas in Jones' other song, \emph{He Stopped Loving Her Today},
+it is likely caused by an action for instance if the protagonist pursued
+undisclosed intimate relationships with others.
+
+While in the two previous examples \emph{regret} is expressed upon the
+end of a relationship or rather its dissolution, in other examples, more
+positive emotions, not regret, are expressed upon the end or dissolution
+of the relationship rather than of the relationship's continuance. For
+instance Kelly Clarkson's \emph{Since U Been Gone} does this: ``Since
+you've been gone, I can breath for the first time . . .''. There are
+also different reasons for the regret whether expressed for having
+suffered through the ordeal of that relationship, or for its end.
+Sometimes the regret is expressed as a longing for various qualities the
+loved possessed, for instance in the \emph{Grand Tour}, ``over there,
+sits the chair \ldots{} and whisper `oh I love you'\,''. For these
+reasons, narratives can help us to feel closeness and union with those
+the loved even though they are fictional. This correlates with
+expressions of emotion associated with love, where love has often been
+defined as the feeling of loving emotions provoked in one party by
+another. Upon the object's absence, the subject no longer feels these
+emotions and experiences regret on account of this absence (Taylor
+1976). The lover can also experience regret in longing for the qualities
+not possessed by the loved, when someone whom they loved failed to
+reciprocate in word or deed, or failed in some other way. For instance
+in Timbaland's \emph{Too Late to Apoplogize} the following line
+expresses this: ``tell me that you need me then you go and cut me
+down''.
+
+At the center of the difference between popular narratives like those
+found in popular songs, and narrative identity accounts is that popular
+narratives are merely ones we are prompted to imagine (Gilmore 2020,
+132). But the source of narrative identities is not clear. The question
+then is what connection do those narratives that we are prompted to
+imagine, have to our own narrative identities. John Gilmore (2020)
+suggests that the relationship is weak and dependent on the function of
+the imagination for engaging with the work. Patricia Hill Collins and
+Wendy Laybourn on the other hand suggest a strong relationship (Collins
+2006, 2009; Laybourn 2018). The narratives in popular media are
+controlling images designed to justify racist and sexist attitudes.
+
+\begin{quote}
+Controlling images ``are designed to make racism, sexism, poverty, and
+other forms of social injustice appear to be natural, normal, and
+inevitable parts of everyday life'' (Collins 2009, 77).
+\end{quote}
+
+It is important to point out here that I am not asking about purpose or
+the design of such prompted imaginings. Rather, focusing on Laybourn's
+context of `authenticity' and `realness' highlights a popular implicit
+assumption regarding what is true and what is fiction in popular media.
+Peter Goldie (2009) highlights our emotions as a form of reflection,
+especially that of regret. Sometimes as agents, the expressions of
+regret enables one to better exercise their own agency. We can imagine
+someone being cheated through the purchase of a used car. Looking
+towards the future, that individual would exercise more caution as a
+consequence upon reflection of their mistake. In these moments, the
+ability to tell a story becomes important as we are enabled by the
+narrative to recognize the appropriate objects of our emotions in the
+story. Reflecting on the failed used car purchase, the subject
+experiences regret. This subsequent experience pushes them to exercise
+more caution in the future. Similarly, we can compare this to another
+example. Here, regret is either appropriate to aspects of the story
+which bear no direct relation on the narrator, or ones that do. Being
+able to recognize and reflect on emotions enables one to express their
+agency going forward. What regret is afforded to the subject when
+reflecting on decisions made by themselves?
+
+In this context, narrative is substantial in our lives as it provides
+ways of thinking about how our lives may have gone differently, or may
+go differently and why; our plans for the future and how things might
+turn out.\footnote{For contrast, see Michael Bratman (2000) argues that
+  as agents, we are purposeful and reflective about our motivations, and
+  capable of organizing our activity over and in-line with our purposes
+  and motivations as we reflect on them. One method of reflection
+  involves the expressions of various emotions upon the occurrence of
+  some event.} Thinking in this way leads to regret if we are
+disappointed in a particular choice we have made. Our feelings of regret
+can cause us to behave differently in the future. Questions about
+narrative thinking then just are questions about moral agency.
+
+Importantly, the possible prospect of being able to imagine today what a
+morally good life will look like for us tomorrow, is a question about
+how what we believe about ourselves today, including what desires we
+have, influence our ability to pursue these ways of being. These in turn
+determine our regrets. Imagining what kind of person our spouse will be
+can perhaps open up some romantic possibilities while closing others.
+Imagining where we will buy our first home may restrict our career
+choices, just like imagining how many children we will have may affect
+where we want to live. But more importantly, having various beliefs
+about ourselves undergird all these other possibilities.
+
+More importantly, we can develop a sense of agency when we imagine ways
+in which our friendships, family ties, and other important relationships
+will go. These are preceded by beliefs in us about ways they
+\emph{could} go. We can imagine the type of person we are to others and
+take needed steps for becoming that person, if we believe it is
+possible. As such, the person we will be and how we will relate to
+others is the goal that is formed by a narrative. Consider one
+particular narrative, we imagine ourselves as thoughtful, kind,
+considerate, loving, or compassionate. Imagining ourselves this way
+becomes the motivation we need to read up on the latest parenting
+methods. We might imagine ourselves being invited to witness the birth
+of a friend's first child and scour the internet for advice on how to be
+a better gift giver.
+
+While the argument that the way we imagine our lives going can have a
+positive causal effect on the kind of person we become, one may argue
+that this view is too optimistic. To what extent do the experiences we
+have shape the person we become? For instance, Eric J. Miller (2020)
+argues that victimhood imposes normative standards that ground the moral
+status of the victim. What he means is that social roles, such as
+victim, determine the values we are expected to live by.
+
+As a victim, there are various normative standards imposed on us that
+undermine our ability to imagine other parenting styles and values, such
+as those relating to how we protect and nourish our children.
+Libertarian values may be those we are less apt to promote in our homes.
+One reason is that when victims as parents, or the parents of victims,
+instruct a child, they must instruct them to act in self-subordinating
+ways ``when confronted by the police'' {[}221{]} rather than in ways
+that assert their autonomy.
+
+Consider the following example narratives:
+
+\begin{itemize}
+\tightlist
+\item
+  Ty Dolla's \emph{by Yourself}: ``Stacked your bread and bought your
+  own Mercedes (Vroom, vroom). You your own boss, do it your way (Way)
+\end{itemize}
+
+The song's protagonist is faced with a given environment that forces her
+to exert her indepedence rather than her social bonds. As such, her lack
+of regret is a normative standard imposed on her. We can contrast this
+situation with the possibility that while material goods may or may not
+be a necessary condition for well-being, they are certainly not a
+sufficient one as expressed in other popular songs. The protagonist in
+the song \emph{Rich and Sad} by Post Malone, looks back over other
+events, motives, and desires that resulted in the dissolution of his
+relationship and he feels sadness, as an expression of regret:
+
+\begin{itemize}
+\tightlist
+\item
+  ``All this stuntin' couldn't satisfy my soul (--oul), Got a hundred
+  big places, but I'm still alone (--one)''.
+\end{itemize}
+
+First, each of the above narratives are constrained by beliefs the
+narrator may have about themselves. In the first, the narrator,
+believing they have no other choice but to cut themselves off from
+anyone who is unable to contribute financially. But it does lead to
+another criticism, the agency of the artist versus that of the audience.
+Some music criticisms will often point out that musical taste assumes a
+sense of moral autonomy not available to some. If an artist is
+accustomed to abject poverty, then that person might be seen as
+vulnerable to market forces, creating art that is in high demand for the
+purposes of financial gain (Laybourn 2018), or only capable of
+representing their immediate physical environment (Richardson and Scott
+2002). Regret within narratives are an example of such narrative agency.
+But if Eric Miller is correct, then some populations just do not possess
+agency in the requisite sense. But this view would thoroughly undermine
+decades of social justice movements in law and elsewhere.
+
+The common responses to such criticisms come in two forms. They
+typically make some causal claim about the effects of environment on
+both artistic performance (Richardson and Scott 2002), and audience
+music selection criteria, for instance, that artists are merely defining
+their personal experiences (Shusterman 2007, 419). This responses
+highlight unequal wealth opportunities imposing normative standards on
+their victims. The second kind of response makes a cultural claim
+deriving from supposed traditional practices in pre-colonial Africa
+(Abrahams 2006).
+
+Importantly here, the responses that are grounded in assertions about
+the culture of pre-colonial Africa are not necessarily a response to the
+empirical claims about the representations of anti-social behavior in
+rap and hip-hop music, but rather to the metaphorical use of language
+exhibited by pre-colonial African tribal practices. What are commonly
+noted as anti-social themes in rap and hip-hop then are downplayed as
+word-play underlying a cultural or political critique or something else
+entirely. Namely the references to violence and misogyny are
+allegorical, not literal (Smitherman 1997; Gates 1989). What is
+important among these responses however, is that they too undermine
+attributions of personal identity and human agency and go against the
+dual character concept of art.
+
+Separately, some have held that we can determine the values an artist
+holds, by carefully listening to the song lyrics they write. Although
+this fact would suggest that an artist's lyrics might qualify as a
+personal narrative defining an artist's identity and agency, it is not
+clear whether such narratives would qualify on this account of narrative
+agency. Although Altshuler's account could give more credence to music
+lyrics as an example narrative in the psychological sense, it is not
+clear how this may be the case. According to some accounts, an artist's
+written lyrics and musical arrangement merely express plausible values
+someone might hold (\emph{Rich and {Sad}} 2018), while others articulate
+them as more definitive (Meissner and Huebner 2022), still others argue
+that art is functional (Gilmore 2020), thereby leaving open the
+possibility they could count as narrative in the functional sense, but
+do not do so necessarily.
+
+It may be that rap and hip-hop are not good example narratives. But they
+show promise. Consider the question above, is some material good a
+necessary and sufficient condition for well-being as expressed in some
+popular songs? As narratives, the two examples above would better
+explain why some event happened. Why the protagonist in \emph{by
+yourself} severed their relationship with their significant other, and
+why the protagonist in \emph{Rich and Sad} is rich and sad.
+
+Here, we primarily contrast {[}money{]} as the material object
+expressing that it:
+
+\begin{itemize}
+\tightlist
+\item
+  ``could satisfy my soul''
+\end{itemize}
+
+And contrasting this with {[}money{]} as the material object expressing
+that it:
+
+\begin{itemize}
+\tightlist
+\item
+  ``could not satisfy my soul''.
+\end{itemize}
+
+One way that narratives are thought to explain agency then, is by
+synchronizing incongruous events, states, and motives. As such, a
+narrative can say yes, money is either a necessary and sufficient
+condition for well-being for some agent or not. As such, the expressions
+of regret offers a plausible way to recognize the core of one's agency.
+
+Recognizing the form of some plausible narratives may help to understand
+how to recognize a narrative if we say it. The various incidents and
+events have made it difficult for the agent to recognize value in
+non-material objects. We can, and often do, ask a meta-ethical question
+about what kinds of objects are truly of moral value and why. The
+narrative provides us with a plausible account of the why. For instance,
+we can ask to what extent the quest for consumer goods ought to outweigh
+other pursuits such as time with one's children or calling one's mother
+on Sunday. What is probably missing from the above is the understanding
+that there is a difference between only some material possession being
+necessary for well-being, versus some non-material possession being
+necessary for well-being.
+
+But exactly how are material and non-material objects expressed over and
+against one another other? It may be the case that volunteering at an
+orphanage is of moral value and it can be expressed in song in at least
+two ways. Lyrically, ``I wish I had volunteered at the orphanage
+yesterday''. Or lyrically that expresses a negative outcome for not
+having volunteered at the orphanage yesterday. In constructing lyrics of
+the second form, the author chooses words that either have been
+historically encoded with the sentiment she is hoping to ascribe to a
+state of affairs, or is potentially encoded with that sentiment in such
+a way that the desired emotion is potentially ascribed to that state of
+affairs. However, if I neglect my children in volunteering at an
+orphanage, then \emph{my} volunteering is of reduced moral value and we
+could imagine a lyrics saying ``I wish I had spent time with my children
+instead of volunteering at the orphanage yesterday'', or that says ``I
+spent so many hours at the orphanage that I do not know who my own
+children are anymore''; or ``I spent hours at the orphanage, I do not
+know who my own children are anymore''.
+
+We can also express a normative question about what behaviors are
+appropriate, when we should be kind, or whether a given action is more
+kind than another using similar methods. But there are additional
+interesting questions. As inferred above, we ask about the context in
+which a given ethical question is of moral value, and we can express it
+as a value by inviting the audience to reflect on such expressions by
+coercing their emotions accordingly. Volunteering my time at an
+orphanage is of moral value, and so I would use music or poetry to evoke
+emotions in the audience that correspond with this value. Considering
+the context is a way to assess the rationality of a given question,
+emotional expression in art is a way to make sense of that question.
+Making sense of the question helps us to anticipate the answer in at
+least two ways, what does the artist suggest is valuable, we would then
+look at the emotional expressions in her art, and what is the agent
+potentially capable of valuing.
+
+For instance, assuming that Jill is the last sentient creature on a far
+away planet, it may not make sense to ask what Jill's ethical
+obligations are to those around her. But contexts regarding ethical
+questions are important. There are two important such contexts here;
+socio-economic or cultural environments, and psychological or social
+ones. Given questions about morality, our concerns are largely about how
+we should behave toward others. For many years, this was answered by
+referencing cultural and socio-economic conditions. More
+controversially, it has also been answered by referencing psychological
+or social conditions. But this is not the same as asking whether a given
+question about ethical obligation makes sense or not. It would not make
+sense to say a person with a medical condition that precludes the
+experience of empathy, has an ethical obligation to experience the
+emotions that align with empathy. There is a way in which our questions
+about moral behavior should make sense. This is in the context of our
+behavior toward others. Most humans, will generally live in contexts
+wherein our behavior to others should have a kind of rationality about
+them, in valuing our relationships with others.
+
+The social version of this question is more opaque. It is a question
+about our social environments and to what extent our social environments
+can provide us with the resources necessary to fulfill our moral
+obligations. Once again, there are two categories of question here. For
+instance, consider our choices as to what kind of careers would make
+fulfilling our moral obligations possible. If we recognize a moral
+obligation to give vast amounts of wealth to charity, then we could
+pursue a set of social connections (work hard in high school and get
+into a good university) that would make our ability to fulfill this
+obligation more likely. The other category of question is even more
+difficult however. It begins as a question about ourselves and the
+sources of our beliefs as to what is possible, and what is not. We would
+start with a question about what is true about ourselves. Related to
+this is a question about what extent do those around us contribute to
+our beliefs about what is true about ourselves and what is obligatory in
+regard to our behavior. If we consider that we have a moral obligation
+to support national health, then there are some political parties we
+might campaign on behalf of and others we would not. Here I suggest then
+that how we should understand such questions is in the form of a
+narrative.
+
+\chapter{Works Cited}\label{works-cited}
+
+\setlength{\parskip}{8pt}
+\setlength{\parindent}{-0.15in}
+\setlength{\leftskip}{0.15in}
+\vspace*{-0.35in}
+
+\noindent
+
+\part{Drafts \& Notes}
+
+\chapter{Notes}\label{notes}
+
+\chapter{Pinero}\label{pinero-1}
+
+Piñero Moral (2021) argues that this is because art's purpose in the
+middle ages is to represent reality. It is one thing to accurately and
+factually represent a tree, however, Pinero is talking about more
+complex reality, especially moral reality. One example of medieval
+representations of moral reality include the Persian Manticore. The
+manticore as depicted in medieval art is said to represent evil.
+
+There are several ways in which some art objects may represent more
+complex realities. One may think that the purpose of a painting is to
+reflect the experiences one had during a war, or peace time event. Such
+a painting may express the given facts of the case, for instance an
+artist could paint the signing of the Magna Carta. If the painting were
+painted by an artist who was alive to witness the signing of the Magna
+Carta, then the artist would merely be representing contemporary
+reality. If the artist were not alive at the time, then we could argue
+that the artist is representing historical reality. The artist is
+relying on trusted and well known sources would be different from the
+artist imagining an event in which not many direct sources exist. But an
+artist can represent a projection of reality as well when the reality
+they want to convey is obscure, not well known, highly contested or
+hypothetical.
+
+According the this definition of medieval art, art implies metaphysical
+aspirations and normative elements (Also see De Bruyne 1959). Its
+commitment to reality is undeniable, yet the reality which it attempts
+to represent is so complex and vast that the limits between what is and
+what is not, between what we believe and what we know, between what we
+are and what we wish to be, are often blurred (\textbf{cron41?}).
+
+Here, the artist can represent facts as they believe them to be, or as
+they wish them to be. It is this latter motivation that Pinero suggests
+motivated medieval artwork representing the manticore. There is a
+difference here then between modern and medieval artistic function. This
+in itself is uninteresting. However, what may be more interesting to the
+reader, is the further claim that this difference can be applied in
+response to the contemporary account of epistemic injustice.
+
+\chapter{Wendy Laybourn's Cost of Being
+Real}\label{wendy-laybourns-cost-of-being-real}
+
+Research on black authenticity identifies ``oppressive othering'' and
+``white standards of beauty'', particularly lighter skin tone, as key
+components of commercial success in the entertainment industry.
+
+\begin{itemize}
+\tightlist
+\item
+  Oppressive Othering (commodified black authenticity, cba)
+\item
+  White Standards of Beauty (wsb)
+\end{itemize}
+
+In this note, I am only going to focus on oppressive othering /
+commodified black authenticity, cba.
+
+Are rap lyrics a case of oppressive othering? By using rap lyrics,
+Laybourn argues that we can compare oppressive othering with white
+standards of beauty.
+
+However, the way she does so is by drawing attention to a positive
+correlation between lighter skin tone and higher Billboard chart
+ratings.
+
+There wasn't a similar relation noticed between rap lyrics (oppressive
+othering) and higher chart ratings though at the center of this issue
+seems to be a suggestion that a harmful representation of blackness is
+sold to the public as ``authentic blackness''.
+
+Importantly, this particular commodity then ``shapes'' what is accepted
+as authentic blackness, and what is commodified as authentic blackness.
+
+In addition to the ``oppressive othering'' of cba, ``white standards''
+of beauty are also sold. But it isn't clear what correlation there is
+between cba and wsb if any.
+
+Laybourn argues that both wsb and cba stem from attitudes which position
+blacks as an outgroup and whites as an in-group.
+
+As such, when cbas are dangerous when they serve as an avenue for
+interaction with black culture and a proxy for interpersonal interaction
+with black Americans, even though they are created within a framework
+``that'' reifies anti-blackness.
+
+Of deep concern here, is that many of the members of the communities
+depicted by such images, consider aspects of these images to be
+authentic representations of themselves and of the communities in which
+they live. Therefore, there is a public perception that such images are
+not in themselves harmful. Therefore, there is strong disagreement
+regarding whether or not they are harmful (20C History Project 2014;
+Collins 2006, 2009; Sartwell 1998).
+
+Laybourn more narrowly defines cba as one dominant group's creation of
+more inferior groups. This is accomplished through media portrayals
+linking anti-social behaviors, violence, abuse, crime, to these other
+groups.
+
+\chapter{Currie's Fiction}\label{curries-fiction}
+
+Why do we think that fairy tales are fiction but news stories are not?
+Is fake news the same thing as a fairy tale? During the pandemic, fake
+news became a widely discussed talking point. A less widely discussed
+talking point however was why don't we just call it fiction? A
+derivative of this question is how fiction is made possible. Meaning,
+what are the creative differences between fake news, news news and fairy
+tales? To answer this question, Gregory Currie suggests three possible
+answers.
+
+According to the front page news, the terrorist leader Amelia Boyd was
+killed by the Headhunters Gang. First are the characteristics that
+distinguish fiction from non-fiction. This question is a close
+investigation of the entities that are in fiction and make them
+possible. For instance, the psychological and linguistic resources that
+producers and consumers of fiction must have access to.
+
+First, consider that fiction uses language. But there is no universal
+linguistic feature shared by all fictional works and there is no
+available proof/s confirming what is a fiction.1 We usually think that
+reading a work is an act of reading words and sentences that make it
+up.2 However, consider a mime? Or silent films? These are works that do
+not use language in the traditional sense, yet we consider them
+fictional. Therefore, what makes something a fiction cannot necessarily
+be a linguistic feature. Therefore what makes something a fiction is
+neither a necessary nor sufficient condition for being fictional.
+Finally then, something can be a fiction because of its verbal
+structure, but what makes it a fiction does not lie in the text itself.
+
+\section{Semantic Properties}\label{semantic-properties}
+
+Currie concludes that fictionality is a relational property, it is
+something possessed in virtue of the text's relations to other things.
+Therefore while it is possible that fictionality is a linguistic matter,
+what makes it a fiction lies in some other property. (a method of
+communication, communicative practice)
+
+Currie suggests that fictional properties, like non-fictional ones, have
+the semantic properties of truth value and reference. What this means is
+that a fictional statement can be true and false. For instance, consider
+the statement ``Killing an NPC in monitored space will earn you a crime
+state''. According to Currie, this statement is true. What makes
+something true or false in a fiction, is its relation to the outside
+world. What is important however, is what this relationship is.
+
+Readers and Authors
+
+Because fiction is a relational property, they are community based and
+``depend on the prevailing attitudes of the community, or of a subgroup
+of the community rather than the ideas of a single individual'' (Currie
+1990, 10). For I take it that an act of joint authorship is exactly
+that: an act engaged in by more than one person rather than several
+distinct acts undertaken individually and patched together. (Currie
+1990, 11)
+
+The process of creating a fiction begins with the intention. It is not a
+singular intention however, but is a social enterprise. So maybe the
+reason that we do not call fake news, fiction, is because of the
+purposes and intent of fake news. It is intended to deceive rather than
+express true propositions. But if this is true, then why do we not
+consider that fiction is intended to deceive? Why does fiction have
+semantic properties such as truth whereas fake news does not? Currie
+(1990)
+
+\section{Pinero: Beasts as Symbols of
+Evil}\label{pinero-beasts-as-symbols-of-evil-1}
+
+The Manticore is a fictionalized beast that was born in Persian art and
+literature sometime around Persia's cultural zenith. It at once
+symbolizes evil, death and hell, but in medieval religious art, it came
+to symbolize the power of Christ over death and hell.
+
+It is an imagined beast that has been found in literature as early as
+the 5th and 4th century BC. In his Photius, the Greek historian working
+for the Persian court describes the Manticore as a beast with red skin,
+as large as a lion, possessing three rows of teeth, a human-like face
+and the tail of a scorpion. Later writers would quote Ctesias'
+description of the Manticore adding emphasis on its dietary habits,
+including that it ate men. Though it is likely that many of these
+descriptions were of predatory animals passed by word of mouth until
+they reached the Persian king's court, what is even more important is
+the way in which these descriptions begin to stand in for imageries of
+evil in the Medieval literature and specifically the kinds of evil they
+begin the represent.
+
+On some accounts, the manticore is a union between a hyena and Ethiopian
+lioness. It imitates the voices of men and possesses a fixed and
+immoveable gaze. In addition, it does not possess gums in either of its
+jaws, and rather than having multiple teeth, it has one large one that
+curves around its jaw bone.
+
+Ctesias' description includes that the Manticore had a triple row of
+teeth which fit into each other like a comb, the face and ears of a
+human, blood colored eyes, the body of a lion and a stinging tail
+similar to a scorpion. While Pliny the elder argued that it imitated the
+voices of men, Ctesias tells us that its voice resembles a union of a
+flute and trumpet, that it is exceedingly swift, and has an appetite for
+human flesh {[}p.~280{]}.
+
+Aristotle questions Ctesias' account, but nevertheless preserves it in
+his own writings. He also reproduces Ctesias' account, that the
+Manticore possesses a double rather than triple row of teeth, has
+similar feet as a lion and is similar in size to a lion. What is perhaps
+important are the anthropomorphic descriptions including those of the
+ears and face of a human, and that it has non-anthropomorphic ones such
+as grey eyes and red body and possesses a tail like that of a scorpion.
+{[}p.~30-31; also see Aristotle, History of Animals 8.28,
+605b22-606a10{]}
+
+Owing to the fantastical nature of these accounts, it is highly probable
+that they are either misguided representations of some more familiar
+animal, or motivated by purposes other than truth. In the classical era,
+it is most likely the case that the Manticore is a confused
+representation of some other more familiar animal, while in the medieval
+period, the motivation for the representation lies outside of truth.
+
+On this second point, in the 57th question of the 1st of the second part
+of the Summa Theologica, Thomas Aquinas defends the view of art as a
+form of right reason. There is a distinction here between the right
+reason for making objects, and the right reason for doing good actions.
+We should first focus on a central point here, what is important to both
+of these activities, namely the right use of one's cognitive faculties.
+Therefore, the difference here lies in the produced object, whether an
+action or thing.
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-20c14}
+20C History Project, dir. 2014. \emph{Video {Music Box}: {Rap Debate}
+with {Ice-T} and {Calvin Butts}}.
+\url{https://www.youtube.com/watch?v=XI0xmcaUNdE}.
+
+\bibitem[\citeproctext]{ref-abra06}
+Abrahams, Roger D. 2006. \emph{Deep down in the Jungle: Black {American}
+Folklore from the Streets of {Philadelphia}}. New Brunswick, N.J:
+Transaction Publishers.
+
+\bibitem[\citeproctext]{ref-alts21}
+Altshuler, Roman. 2021. {``Agency, Narrative, and Mortality.''} In
+\emph{The {Routledge Handbook} of {Philosophy} of {Agency}}, by Luca
+Ferrero, 1st ed., 385--93. London: Routledge.
+\url{https://doi.org/10.4324/9780429202131-43}.
+
+\bibitem[\citeproctext]{ref-arpa04a}
+Arpaly, Noma. 2004. \emph{Unprincipled {Virtue}: {An Inquiry Into Moral
+Agency}}. 1st edition.
+
+\bibitem[\citeproctext]{ref-brat00}
+Bratman, Michael E. 2000. {``Reflection, {Planning}, and {Temporally
+Extended Agency}.''} \emph{The Philosophical Review} 109 (1): 35--61.
+\url{https://doi.org/10.2307/2693554}.
+
+\bibitem[\citeproctext]{ref-coll06}
+Collins, Patricia Hill. 2006. \emph{Black Sexual Politics: {African
+Americans}, Gender, and the New Racism}. Sociology {Race} \& Ethnicity.
+New York: Routledge.
+
+\bibitem[\citeproctext]{ref-coll09}
+---------. 2009. \emph{Black Feminist Thought: Knowledge, Consciousness,
+and the Politics of Empowerment}. 2nd ed. Routledge Classics. New York:
+Routledge. \url{https://doi.org/10.4324/9780203309506}.
+
+\bibitem[\citeproctext]{ref-curr90}
+Currie, Gregory. 1990. \emph{The Nature of Fiction}. 171. Cambridge
+{[}England{]} ; New York: Cambridge University Press.
+
+\bibitem[\citeproctext]{ref-debr59}
+De Bruyne, Edgar. 1959. \emph{Estudios de Est{é}tica Medieval}. Vol. 17.
+Editorial Gredos.
+
+\bibitem[\citeproctext]{ref-flet16b}
+Fletcher, Guy. 2016. {``Moral {Testimony}: {Once More} with
+{Feeling}.''} In \emph{Oxford {Studies} in {Metaethics}: 11}, edited by
+Russ Shafer-Landau, 0. Oxford University Press.
+\url{https://doi.org/10.1093/acprof:oso/9780198784647.003.0003}.
+
+\bibitem[\citeproctext]{ref-fric07}
+Fricker, Miranda. 2007. \emph{Epistemic {Injustice}: {Power} and the
+{Ethics} of {Knowing}}. Oxford ; New York: Oxford University Press.
+
+\bibitem[\citeproctext]{ref-gate89}
+Gates, Henry Louis. 1989. \emph{The {Signifying Monkey}: {A Theory} of
+{African-American Literary Criticism}}. Oxford University Press, USA.
+
+\bibitem[\citeproctext]{ref-gilm20}
+Gilmore, Jonathan. 2020. \emph{Apt {Imaginings}: {Feelings} for
+{Fictions} and {Other Creatures} of the {Mind}}. 1st ed. Oxford
+University Press.
+\url{https://doi.org/10.1093/oso/9780190096342.001.0001}.
+
+\bibitem[\citeproctext]{ref-gold09}
+Goldie, Peter. 2009. {``Narrative {Thinking}, {Emotion}, and
+{Planning}.''} \emph{The Journal of Aesthetics and Art Criticism} 67
+(1): 97--106. \url{https://doi.org/10.1111/j.1540-6245.2008.01338.x}.
+
+\bibitem[\citeproctext]{ref-harr11}
+Harrison, Mary-Catherine. 2011. {``How {Narrative Relationships Overcome
+Empathic Bias}: {Elizabeth Gaskell}'s {Empathy} Across {Social
+Difference}.''} \emph{Poetics Today} 32 (2): 255--88.
+\url{https://doi.org/10.1215/03335372-1162686}.
+
+\bibitem[\citeproctext]{ref-hill09}
+Hills, Alison. 2009. {``Moral Testimony and Moral Epistemology.''}
+\emph{Ethics} 120 (1): 94--127. \url{https://doi.org/10.1086/648610}.
+
+\bibitem[\citeproctext]{ref-howa18b}
+Howard, Nathan Robert. 2018. {``Sentimentalism about {Moral
+Understanding}.''} \emph{Ethical Theory and Moral Practice} 21 (5):
+1065--78. \url{https://www.jstor.org/stable/45116527}.
+
+\bibitem[\citeproctext]{ref-jack20}
+Jackson, Zakiyyah Iman. 2020. \emph{Becoming Human: {Matter} and Meaning
+in an Antiblack World}. Vol. 53. NYU Press.
+\url{http://www.jstor.org/stable/j.ctv1n6ptnn}.
+
+\bibitem[\citeproctext]{ref-kors96}
+Korsgaard, C. M. 1996. \emph{The Sources of Normativity}. Cambridge:
+Cambridge University Press.
+
+\bibitem[\citeproctext]{ref-kors89}
+Korsgaard, Christine M. 1989. {``Personal {Identity} and the {Unity} of
+{Agency}: {A Kantian Response} to {Parfit}.''} \emph{Philosophy \&
+Public Affairs} 18 (2): 101--32.
+\url{https://www.jstor.org/stable/2265447}.
+
+\bibitem[\citeproctext]{ref-layb18}
+Laybourn, Wendy M. 2018. {``The Cost of Being {`Real'}: Black
+Authenticity, Colourism, and {Billboard Rap Chart} Rankings.''}
+\emph{Ethnic and Racial Studies} 41 (11): 2085--2103.
+\url{https://doi.org/10.1080/01419870.2017.1343484}.
+
+\bibitem[\citeproctext]{ref-leti24}
+Letiecq, Bethany L. 2024. {``Theorizing {White} Heteropatriarchal
+Supremacy, Marriage Fundamentalism, and the Mechanisms That Maintain
+Family Inequality.''} \emph{Journal of Marriage and Family} 86 (5):
+1184--204. \url{https://doi.org/10.1111/jomf.12971}.
+
+\bibitem[\citeproctext]{ref-liao20}
+Liao, Shen-yi, Aaron Meskin, and Joshua Knobe. 2020. {``Dual {Character
+Art Concepts}.''} \emph{Pacific Philosophical Quarterly} 101 (1):
+102--28. \url{https://doi.org/10.1111/papq.12301}.
+
+\bibitem[\citeproctext]{ref-lind13}
+Lindsey, Treva B. 2013. {``If {You Look} in {My Life}: {Love}, {Hip-Hop
+Soul}, and {Contemporary African American Womanhood}.''} \emph{African
+American Review} 46 (1): 87--99.
+\url{https://doi.org/10.1353/afa.2013.0004}.
+
+\bibitem[\citeproctext]{ref-magn23a}
+Magnus, P. D., and Evan Malone. 2023. {``Popular {Music} and
+{Art-Interpretive Injustice}.''} \emph{Inquiry: An Interdisciplinary
+Journal of Philosophy}.
+\url{https://doi.org/10.1080/0020174x.2023.2213740}.
+
+\bibitem[\citeproctext]{ref-malo23a}
+Malone, Evan. 2023. {``Country {Music} and the {Problem} of
+{Authenticity}.''} \emph{The British Journal of Aesthetics} 63 (1):
+75--90. \url{https://doi.org/10.1093/aesthj/ayac020}.
+
+\bibitem[\citeproctext]{ref-mbem17}
+Mbembe, Achille. 2017. \emph{Critique of {Black} Reason}. Translated by
+Laurent Dubois. Durham: Duke University Press.
+
+\bibitem[\citeproctext]{ref-meis22a}
+Meissner, Shelbi Nahwilet, and Bryce Huebner. 2022. {``Outlaw
+Epistemologies: {Resisting} the Viciousness of Country Music's Settler
+Ignorance.''} \emph{Philosophical Issues} 32 (1): 214--32.
+\url{https://doi.org/10.1111/phis.12229}.
+
+\bibitem[\citeproctext]{ref-mill20}
+Miller, Eric J. 2020. {``The {Moral Burdens} of {Police Wrongdoing}.''}
+\emph{Res Philosophica} 97 (2): 219--69.
+\url{https://doi.org/10.11612/resphil.1901}.
+
+\bibitem[\citeproctext]{ref-nuss01}
+Nussbaum, Martha C. 2001. {``Symposium on {Amartya Sen}'s Philosophy: 5
+Adaptive Preferences and Women's Options.''} \emph{Economics and
+Philosophy} 17 (1): 67--88.
+
+\bibitem[\citeproctext]{ref-nuss90f}
+Nussbaum, Martha Craven. 1990. \emph{"{Finely Aware} and {Richly
+Responsible}": {Literature} and the {Moral Imagination}}. Oxford
+University Press.
+
+\bibitem[\citeproctext]{ref-parf87}
+Parfit, Derek. 1987. \emph{Reasons and Persons}. 1. issued in paperback
+(with corr.), reprinted with further corr. Oxford: Clarendon Press.
+
+\bibitem[\citeproctext]{ref-mora21}
+Piñero Moral, Ricardo. 2021. {``Aesthetics of {Evil} in {Middle Ages}:
+{Beasts} as {Symbol} of the {Devil}.''} \emph{Religions} 12 (11): 957.
+\url{https://doi.org/10.3390/rel12110957}.
+
+\bibitem[\citeproctext]{ref-malo18}
+\emph{Rich and {Sad}}. 2018. Republic Records, a division of UMG
+Recordings, Inc., 2018.
+
+\bibitem[\citeproctext]{ref-rich02}
+Richardson, Jeanita W., and Kim A. Scott. 2002. {``Rap {Music} and {Its
+Violent Progeny}: {America}'s {Culture} of {Violence} in {Context}.''}
+\emph{The Journal of Negro Education} 71 (3): 175.
+\url{https://doi.org/10.2307/3211235}.
+
+\bibitem[\citeproctext]{ref-sart98b}
+Sartwell, Crispin. 1998. {``Rap {Music} and the {Uses} of
+{Stereotype}.''} In \emph{Act Like You Know: {African-American}
+Autobiography \& White Identity}. Chicago, Ill.: Univ. of Chicago Press.
+
+\bibitem[\citeproctext]{ref-sche96b}
+Schechtman, Marya. 1996. {``The Narrative Self-Constitution View.''} In
+\emph{The Constitution of Selves}, 93--135. Cornell University Press.
+\url{http://www.jstor.org/stable/10.7591/j.ctv75d3xw.10}.
+
+\bibitem[\citeproctext]{ref-shus07}
+Shusterman, Richard. 2007. {``Rap as {Art} and {Philosophy}.''} In,
+419--28. \url{https://doi.org/10.1002/9780470751640.ch29}.
+
+\bibitem[\citeproctext]{ref-sliw17a}
+Sliwa, Paulina. 2017. {``Moral {Understanding} as {Knowing Right} from
+{Wrong}.''} \emph{Ethics} 127 (3): 521--52.
+\url{https://doi.org/10.1086/690011}.
+
+\bibitem[\citeproctext]{ref-smit97}
+Smitherman, Geneva. 1997. {``{`{The Chain Remain} the {Same}'}
+{Communicative Practices} in the {Hip Hop Nation}.''} \emph{Journal of
+Black Studies} 28 (1): 3--25.
+\url{https://doi.org/10.1177/002193479702800101}.
+
+\bibitem[\citeproctext]{ref-stum10}
+Stump, Eleonore. 2010. \emph{Wandering in {Darkness}: {Narrative} and
+the {Problem} of {Suffering}}.
+
+\bibitem[\citeproctext]{ref-tayl76}
+Taylor, Gabriele. 1976. {``{VIII}*---{Love}.''} \emph{Proceedings of the
+Aristotelian Society} 76 (1): 147--64.
+\url{https://doi.org/10.1093/aristotelian/76.1.147}.
+
+\bibitem[\citeproctext]{ref-vell03}
+Velleman, J. David. 2003. {``Narrative {Explanation}.''} \emph{The
+Philosophical Review} 112 (1): 1--25.
+\url{https://doi.org/10.1215/00318108-112-1-1}.
+
+\end{CSLReferences}
+
+
+
+
+\end{document}
