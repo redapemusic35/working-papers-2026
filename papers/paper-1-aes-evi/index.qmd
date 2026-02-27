@@ -20,19 +20,49 @@ In medieval bestiaries, there are two classes of evil represented by beasts; tho
 
 While we might think this to be a medieval taxonomy of epistemic harms only, the kinds of epistemic harms the medievalists worried about are not far off from contemporary epistemic harms and risks; misinformation, false and inauthentic narratives, and bullsh*t. This article looks at those beasts which represent epistemic harms and attempts to develop an account of inauthentic narrative as a moral harm.
 
-{{< include ./../notes/manticore-1.qmd >}}
+{{< include ./../notes/pinero/on-manticore.qmd >}}
+
+On some accounts, the manticore is a union between a hyena and Ethiopian lioness. It imitates the voices of men and possesses a fixed and immoveable gaze. In addition, it does not possess gums in either of its jaws, and rather than having multiple teeth, it has one large one that curves around its jaw bone.
+
+{{< include ./../notes/pliny/mantichora.qmd >}}
+
+{{< include ./../notes/ctesias/on-manticore.qmd >}}
+
+{{< include ./../notes/aristotle/on-manticore.qmd >}}
+
+{{< include ./../notes/pinero/on-aesthetic-function.qmd >}}
+
+Owing to the fantastical nature of these accounts, it is highly probable that they are either misguided representations of some more familiar animal, or motivated by purposes other than truth. In the classical era, it is most likely the case that the Manticore is a confused representation of some other more familiar animal, while in the medieval period, the motivation for the representation lies outside of truth.
 
 {{< include ./../notes/ortho-art.qmd >}}
 
-{{< include ./../notes/pinero.qmd >}}
+{{< include ./../notes/currie-fic.qmd >}}
+
+{{< include ./../notes/pinero/on-aquinas.qmd >}}
+
+{{< include ./../notes/beauty-function.qmd >}}
 
 {{< include ./../notes/peppers-gates-epi-rel.qmd >}}
 
+{{< include ./../notes/fragility/aes-prac-conflict.qmd >}}
+
+{{< include ./../notes/laybourn.qmd >}}
+
+{{< include ./../notes/laybourn-cost/index.qmd >}}
+
 {{< include ./../notes/collins-black-feminist-thought/index.qmd >}}
+
+{{< include ./../notes/jack-mbem-animality.qmd >}}
+
+{{< include ./../notes/wicked.qmd >}}
 
 {{< include ./../paper-1-moral-privilege/notes/fanon.qmd >}}
 
 {{< include ./../notes/collins-black-feminist-thought/coll-2.qmd >}}
 
-{{< include ./../notes/fragility/aes-prac-conflict.qmd >}}
+{{< include ./../notes/fragility/luck-ethics.qmd >}}
+
+{{< include ./../notes/fragility/non-scientific-deliberation.qmd >}}
+
+{{< include ./../notes/fragility/vulnerability-of-good.qmd >}}
 
