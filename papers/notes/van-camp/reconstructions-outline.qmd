@@ -1,0 +1,15 @@
+# Reconstructions Outline
+
+## How do contemporary audiences and the broader dance community assess authenticity of the reconstructions of nineteenth century classics?
+
+* Joffrey Ballet reconstructions of early twentieth century ballets at the Ballet Russe;
+  * Vaslav Nijinsky's *Le Sacre du Printemps* to Stravinsky score in 1913; recorded for Dance in America: can be seen in the film Nijinsky (1980); John J. O'Connor, "TV: Nureyev-Joffrey Ballet Tribute to Nijinsky," *New York Times*, March 9, 1981.
+
+* Le Sacre du Printemps:
+  * Composed by Igor Stravinsky
+  * Choreographed by Vaslav Nijinsky
+  * Conception by Sergei Diaghilev in 1909
+
+Also see:
+
+{{< include ../boston-ballet/elo-le-sacre.qmd >}}

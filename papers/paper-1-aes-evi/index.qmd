@@ -30,11 +30,15 @@ On some accounts, the manticore is a union between a hyena and Ethiopian lioness
 
 {{< include ./../notes/aristotle/on-manticore.qmd >}}
 
+{{< include ./../notes/morrison-elizabeth/beastiary-reality-imagination.qmd >}}
+
 {{< include ./../notes/pinero/on-aesthetic-function.qmd >}}
 
 Owing to the fantastical nature of these accounts, it is highly probable that they are either misguided representations of some more familiar animal, or motivated by purposes other than truth. In the classical era, it is most likely the case that the Manticore is a confused representation of some other more familiar animal, while in the medieval period, the motivation for the representation lies outside of truth.
 
-{{< include ./../notes/ortho-art.qmd >}}
+{{< include ./../notes/gilmore/ortho-art.qmd >}}
+
+{{< include ./../notes/gilmore/artistic-function.qmd >}}
 
 {{< include ./../notes/currie-fic.qmd >}}
 
