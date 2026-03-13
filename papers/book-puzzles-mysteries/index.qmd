@@ -1,0 +1,16 @@
+---
+title: Puzzles and Mysteries
+subtitle: A theodicy of art and philosophy in the virtual world
+authors:
+  - name: Montaque Reynolds
+    affiliation: Stetson University
+    roles: writing
+    corresponding: true
+bibliography: ["./../../Un-Duplicates.bib", "./../../references.bib"]
+---
+
+{{< include ./chapters/intro.qmd >}}
+
+{{< include ./chapters/01.qmd >}}
+
+{{< include ./chapters/02.qmd >}}

@@ -2,7 +2,7 @@
 title: Notes
 ---
 
-{{< include ./pinero.qmd >}}
+{{< include ./pinero/on-aesthetic-function.qmd >}}
 
 {{< include ./laybourn-cost/index.qmd >}}
 
@@ -10,6 +10,6 @@ title: Notes
 
 {{< include ./currie-fic.qmd >}}
 
-{{< include ./manticore-1.qmd >}}
+{{< include ./manticore/manticore-1.qmd >}}
 
 

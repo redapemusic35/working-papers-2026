@@ -1,0 +1,84 @@
+# Scope, Outline
+
+1. Use open world/sand box/MMO video games to create unique thought experiments through video game play.
+2. Use these thought experiments to motivate moral reasoning and moral decision making.
+3. Read and analyze classical literature to understand the use of literature and multi-media in moral development.
+4. Conceptually develop games based on scenes in the literature we read.
+
+I recently defended a dissertation in philosophy. One of the questions that philosophers discuss is the way in which personal identity, who we understand ourselves to be, is socially and culturally constructed. Some more well known examples include music, e.g., folk songs, cultural dances, etc. However, more recently discussions about video games have begun to become prevalent in this area, for instance consider the unjust depiction of urban community members in Grand Theft Auto.
+
+Art can be thought of as a form of counterfactual argument, a way to negotiate a common practical identity.^[@malo23, 14] One form of the representational arts, e.g., music (feelings), stage performances, movies, etc.
+
+Consider: moral reasons why an emotion is unmerited [@gilm20, 130]
+
+* Laughing at the victim of bullying
+
+1. Phillip L. Hammack "Narrative and the Cultural Psychology of Identity", *process* of identity development represents the link between self and society" [@hamm08, 224]
+2. Marya Schechtman "Personhood and Personal Identity", self-knowledge: 'Is this really what I believe?'; 'Is this really what I desire?'; 'Is this really what I intend?'; "The resources involved in answering these questions would be resources that allowed a person to assign particular psychological states to herself . . ." [@sche90, 89]
+3. Peter Goldie, "Narrative Thinking, Emotion, and Planning", ties feelings of regret to what he calls 'narrative thinking', but might be better understood as narrative identity or 'narrative agency'.
+
+> Now, in narrative thinking, when we look back with regrets on what we did and said, and we look forward in making self-governing policies in the light of those regrets, we *necessarily* see ourselves as agents persisting over time.
+More expanded type of representation wherein the player does not merely need to follow the reasoning of the creator of
+the artwork, but can exercize even more human agency perhaps exemplifying her own character even more.
+
+The open-world, MMO, sandbox nature of the developing video game,
+space sim Star Citizen is a great example of this. Whereas games like the GTA series make it obvious and explicit that success in the game can only be had by exercizing what are typically called vices, Star Citizen lets the player define success and methods of success. What @robs16 may call "interactive fictions".
+
+Here, the game’s developer relinquishes a modicum of agency so that the player can develop her own. Not only execution element, but uniquely agential as well.
+
+In these, the player can follow one of the many narratives together, or combine several together into their own unique narrative experience. Or they could choose to ignore to ignore any of the narratives and either explore, grief others which is a kind of wholly novel narrative experience, or create their own narratives either in a piece-meal fashion (allow their choices to define the narrative arc), or design and build a narrative.
+
+## Project Description
+
+1. Year 1: Open world games and custom moral thought experiments
+2. Year 2: Group readings of literary works and writing projects aimed at developing video games
+3. Year 3: Learning how to use a game engine and publish a game
+4. Year 4: Perfecting the game and learning how to make a portfolio
+5. Post high school: Mentor current students
+6. Post high school: Mentor current high school students and 1st year university students
+
+It will be a four year after school program. Year one will begin by inviting them to play open world games, games that do not prescribe any sort of game play but allows the player to choose their own in-game objectives.
+
+The next stage (year 2) will involve group readings of literary works that invite the reader to imagine themselves as a member of some given culture. In the second semester the students will develop a project wherein they will come up with a plan for creating their own work of art that invites the audience to imagine themselves as a member of a given culture this will be a writing project.
+
+In year 3, the students will spend the first semester learning how to use a game engine and the second semester they will learn how to publish their game.
+
+Year 4, the students will perfect their game, and learn how to make a portfolio.
+
+Ultimately, I would like the students to come back after high school to mentor current students, whether they are working or during breaks from university.
+
+## Budget
+
+### Curriculum Development
+
+* Design Curriculum for 1 course per semester for beginning
+  * Develop literature-based game concepts (e.g., adapting Nicomachean Ethics scenes).
+  * Hire instructional designers, game developers, and literature scholars. (Not confident about this direction)
+
+* Build Learning Management System (LMS) for the course
+  * This may be done by using grok (already in progress)
+  * However, if needed to right away, can temporarily use open source LMS, e.g., Frappe (SLU?)
+    * Free, but requires a hosting plan
+    * Best option is Oracle Cloud Free Tier
+    * For duration of \$300 credit
+    * \$10-\$20/month afterwards
+    * Second best is to self-host on linux machine
+
+### Pilot the Program
+
+* Pilot the program with 10 students
+  * YMCA, Schools, BWorks alumni, libraries
+  * Star Citizen Licenses, \$450 per semester x 4
+  * Set up guest speakers, Graduate students, interested professors
+  * SLU: use esports lab. Offer space to faculty for their students.
+
+### Evaulation and Research
+
+* Assesss moral reasoning outcomes, tests, papers, etc. Plus qualitative feedback, interviews, etc.
+* Publish results in peer-reviewed journals
+
+### Seattle Expansion and Scaling (2–3 years): $200,000–$600,000
+
+* Adapt curriculum for Seattle schools and esports organizations (e.g., Seattle Surge).
+* Partner with tech-driven institutions (e.g., University of Washington).
+* Market to game studios (e.g., Bungie).

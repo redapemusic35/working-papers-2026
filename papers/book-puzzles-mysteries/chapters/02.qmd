@@ -1,0 +1,50 @@
+# Simulating Philosophy and other Lab Experiments
+
+## Simulating Philosophy by Marcus Schulzke
+
+* Schulzke proposes studying video games as executable narrative thought experiments.
+
+Thought experiments in philosophy refer to hypothetical scenarios that are used to challenge or substantiate a theory.
+
+James (1993): narratives that lead readers or listeners through a sequence of events that reflect how one would experience the real world. In this way, they are abstract models of more complex issues. They elemenate or simplify extraneous information in order to focus on the elements of an event taht raise a theorectical challenge.
+
+* Used to challenge a theory by identifying a difficult case a theory cannot answer.
+* Can model situations that may be untestable using empirical methods.
+* Less dangerous than real world experiments.
+  * For instance, consider experiments about euthanasia or abortion.
+  * Duties to one another (One hour one life)
+  * Cooperative activity (Eve Online, Star Citizen)
+
+## What is Going On?
+
+### Thought Experiment One
+
+Nicholas Rescher (1991):
+
+* Thought experiments can be used to assess theorectical and empirical research questions.
+
+> A 'thought experiment' is an attempt to draw instruction from a process of hypothetical reasoning that proceeds by eliciting the consequences of an hypothesis which, for aught that one actually knows to the contrary, may well be false. It consists in reasoning from a supposition that is not accepted as true---perhaps is even known to be false---but is assumed provisionally in the interests of making a point or resolving a conclusion.
+
+* It is to be shown that *P* is the case (where it has not yet been established whether *P* or not *-P*).
+* Assume---as "thought experiment"---that *P* is the case (which is not inherently implausible).
+* Explain *Q* on the basis of this assumption, where *Q* is something patently true which we could not readily explain otherwise.
+* Hence maintain that *P*.
+
+### Thought Experiment Two
+
+John Norton (1991):
+
+Thought experiments are arguments which:
+
+1. Posit hypothetical or counterfactual states of affairs, and
+2. Invoke particulars irrelevant to the generanlity of the conclusion.
+
+* *hypothetical or counterfactual* opposite of actual.
+* *irrelevant particulars* irrelevant to the conclusion.
+
+> Thus, in one version of the thought experiement in which Einsteinn sought to demonstrate that the effects of acceleration mimic those of gravitation, he asked us to imagine a physicist-observer who has been drugged and reawakens closed up inside a box (Einstein, 1912, pp. 1254-55). . . . Without particulars such as these, however, thought experiments would not have their experimental appearance.
+
+Good thought experiments are good arguments. Either:
+
+1. The particular-free conclusion follows deductively form the premisses. Thought experiments of this type are typically *reductio* arguments.
+2. The conclusion is freed of the particulars by an inductive step. This step might involve the assertion that the case involving the particulars is 'typical' or that the particulars are 'inessential,' so that the result derived holds in other cases as well.

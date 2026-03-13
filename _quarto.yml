@@ -17,7 +17,11 @@ book:
         - ./papers/paper-1-aes-evi/index.qmd
         - ./papers/paper-2-morality-as-privilege/index.qmd
         - ./papers/paper-1-moral-privilege/index.qmd
+        - ./papers/paper-2-van-camp-comments/index.qmd
         #- papers/paper3-ethics-ai/ethics-ai-draft.qmd
+    - part: "Puzzles and Mysteries"
+      chapters:
+        - ./papers/book-puzzles-mysteries/index.qmd
     - part: "Drafts & Notes"
       chapters:
         - ./papers/notes/index.qmd
@@ -50,6 +54,7 @@ format:
   pdf:
     documentclass: scrreprt           # nice book-like PDF
     keep-tex: true
+  docx: default
 
 execute:
   echo: false
