@@ -28,9 +28,15 @@ format:
 
 {{< include ./../notes/laybourn.qmd >}}
 
+{{< include ./../notes/jack-mbem-animality.qmd >}}
+
+Unfortunately, while I will not be able to give Professor Stump article the treatment that it deserves her view does raise important questions which we must taclke before we can even understand the account of regret I am developing. To do this we must understand psychic disintegration. Psychic disintegration is necessary to understand why we might think union with another is a mark of spiritual health.
+
 {{< include ./../notes/stump/index.qmd >}}
 
-Unfortunately, I will not be able to give Professor Stump article the treatment that it deserves. However, before we can even understand what psychic disintegration is like, it is first necessary to understand why we might think union with another is a mark of spiritual health. For this, we need a theory of identity. Towards the end of this paper, I introduce such a theory. First however, I discuss a number of examples of what relational desire looks like.
+For my account, regret is an essential mark of identity. Towards the end of this paper, I introduce such a theory. First however, I discuss a number of examples of what relational desire looks like. At the center of Stump's account is the contrast between spiritual and personal health. There are two ways to understand the correlation of spiritual with personal health. It first requires that we understand God not as ontologically distinct from humanity, but humanity as an image of God.
+
+In the next section, I first develop a view of humanity using apt expressions of regret, then in-apt ones. I then argue that the in-apt expressions resemble humanity as ontologically distinct from God. I then conclude the view with a discussion of what I call relational sanctification.
 
 ## Robust and Generic Expressions of Regret and Other Popular Forms of Music
 
