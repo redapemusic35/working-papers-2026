@@ -1,0 +1,45 @@
+# Agency as Art
+
+* Games are a distinctive form of art because the game's designer specifies goals and abilities for the player to take on. Some prior views
+  * Games are art since they are a kind of fiction [@tavi09].
+  * A kind of interactive cinema [@gaut10].
+  * Conceptual art that offers social critique [@flan13].
+  * Games are a special way of making arguments by simulating their targets [Frasca 2003; Bogost 2010].
+
+## What is the value of games?
+
+* They are difficult achievements, like finding a cure for cancer [@hurk06]? What if, I don't imagine that I will ever do something as significant as cure cancer. Could playing video games provide that meaning for me?
+* Rather, games are a distinctive form of art. As an artform, they offer access to a "unique artistic horizon and a distinctive set of social goods."
+  * Social goods: human practicality
+
+> We can change our in-game ends easily and fluidly. We can adopt new ends, which will guide our actions for the duration of the game, and then drop them in an instant. When we play games, we take on temporary agencies—temporary sets of abilities and constraints, along with temporary ends. We have a significant capacity for agential fluidity, and games make full use of that capacity. [4]
+
+## Bernard Suits
+
+Agential Fluidity
+
+* Portable version
+
+> Playing a game is the voluntary attempt to overcome unnecessary obstacles. (Suits [1978] 2014, 43)
+
+* Technical activity: In technical activity, there is some end that we value, and we pursue it because of the value of that end [4].
+* Distinguishes between *goals of the game* and *my purpose for playing the game*
+  * Goal: Target we aim at during the game.
+  * Purpose: Reason for playing the game in the first place.
+
+Suits does not define all games. Therefore there are Suitzian games and other kinds of games.
+
+* Tabletop roleplaying games
+* Narrative computer games
+
+### The value of instrumental play
+
+* Instrumental: Play of skills and clearly defined goals.
+* Richly varied motivational structure: E.g., critique and commentary as goals.
+
+Achievement Play vs. Striving Play
+
+* Goal and purpose are aligned vs. Goal and purposes are askew.
+
+* Achievement Play: Plays to win.
+* Striving Play: Temporarily acquires an interest in winning for the sake of the struggle.

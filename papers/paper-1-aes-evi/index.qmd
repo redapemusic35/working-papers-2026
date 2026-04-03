@@ -10,7 +10,7 @@ bibliography: ["./../../Un-Duplicates.bib", "./../../references.bib"]
 
 ## Abstract
 
-In medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the "seductive skills of sirens".
+In medieval bestiaries, there are two classes of evil represented by beasts; those which deceive and those which generate fear and death. Among the first class of beasts, those which are notable for their abilities to deceive, there are three kinds of deception that cause epistemic harms to the targets but may be benefitial to their subjects: these are noted by the camouflages of the chameleon, accurate imitations of the manticore, and the "seductive skills of sirens".
 
 - **Deceivers**: Camouflage, imitation, seduction
   - Chameleon: camouflage

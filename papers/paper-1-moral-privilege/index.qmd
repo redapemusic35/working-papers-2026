@@ -1,7 +1,7 @@
 ---
-title: "Narrative Regrets in Truth and Fiction"
-subtitle: "God as the Best Possible Epistemic Ground of Human Dignity"
-abstract: "Following @gold09's short paper *Narrative Thinking, Emotion, and Planning*, I consider the representation of emotional expressions of regret, *narrative regret*. I draw specific attention to the context of the representation of distinct special relationships in fiction. Important here are discourses on the fictional representation of such relationships as a special kind of human agency. I argue that a related concern are the assumptions about what is true and what is fiction in popular fiction with regard to special relationships, where what is true are expressions of relational sanctification that are grounded in a divine union of love appropriate to friendship."
+title: "Narrative Regret, Derivative Suffering"
+subtitle: "And God as the Best Possible Epistemic Ground of Human Dignity"
+abstract: "In this paper, I consider the representation of emotional expressions of regret and narrative regret. I draw specific attention to the context of the representation of distinct special relationships in fiction. Important here are discourses on the fictional representation of such relationships as a special kind of human agency. I argue that a related concern is the assumption about what is true and what is fiction in popular fiction regarding special relationships, where what is true are expressions of relational sanctification that are grounded in a divine union of love appropriate to friendship."
 author: |
   Montaque Reynolds
   Philosophy Department
@@ -20,6 +20,8 @@ format:
 
 ## Testimonial and Hermeneutic Injustice
 
+According to epistemic standpoint theorists, individuals who hold marginalized positions in western societies have often been prevented from contributing to the body of knowledge of their communities. In fact, however, according to epistemic standpoint theorists, these individuals have a lot to contribute by way of their unique vantage point in that community. I consider another form of injustice and argue that the focus on this form obscures even more harmful forms of marginalization. In her book *Wandering in Darkness*, @stum10 calls this *Narrative and the Knowledge of Persons*. She understands this in the context of suffering grounded in an inability to form special relationships. The center of this unique form of suffering is a loss of desire for special relationships.
+
 {{< include ./../notes/collins-black-feminist-thought/moral-knowledge.qmd >}}
 
 {{< include ./../notes/laybourn-cost/index.qmd >}}
@@ -30,27 +32,35 @@ format:
 
 {{< include ./../notes/jack-mbem-animality.qmd >}}
 
-Unfortunately, while I will not be able to give Professor Stump article the treatment that it deserves her view does raise important questions which we must taclke before we can even understand the account of regret I am developing. To do this we must understand psychic disintegration. Psychic disintegration is necessary to understand why we might think union with another is a mark of spiritual health.
+Unfortunately, while I will not be able to give Professor Stump more of the attention that her book deserves, her view does raise important questions which we must tackle before we can even understand the account of regret I am developing. To do this, we must understand psychic disintegration. Psychic disintegration is necessary to understand why we might think union with another represents diminished health and well-being.
 
 {{< include ./../notes/stump/index.qmd >}}
 
-For my account, regret is an essential mark of identity. Towards the end of this paper, I introduce such a theory. First however, I discuss a number of examples of what relational desire looks like. At the center of Stump's account is the contrast between spiritual and personal health. There are two ways to understand the correlation of spiritual with personal health. It first requires that we understand God not as ontologically distinct from humanity, but humanity as an image of God.
+According to both Professor Eleonore Stump and Ryan @pete16, Thomas Aquinas develops an ontological account of psychological disintegration grounded in a person’s identity. According to both views, a person’s identity requires knowledge of who God is to understand who they themselves are. Both accounts argue that this knowledge is built on divine revelation, however, Professor Stump makes two important distinctions. The first is *knowledge-that*, for instance "categorizing on the basis of abstract properties and abstract designations" [@stum10, 41] and the second is a *knowledge of persons*, what she calls *second-personal* which is close knowledge of who someone is developed through experience.
 
-In the next section, I first develop a view of humanity using apt expressions of regret, then in-apt ones. I then argue that the in-apt expressions resemble humanity as ontologically distinct from God. I then conclude the view with a discussion of what I call relational sanctification.
+> populations of mirror neurons in the insula become active both when the test participants experience the emotion and when they see it expressed by others. In other words, the observer and the observed share a neural mechanism that enables a form of direct experiential understanding. [@rizz06]
+
+{{< include ./../notes/peterson-ryan/imago-dei/outline.qmd >}}
+
+The nature of suffering can be drawn from premises 3 and 4. As humans, we often have experiences which align with premise 5. As such, premises 3, 4, and an implicit premise which says that our experiences entail premise 5. It is important to note then that the problem of suffering requires an added premise, that of our experiences. Both accounts then make an important distinction between knowledge gained from experience and other forms of knowledge. In conclusion, both accounts need to be ones that improve knowledge of who we are in relation to our creator. Peterson does this through revelation of one's identity while Professor Stump does this through a second-personal account rooted in narrative and grounded in one's identity.
+
+For my account, regret is an essential mark of identity. If Professor Stump is correct, then we can be taught apt expressions of regret through narratives. Towards the end of this paper, I will introduce such a theory. First, however, I discuss a number of examples of what relational desire does and does not look like. At the center of Stump's account is the contrast between spiritual health and personal health. There are two ways to understand the correlation of spiritual with personal health. It first requires that we understand God not as ontologically distinct from humanity, but humanity as an image of God.
+
+In the next section, I first developed a view of humanity using apt and in-apt expressions of regret. I then argue that the in-apt expressions resemble humanity as ontologically distinct from God. I conclude the view with a discussion of what I call relational sanctification.
 
 ## Robust and Generic Expressions of Regret and Other Popular Forms of Music
 
 {{< include ./../notes/george-jones/index.qmd >}}
 
-Love songs may express regret for those moments prior to the narrator's introduction to the beloved. It is possible that when a song expresses regret for not having met someone sooner, they are thinking about how their life might have gone had they married sooner. The marriage itself is not meaningful for the individual as a stand-alone event. Rather, the marriage only has causal influence on the subsequent events of that person's life and it is the person who defines the event in such a way to make it a meaningful marker of their own identity. It is where the marriage sits in the overall context of the course of a given relationship for instance. A marriage event in the context of a short and harmful relationship has a very different meaning than one in the context of a long and loving relationship. Most importantly however, it is important in the context of the meaning that a person derives from the event.
+Love songs may express regret for those moments prior to the narrator’s introduction to the beloved. It is possible that when a song expresses regret for not having met someone sooner, they are thinking about how their life might have gone had they married sooner. Marriage itself is not meaningful for the individual as a stand-alone event. Rather, marriage only has causal influence on the subsequent events of that person’s life, and it is the person who defines the event in such a way to make it a meaningful marker of their own identity. It is where marriage sits in the overall context of the course of a given relationship, for instance. A marriage event in the context of a short and harmful relationship has a very different meaning than one in the context of a long and loving relationship. Most importantly, however, it is important in the context of the meaning that a person derives from the event.
 
 Many popular songs are saturated in the emotion of regret. In such contexts, the narrative expresses a negative emotion in response to something a character in the narration did, or that was done to them.
 
 {{< include ./../notes/george-jones/grand-tour.qmd >}}
 
-While in the two previous examples *regret* is expressed upon the end of a relationship or rather its dissolution, in other examples, more positive emotions, not regret, are expressed upon the end or dissolution of the relationship rather than of the relationship's continuance. For instance Kelly Clarkson's *Since U Been Gone* does this: "Since you've been gone, I can breath for the first time . . .". There are also different reasons for the regret whether expressed for having suffered through the ordeal of that relationship, or for its end. Sometimes the regret is expressed as a longing for various qualities the loved possessed, for instance in the *Grand Tour*, "over there, sits the chair ... and whisper 'oh I love you'". For these reasons, narratives can help us to feel closeness and union with the loved one even though they are fictional.
+While in the two previous examples regret is expressed upon the end of a relationship or rather its dissolution, in other examples, more positive emotions, not regret, are expressed upon the end or dissolution of the relationship rather than of the relationship’s continuance. For instance, Kelly Clarkson’s Since U Been Gone does this: “Since you’ve been gone, I can breathe for the first time . . .”. There are also different reasons for the regret whether expressed for having suffered through the ordeal of that relationship, or for its end. Sometimes the regret is expressed as a longing for various qualities the loved possessed, for instance in the Grand Tour, “over there, sits the chair … and whisper ‘oh I love you’”. For these reasons, narratives can help us to feel closeness and union with the loved one even though they are fictional.
 
-Arguably, when a subject experiences this sort of disassociation identified with suffering above, they are no longer in a position to experience regret when loosing the things most dear to them. This correlates with expressions of emotion associated with love, where love has often been defined as the feeling of loving emotions provoked in one party by another. Upon the object's absence, the subject no longer feels these emotions and experiences regret on account of this absence [@tayl76]. The lover can also experience regret in longing for the qualities not possessed by the loved, when someone whom they loved failed to reciprocate in word or deed, or failed in some other way. For instance in Timbaland's *Too Late to Apologize* the following line expresses this: "tell me that you need me then you go and cut me down".
+Arguably, when a subject experiences this sort of disassociation identified with suffering above, they can no longer experience regret when losing the things most dear to them. This correlates with expressions of emotion associated with love, where love has often been defined as the feeling of loving emotions provoked in one party by another. Upon the object’s absence, the subject no longer feels these emotions and experiences of regret on account of this absence [@tayl76]. The lover can also experience regret in longing for the qualities not possessed by the loved, when someone whom they loved failed to reciprocate in word or deed, or failed in some other way. For instance, in Timbaland’s Too Late to Apologize, the following line expresses this: “tell me that you need me then you go and cut me down”.
 
 ## Identity Reductionism
 
@@ -60,7 +70,7 @@ Arguably, when a subject experiences this sort of disassociation identified with
 
 {{< include ./../notes/roman-altshuler/index.qmd >}}
 
-At the center of the difference between popular narratives like those found in popular songs and narrative identity accounts is that popular narratives are merely ones we are prompted to imagine [@gilm20, 132]. But the source of narrative identities is not clear. The question then is what connection do those narratives have to those that we are prompted to imagine. John @gilm20 suggests that the relationship is weak and dependent on the function of the imagination for engaging with the work.
+At the center of the difference between popular narratives like those found in popular songs and narrative identity accounts is that popular narratives are merely ones we are prompted to imagine [@gilm20, 132]. But the source of narrative identities is not clear. The question then is what connection then is what do those narratives have to those that we are prompted to imagine. John @gilm20 suggests that the relationship is weak and dependent on the function of the imagination for engaging with the work.
 
 {{< include ./../notes/gilmore/index.qmd >}}
 
